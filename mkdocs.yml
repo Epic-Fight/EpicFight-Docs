@@ -1,0 +1,10 @@
+site_name: My Docs
+nav:
+    - 'Home': 'index.md'
+    - 'Guides':
+        - 'Custom entity datapack': 'guides/page1.md'
+        - 'Custom Weapon Armor datapack': 'guides/page2.md'
+    - '3D Armor':
+        - 'Custom 3D armor Resource Pack': 'armor/page1.md'
+        - 'Other solutions for 3D armor glitches': 'armor/page2.md'
+theme: readthedocs
