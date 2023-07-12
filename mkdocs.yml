@@ -1,10 +1,33 @@
 site_name: My Docs
-nav:
-    - 'Home': 'index.md'
-    - 'Guides':
-        - 'Custom entity datapack': 'guides/page1.md'
-        - 'Custom Weapon Armor datapack': 'guides/page2.md'
-    - '3D Armor':
-        - 'Custom 3D armor Resource Pack': 'armor/page1.md'
-        - 'Other solutions for 3D armor glitches': 'armor/page2.md'
-theme: readthedocs
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      languages:
+        en:
+          name: English
+          build: false
+        pt:
+          name: Português
+          build: true
+        es:
+          name: Español
+          build: true
+        ru:
+          name: Русский
+          build: true
+          
+      nav_translations:
+        pt:
+          Armor: Armadura
+          Guides: Guias
+        es:
+          Armor: Armadura
+          Guides: Guías
+theme:
+  name: material
+  font: false
+  palette:
+    primary: red
+  features:
+    - header.autohide

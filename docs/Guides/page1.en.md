@@ -1,6 +1,6 @@
 NOTE: Lastly update at version: 18.1.16
 
-# **Custom entity datapack**
+# Custom entity datapack
 
 
 Epic Fight isn't normally compatible with other mods, especially with the entities. So you have to manually define the entity's model, animations, and other attribute values. This can be achieved by using Datapack.
