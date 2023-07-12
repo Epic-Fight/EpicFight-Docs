@@ -1,5 +1,5 @@
 site_name: My Docs
-repo_url: https://gitlab.com/mkdocs-i18n/mkdocs-i18n
+repo_url: https://github.com/Yesssssman/epicfightmod
 plugins:
   - search
   - i18n:
