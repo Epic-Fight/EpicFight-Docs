@@ -1,3 +1,6 @@
+---
+language: en
+---
 # Custom Weapon Armor datapack
 
 ## **💡 Making the pack.mcmeta file**

@@ -1,4 +1,7 @@
-# **3D armor & Texture rendering issues**
+---
+language: en
+---
+# 3D armor & Texture rendering issues
 
 Most of the custom armors are broken in Epic Fight. This is because Epic Fight uses its own model, not only for entities but also for armors. Luckily, Epic Fight has a model generation algorithm based on the custom armors but sometimes it changes them in a bad way. This is the guide for mod pack makers to make custom armor visually flawless without having to tweak our source code. Here are the steps in which you can follow to achieve a patched armor:
 
@@ -39,7 +42,7 @@ After downloading and installing all three softwares, the first thing you'll wan
 Go to [[Blender Guide|Blender Basics and Tips and Tricks]] for Tips, Tricks and Fixes in how to use Blender
 
 1. First, open blender, go to file/import/Wavefront (.obj), and import your armor file you've just created in blockbench.
-2. After this, select one armor part to patch, in our case we'll be patching the head layer part to patch first. So we'll select every cube and part that composes the helmet for the archer's armor. For us, the "head" and "headback.001" are the parts that make up for the helmet so we'll select both and press "ctrl + j" to join all of the parts into one single model _(TIP: To join all parts, you'll want to be in object mode)_.  
+2. After this, select one armor part to patch. We will patch the head layer first. So we'll select every cube and part that composes the helmet for the archer's armor. For us, the "head" and "headback.001" are the parts that make up for the helmet so we'll select both and press "ctrl + j" to join all of the parts into one single model _(TIP: To join all parts, you'll want to be in object mode)_.  
 **Select**  
 ![image](https://user-images.githubusercontent.com/77132244/215290753-d88f7ed2-a32b-43bc-9e33-a35c273d04b9.png)  
 **Join** _(Feel free to rename the new joined model the armor part it corresponds to, in our case i later renamed it "Helmet")_.  
@@ -109,4 +112,4 @@ You'll need to make a series of folders with the following names. Every folder o
 🎉 **Congratulations, you've successfully patched your armor.** 🎉
 
 
-**_A few easier solutions for armor patching here: [[Other solutions for 3D armor glitches|Other solutions for 3D armor glitches]]_**
+**_A few easier solutions for armor patching here: [Other solutions for 3D armor glitches](3Darmor_page2.en.md)_**
