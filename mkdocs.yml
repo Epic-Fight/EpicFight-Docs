@@ -1,7 +1,10 @@
 site_name: My Docs
 repo_url: https://github.com/Yesssssman/epicfightmod
 plugins:
-  - search
+  - search:
+      lang:
+        - en
+        - pl
   - i18n:
       default_language: en
       languages:
@@ -17,6 +20,18 @@ plugins:
         ru:
           name: Русский
           build: true
+        pl:
+          name: Polski
+          build: true
+        ja:
+          name: 日本語
+          build: true
+        uk:
+          name: українська
+          build: true
+        zh:
+          name: 中文
+          build: true
           
       nav_translations:
         pt:
@@ -25,6 +40,21 @@ plugins:
         es:
           Armor: Armadura
           Guides: Guías
+        ru:
+          Armor: Броня  
+          Guides: Руководства
+        pl:
+          Armor: Zbroja
+          Guides: Poradnik
+        ja:
+          Armor: アーマー
+          Guides: ガイド
+        uk:
+          Armor: броня
+          Guides: напрямні
+        zh:
+          Armor: 盔甲
+          Guides: 指南
 theme:
   name: material
   font: false
