@@ -57,6 +57,7 @@ Below is a simple example of creating a punching zombie.
 ```JSON
 {
 	"model": "epicfight:entity/biped_old_texture",
+	"armature": "epicfight:entity/biped",
 	"renderer": "minecraft:zombie",
 	"isHumanoid": false,
 	"faction": "neutral",
@@ -112,6 +113,8 @@ Below is a simple example of creating a punching zombie.
 ```
 
 `model`: The model of the entity. Allowed values are [here](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/Models.java)
+
+`armature`: The model of the entity. Allowed values are [here](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/Armature.java)
 
 `renderer`:
 [All the entity's registry names that are registered in the code](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/client/events/engine/RenderEngine.java)
@@ -187,6 +190,7 @@ Below is an example of creating a zombie, wielding a swor like a wither skeleton
 ```JSON
 {
 	"model": "epicfight:entity/biped_old_texture",
+	"armature": "epicfight:entity/biped",
 	"renderer": "minecraft:zombie",
 	"isHumanoid": true,
 	"faction": "neutral",
