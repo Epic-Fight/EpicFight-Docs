@@ -1,12 +1,10 @@
-NOTA: Última actualización en la versión: 18.1.16
-
 # Paquete de datos de Entidad Personalizada
 
 
 Epic Fight normalmente no es compatible con otros mods, especialmente con las entidades. Por lo tanto, debe definir manualmente el modelo, las animaciones y otros valores de atributo de la entidad. Esto se puede lograr usando un Paquete de Datos.
 ***
 
-## **💡Creando un archivo JSON -**
+## **💡 Creando un archivo JSON -**
 
 
 Antes de crear un archivo JSON, debe obtener el Nombre de Registro de la Entidad que desea hacer compatible. En Minecraft, puedes ver la lista de entidades registradas con el comando "/summon".
@@ -112,7 +110,7 @@ Debajo está un ejemplo simple de cómo crear un zombi que golpea.
 
 `model`: El modelo de la Entidad. Los valores permitidos están [aquí](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/Models.java)
 
-`renderer`: [Todos los Nombres de Registro de Entidad que est¨¢n registrados en el código](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/client/events/engine/RenderEngine.java)
+`renderer`: [Todos los Nombres de Registro de Entidad que están registrados en el código](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/client/events/engine/RenderEngine.java)
 
 
 `isHumanoid`: Determina si la Entidad es humanoide. Las entidades humanoides pueden cambiar las animaciones según el objeto que tienen.
@@ -125,7 +123,7 @@ Debajo está un ejemplo simple de cómo crear un zombi que golpea.
 | -------------- | ---------------------------------------------------------------------------- |
 | impact         | Extiende el Tiempo de Aturdimiento del objetivo del ataque                   |
 | armor_negation | Ignora los puntos de defensa en %                                            |
-| max_strikes    | Determina cu¨¢ntas entidades puede golpear por un golpe                       |
+| max_strikes    | Determina cuántas entidades puede golpear por un golpe                       |
 | chasing_speed  | Para entidades cuerpo a cuerpo, determina qué tan rápido persigue al enemigo |
 | scale          | 	Determina el tamaño de la entidad                                           |
 

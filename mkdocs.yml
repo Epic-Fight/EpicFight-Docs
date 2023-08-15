@@ -32,6 +32,9 @@ plugins:
         zh:
           name: 中文
           build: true
+        ko:
+          name: 한국어
+          build: true
           
       nav_translations:
         pt:
@@ -55,6 +58,9 @@ plugins:
         zh:
           Armor: 盔甲
           Guides: 指南
+        ko:
+          Armor: 방어구
+          Guides: 가이드
 theme:
   name: material
   font: false

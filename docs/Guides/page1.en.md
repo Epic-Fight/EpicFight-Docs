@@ -1,5 +1,3 @@
-NOTE: Lastly update at version: 18.1.16
-
 # Custom entity datapack
 
 
@@ -53,7 +51,7 @@ You also can disable the existing animated entity. It can be done by a simple li
 ## **💡 Adding a feature -**
 
 
-Below is a simple example of creating a punching zombie.
+Below is a simple example of how you can create a punching zombie.
 ```JSON
 {
 	"model": "epicfight:entity/biped_old_texture",
@@ -183,7 +181,7 @@ Below is a simple example of creating a punching zombie.
 ## **💡 Changing the animation based on the weapon its holding -**
 For the humanoid mobs, you can set different animation sets depending on the weapon they're holding. In this case, the format of the "combat_behaviors" is slightly changed. First, you have to check if you set the "isHumanoid" value to true.
 
-Below is an example of creating a zombie, wielding a swor like a wither skeleton while idle and walking, attacking with a sword, or punching with empty hands.
+Below is an example of how you can create a zombie, that wields a sword like a wither skeleton while idle and walking, attacking with a sword, or punching with empty hands.
 ```JSON
 {
 	"model": "epicfight:entity/biped_old_texture",

@@ -1,6 +1,3 @@
----
-language: en
----
 # Custom Weapon Armor datapack
 
 ## **💡 Making the pack.mcmeta file**
@@ -29,7 +26,18 @@ After that edit it and add these lines of code for your datapack to work.
 
 You'll need to make a series of folders with the following names. Every folder or file needs to be inside the last one.
 
-data -> "modid" -> capabilities -> "type" -> "registrynames".json
+**data -> "modid" -> capabilities -> "type" -> "registryname".JSON**
+
+*If the weapon you wish to patch has unexpected syntax like slashes (/) in their registry name like:*
+**"bloodandmadness:weapons/hunter_axe"**  
+
+ You can express these unexpected syntaxes (slashes) in the folder hierarchy as such:
+ 
+ **data -> "modid" -> capabilities -> "type" -> "Text before the slash" ... -> "registryname".JSON**
+ 
+ So for the example mentioned previously ("bloodandmadness:***weapons***/hunter_axe") the folder hierarchy would be the following:
+ 
+ **data -> bloodandmadness -> capabilities -> weapons -> *weapons* -> hunter_axe.JSON**
 
 ***
 
@@ -43,8 +51,8 @@ From there you'll open the data folder and then there'll be the name, which you'
 > ![2022-05-29_16 48 36](https://user-images.githubusercontent.com/86358160/170875930-7bae2b88-2aa1-41fe-a59b-5de4027e563f.png)
 > 
 > ![2022-05-29_16 51 08](https://user-images.githubusercontent.com/86358160/170876568-5838849a-f578-42ae-8d50-f24fb3f9df6d.png)
-> 
-> ### **❗️ You'll need to make a txt file with only the outlined text + `.json`**
+ 
+### **❗️ You'll need to make a txt file with only the outlined text + `.json`**
 ***
 ## **💡 Creating the JSON file**
 
@@ -166,7 +174,7 @@ You can resize the collider to make it match visually.
 It is hard to expect the size of the collider only with the numerical estimation. You can save your time by referring to the presets. Copy the value of the preset and gradually correct the size.
 
 [Collider Presets](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/ColliderPreset.java)
-
+***
 ## **💡 Armor file**
 
  > Here's a simple example of an armor config:
@@ -183,13 +191,13 @@ It is hard to expect the size of the collider only with the numerical estimation
 `stun_armor`: This attribute will increase the time between stuns.
 
 `weight`: This attribute shortens the stun time when hit, but increases the stamina consumption of skills and decreases attack speed. Items with high attack speed will be affected more.
-
+***
 ## **📦 Finishing up the Datapack**
 
 Now what you should have ended up with is:
 * The data folder that contains all the JSON files and other folders like capabilities.
 * The pack.mcmeta file.
-
+***
 ### **✉️ This next step is only necessary if you want to be able to send the datapack.**
 
 You don't have to make the datapack a zip, you could just put both the data folder and the pack.mcmeta file in another folder but here's how to do it with 7-Zip.
