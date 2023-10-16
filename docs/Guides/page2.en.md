@@ -20,7 +20,9 @@ After that edit it and add these lines of code for your datapack to work.
 | ------------- | ------------- |
 | 1.16.2–1.16.5 | 6 |
 | 1.17.x | 7 |
-| 1.18.2 | 9 |
+| 1.18.2 | 8 |
+| 1.19.2 | 9 |
+| 1.20.1 | 15 |
 
 ### **🗂 Making the folder path**
 
@@ -107,7 +109,7 @@ From there you'll open the data folder and then there'll be the name, which you'
 | sword | Dual Wielding |
 | spear | One-Handed/Two-Handed |
 | greatsword | Two-Handed |
-| katana | Two-Handed |
+| uchigatana | Two-Handed |
 | tachi | Two-Handed |
 | longsword | Two-Handed |
 | dagger | Dual Wielding |

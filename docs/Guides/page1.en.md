@@ -13,34 +13,35 @@ Before you create a JSON file, you should get the registry name of the entity yo
 
 
 Most of the registry names consist of "modid:entityname". If you get the registry name, you can create the JSON file under
-`data/modid/epicfight_mobpatch/entityname.json`
+`data/"modid"/epicfight_mobpatch/"entityname".json`
 ***
 
-## **💡 Getting a path of models and animations -**
+## **💡 Obtaining armature, animation and model tags -**
 
-[Model files](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/Models.java)
+[Model files](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/api/client/model/Meshes.java)
+
+[Armature Files](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/Armatures.java)
 
 [Animation files](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/Animations.java)
 ***
 ## **💡 Easy Setup -**
 
-### **📘 Using preset**
+### **📘 Using presets**
 
 
-For the entities that have the same actions from vanilla ones, You can use a preset. It is very simple as shown below.
-
+For entities that extend the vanilla classes/or simmilar models to the ones in vanilla you can use presets as a simple setup method.
 ```JSON
 {
 	"preset": "minecraft:creeper"
 }
 ```
 
-You should know that this will not work properly if the target entity doesn't share the code from the vanilla one, although it is seemingly the same. The allowed values are all the entity's registry names that are registered in the [code](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/world/capabilities/provider/ProviderEntity.java)
+You should know that this will not work properly if the targeted entity doesn't share its code with the vanilla entity (if the entity class doesn't extend the vanilla class), although it is seemingly the same. The allowed values are all the entity's registry names that are registered in the [code](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/world/capabilities/provider/EntityPatchProvider.java)
 
-### **❌ Disabling an animated entity**
+### **❌ Disabling an epicfied entity**
 
 
-You also can disable the existing animated entity. It can be done by a simple line.
+You also can disable entity animations and custom models by using the following line (inside of entityname.json):
 ```JSON
 {
 	"disabled": true
@@ -48,8 +49,8 @@ You also can disable the existing animated entity. It can be done by a simple li
 ```
 
 ***
-## **💡 Adding a feature -**
-
+## **💡 Entity animation features -**
+In epic fight you are able to change entity ai's and behaviour through datapacks. You can customize which animations should be played according to certain behaviors.
 
 Below is a simple example of how you can create a punching zombie.
 ```JSON
@@ -110,18 +111,18 @@ Below is a simple example of how you can create a punching zombie.
 }
 ```
 
-`model`: The model of the entity. Allowed values are [here](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/Models.java)
+`model`: The model of the entity. Allowed values are [here](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/api/client/model/Meshes.java)
 
-`armature`: The model of the entity. Allowed values are [here](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/Armature.java)
+`armature`: The armature used by the entity. Allowed values are [here](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/Armatures.java)
 
 `renderer`:
-[All the entity's registry names that are registered in the code](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/client/events/engine/RenderEngine.java)
+All the entity's registry names that are registered in our source code can be obtained [here](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/client/events/engine/RenderEngine.java)
 
 
 `isHumanoid`: Determines if the entity is humanoid. Humanoid mobs are able to change the animations based on what item they're holding.
 
 `faction`: Entities that have the same faction will not attack each other by melee attack. The allowed values are:`enderman, piglins, wither, neutral, undead, illager, villager`
-
+***
 `attributes`:
 
 | Key | Feature |
@@ -131,7 +132,7 @@ Below is a simple example of how you can create a punching zombie.
 | max_strikes | Determines how many entities can hit per one swing |
 | chasing_speed | For melee attack mobs, determines how fast the mob chases the enemy |
 | scale | Determines the size of the entity |
-
+***
 `default_livingmotions`:
 
 | Key | Feature |
@@ -142,7 +143,7 @@ Below is a simple example of how you can create a punching zombie.
 | fall | When the entity falls because of gravity |
 | death | When the entity dies |
 | mount | When the entity is riding |
-
+***
 `stun_animations`:
 
 | Key | Feature |
@@ -151,7 +152,7 @@ Below is a simple example of how you can create a punching zombie.
 | long | For some special attacks |
 | knockdown | Ender dragon's ground slam |
 | fall | Fall damage |
-
+***
 `combat_behavior`: defines the attack moves of the entity.
 
 | Key | Feature |
@@ -161,14 +162,14 @@ Below is a simple example of how you can create a punching zombie.
 | looping | Determines whether the current behavior should be saved when canceled |
 | cooldown | Determines how many "ticks" it'll take to be used again |
 | behaviors | Definition of the conditions and attack animation |
-
+***
 `behaviors`:
 
 | Key | Feature |
 | ------------- | ------------- |
 | conditions | Conditions that have to be met to be selected |
 | animation | The animation path |
-
+***
 `conditions`:
 
 | Key | Feature | Arguments |
@@ -290,7 +291,7 @@ Below is an example of how you can create a zombie, that wields a sword like a w
 
 ```JAVA
 public enum WeaponCategory {
-       NOT_WEAON, AXE, FIST, GREATSWORD, HOE, PICKAXE, SHOVEL, SWORD, KATANA, SPEAR, TACHI, TRIDENT, LONGSWORD, DAGGER, SHIELD, RANGED
+       NOT_WEAPON, AXE, FIST, GREATSWORD, HOE, PICKAXE, SHOVEL, SWORD, UCHIGATANA, SPEAR, TACHI, TRIDENT, LONGSWORD, DAGGER, SHIELD, RANGED
 }
 ```
 
