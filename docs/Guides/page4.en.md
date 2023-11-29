@@ -1,4 +1,4 @@
-# ✨ Custom Trails
+# Custom Trails
 In epic fight we've added a way for users to create and add their own unique taste to sword trails. Not only are you able to change trail's colors but also their textures to fit your needs !
 
 To create a custom trail texture, you can simply add textures and reference them inside your .json trail file (we'll get to that soon).
