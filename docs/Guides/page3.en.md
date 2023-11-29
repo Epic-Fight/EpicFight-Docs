@@ -79,7 +79,7 @@ Rot = Rotation
 Don't mind the other types of saving a keyframe, for now all we want should be the default saving options.
 (No visual or delta saving)
 
-You can use Dope Sheet to see where each frame is located, and you can change the animation stant and ending frames in the timeline.
+You can use Dope Sheet to see where each frame is located, and you can change the animation starting and ending frames in the timeline.
 Dope Sheet Summary:
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/64a1a133-90a9-4a66-97b1-57acd0a1dcf8)
 Timeline where you want to set the initial and end frame.
@@ -163,6 +163,7 @@ You are able to do this kind of mirroring by copying the current pose (Ctrl + C)
 Some objects that you import inside blender may or may not have the following issue: 
 
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/02a6e79d-ce66-40f8-a017-3cb5dabab20a)
+
 Basically black textures where it should be transparent.
 
 You can fix that by going to Object Mode, In materials and enabling Transparency.
@@ -170,7 +171,8 @@ You can fix that by going to Object Mode, In materials and enabling Transparency
 [Reference](https://docs.blender.org/manual/en/2.79/render/blender_render/materials/properties/transparency.html)
 ***
 Thats it for now !
-If you want to start learning blender, i suggest you look this playlist series made by Derek banas.
+If you want to start learning blender, i suggest you look this playlist series made by Derek banas.  
+
 **https://www.youtube.com/playlist?list=PLpdCRuhtdVcuwfyl97L7TjeChtx0k8vcb**
 
 

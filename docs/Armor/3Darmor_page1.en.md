@@ -111,4 +111,4 @@ You'll need to make a series of folders with the following names. Every folder o
 🎉 **Congratulations, you've successfully patched your armor.** 🎉
 
 
-**_A few easier solutions for armor patching here: [Other solutions for 3D armor glitches](3Darmor_page2)_**
+**_A few easier solutions for armor patching here: [Other solutions for 3D armor glitches](3Darmor_page2.en.md)_**
