@@ -29,6 +29,7 @@ Inside of the mcmeta file put this:
 ```
 
 *(In pack_format, you should put one of the following options below depending on your minecraft version)*
+
 | Version | Value |
 | ------------- | ------------- |
 | 1.16.2–1.16.5 | 6 |
