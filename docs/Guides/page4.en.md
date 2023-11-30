@@ -108,6 +108,7 @@ You can also have an in depth customization of the trail data for each animation
 ```
 
 You can use the following parameters to change the data in any animation:
+
 |Parameters| Info|
 | ------------- | ------------- |
 |"trail_effects"| In animation data file|
