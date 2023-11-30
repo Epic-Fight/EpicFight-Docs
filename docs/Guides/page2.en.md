@@ -1,4 +1,4 @@
-# Custom Weapon Armor datapack
+# Custom Weapon/Armor datapack
 
 ## **💡 Making the pack.mcmeta file**
 
@@ -64,7 +64,7 @@ From there you'll open the data folder and then there'll be the name, which you'
 
 ```
  {
- 	"type": "sword",
+ 	"type": "epicfight:sword",
  	"attributes": {
  		"common": {
  			"armor_negation": 0.0,
@@ -81,7 +81,7 @@ From there you'll open the data folder and then there'll be the name, which you'
  
 ```
  {
- 	"type": "spear",
+ 	"type": "epicfight:spear",
  	"attributes": {
  		"one_hand": {
  			"armor_negation": 8.0,
@@ -124,6 +124,7 @@ Two-Handed: Can only be used if held in the main hand and disable the offhand fu
 
 Dual Wielding: Can be used in the offhand if the same type of weapon is held in the main hand.
 
+* If you want to use other weapon types provided by other mods such as Weapons Of Miracle, make sure to change the Mod Id before the weapon type, so you'd have something like "coolmodid:rapier" instead of "epicfight:rapier"
 ***
 
 `attributes`: This decides if the weapon should have different stats when something is held in the off-hand
