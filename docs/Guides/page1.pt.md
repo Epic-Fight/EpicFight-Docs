@@ -1,6 +1,4 @@
-NOTA: Última atualização na versão: 18.1.16
-
-# Pacote de Dados (Datapack) de entidade personalizada
+# Pacote de Dados (Datapack) Customizado de Entidade
 
 
 O Epic Fight normalmente não é compatível com outros mods, especialmente com as entidades. Então, você deve definir manualmente o modelo da entidade, animações e outros valores de atributo. Isso pode ser alcançado utilizando um Pacote de Dados (Datapack).
@@ -17,9 +15,11 @@ Antes de criar um arquivo JSON, obtenha o nome do registro da entidade que desej
 A maioria dos nomes do registro consiste em "modid:entityname". Se você receber o nome de registro, poderá criar o arquivo JSON em `data/modid/epicfight_mobpatch/entityname.json`
 ***
 
-## **💡 Obtendo o endereço dos modelos e das animações -**
+## **💡 Obtendo tags de armature, animação e modelo -**
 
-[Arquivos dos Modelos](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/Models.java)
+[Arquivos dos Modelos](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/api/client/model/Meshes.java)
+
+[Arquivos Armature](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/Armatures.java)
 
 [Arquivos das Animações](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/Animations.java)
 ***
@@ -28,20 +28,19 @@ A maioria dos nomes do registro consiste em "modid:entityname". Se você receber
 ### **📘 Usando presets**
 
 
-Para as entidades que têm as mesmas ações das do jogo base. Você pode usar uma predefinição. É muito simples, como mostrado abaixo.
-
+Para entidades que estendem as classes/ou os modelos similares para os que estão na vanilla, você pode usar predefinições como um método de configuração simples.
 ```JSON
 {
     "preset": "minecraft:creeper"
 }
 ```
 
-Você deve saber que isto não funcionará corretamente se a entidade alvo não compartilhar o código da entidade do jogo base, embora pareça ser o mesmo. Os valores permitidos são todos os nomes de registro da entidade que estão registrados no [código](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/world/capabilities/provider/ProviderEntity.java)
+Tenha em mente que isto não funcionará corretamente se a entidade alvo não compartilhar seu código com a entidade vanilla (se a classe de entidade não se estender a classe vanilla), embora pareça ser o mesmo. Os valores permitidos são todos os nomes de registro da entidade que estão registrados no [código](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/world/capabilities/provider/EntityPatchProvider.java)
 
 ### **❌ Desabilitar uma entidade animada**
 
 
-Você também pode desativar a entidade animada existente. Isso pode ser feito com uma simples linha de código.
+Você também pode desativar animações de entidades e modelos personalizados usando a seguinte linha (dentro de entityname.json):
 ```JSON
 {
     "disabled": true
@@ -49,13 +48,14 @@ Você também pode desativar a entidade animada existente. Isso pode ser feito c
 ```
 
 ***
-## **💡 Adicionando um recurso -**
-
+## **💡 Recursos de animação das entidades -**
+Em Epic Fight, você é capaz de mudar o comportamento da IA das entidades através de datapacks. Você pode personalizar quais animações devem ser reproduzidas de acordo com certos comportamentos.
 
 Abaixo está um exemplo simples de como criar um zumbi socador.
 ```JSON
 {
     "model": "epicfight:entity/biped_old_texture",
+    "armature": "epicfight:entity/biped",
     "renderer": "minecraft:zombie",
     "isHumanoid": false,
     "faction": "neutral",
@@ -110,16 +110,18 @@ Abaixo está um exemplo simples de como criar um zumbi socador.
 }
 ```
 
-`model`: O modelo da entidade. Valores permitidos estão [aqui](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/Models.java)
+`model`: O modelo da entidade. Valores permitidos estão [aqui](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/api/client/model/Meshes.java)
 
-`renderer`: [Todos os nomes de registro de entidades que estão registrados no código](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/client/events/engine/RenderEngine.java)
+`armature`: O "esqueleto" da entidade. Valores permitidos estão [aqui](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/Armatures.java)
+
+`renderizador`: Todos os nomes de registro da entidade que estão registrados em nosso código fonte podem ser obtidos [aqui](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/client/events/engine/RenderEngine.java)
 
 
 `isHumanoid`: Determina se a entidade é humanoide. Mobs Humanoides são capazes de mudar as animações baseado em que item eles estão segurando.
 
 `Facção`: Entidades que têm a mesma facção não atacarão umas às outras com ataques corpo a corpo. Os valores permitidos são:`enderman, piglins, wither, neutral, undead, illager, villager`
-
-`attributes`:
+***
+`atributos`:
 
 | Chave          | Funcionalidade                                                                             |
 | -------------- | ------------------------------------------------------------------------------------------ |
@@ -128,7 +130,7 @@ Abaixo está um exemplo simples de como criar um zumbi socador.
 | max_strikes    | Determina quantas entidades podem acertar por ataque                                       |
 | chasing_speed  | Para mobs com ataques corpo a corpo, determina o quão rápido a criatura persegue o inimigo |
 | scale          | Determina o tamanho da entidade                                                            |
-
+***
 `default_livingmotions`:
 
 | Chave | Funcionalidade                               |
@@ -139,7 +141,7 @@ Abaixo está um exemplo simples de como criar um zumbi socador.
 | fall  | Quando a entidade cai por causa da gravidade |
 | death | Quando a entidade morre                      |
 | mount | Quando a entidade está montando              |
-
+***
 `stun_animations`:
 
 | Chave     | Funcionalidade                     |
@@ -148,7 +150,7 @@ Abaixo está um exemplo simples de como criar um zumbi socador.
 | long      | Para alguns ataques especiais      |
 | knockdown | Esmagada terrestre do Ender Dragon |
 | fall      | Dano de Queda                      |
-
+***
 `combat_behavior`: define os movimentos do ataque da entidade.
 
 | Chave            | Funcionalidade                                                                                     |
@@ -158,15 +160,15 @@ Abaixo está um exemplo simples de como criar um zumbi socador.
 | looping          | Determina se o comportamento atual deve ser salvo quando cancelado                                 |
 | cooldown         | Determina quantos "ticks" vai levar para ser usado novamente                                       |
 | behaviors        | Definição das condições e animação de ataque                                                       |
-
-`behaviors`:
+***
+`comportamentos`:
 
 | Chave      | Funcionalidade                                               |
 | ---------- | ------------------------------------------------------------ |
 | conditions | Condições que precisam ser cumpridas para serem selecionadas |
 | animation  | O caminho de animação                                        |
-
-`conditions`:
+***
+`Condições`:
 
 | Chave                     | Funcionalidade                                                                                | Parâmetros                                                                                          |
 | ------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -185,6 +187,7 @@ Abaixo está um exemplo de criação de um zumbi, empunhando uma espada como um 
 ```JSON
 {
     "model": "epicfight:entity/biped_old_texture",
+    "armature": "epicfight:entity/biped",
     "renderer": "minecraft:zombie",
     "isHumanoid": true,
     "faction": "neutral",
@@ -286,7 +289,7 @@ Abaixo está um exemplo de criação de um zumbi, empunhando uma espada como um 
 
 ```JAVA
 public enum WeaponCategory {
-       NOT_WEAON, AXE, FIST, GREATSWORD, HOE, PICKAXE, SHOVEL, SWORD, KATANA, SPEAR, TACHI, TRIDENT, LONGSWORD, DAGGER, SHIELD, RANGED
+       NOT_WEAPON, AXE, FIST, GREATSWORD, HOE, PICKAXE, SHOVEL, SWORD, UCHIGATANA, SPEAR, TACHI, TRIDENT, LONGSWORD, DAGGER, SHIELD, RANGED
 }
 ```
 

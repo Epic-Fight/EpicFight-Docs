@@ -7,8 +7,8 @@ Ferramentas necessárias:<br>
 
 * **[BlockBench](https://www.blockbench.net/) (Opcional)**<br>
 * **[Blender 2.79](https://download.blender.org/release/Blender2.79/)**<br>
-- **[Blender Json Exporter](https://github.com/Yesssssman/blender-json-exporter)**<br>
-- **[Blender Armor Files](https://drive.google.com/file/d/15xYnpmkmlJaEnw3Y7bykpqmjx1Rr9Koh/view?usp=share_link)**<br>
+- **[Exportador Json do Blender](https://github.com/Yesssssman/blender-json-exporter)**<br>
+- **[Arquivos de Armadura do Blender](https://drive.google.com/file/d/15xYnpmkmlJaEnw3Y7bykpqmjx1Rr9Koh/view?usp=share_link)**<br>
 
 ***
 ## 💡 Refazendo armaduras no Blockbench (Opcional)
@@ -18,7 +18,7 @@ Depois de baixar e instalar os três softwares, a primeira coisa que você vai q
 
  **EXEMPLO:**
 
-<br>![archers_armor](https://user-images.githubusercontent.com/77132244/215155978-874a293e-71ea-4690-adf3-059e45a37ed8.png) <br>Acima está o arquivo de textura para o archers_armor do Mod Dungeon Gear. Vamos dar uma olhada em como podemos recriar essa armadura apenas com Blockbench<br>
+<br>![armaduras_arqueiros](https://user-images.githubusercontent.com/77132244/215155978-874a293e-71ea-4690-adf3-059e45a37ed8.png) <br>Acima está o arquivo de textura para o archers_armor do Mod Dungeon Gear. Vamos dar uma olhada em como podemos recriar essa armadura apenas com Blockbench<br>
 1. Crie um Modelo Genérico para que possamos exportá-lo para o blender mais tarde. Preferencialmente, nomeie o modelo de algo que você pode reconhecer, por exemplo, *Armadura do Arqueiro*.<br>  
    ![showcase55](https://user-images.githubusercontent.com/77132244/215159597-aac5fdb1-45f1-4084-8f18-50baae9df6f0.jpg)<br>
 2. Certifique-se de ter o CEM Template Loader instalado para que você possa importar o modelo do jogo base. (Você pode baixar plugins em: File/Plugins).<br>
@@ -35,7 +35,7 @@ Depois de baixar e instalar os três softwares, a primeira coisa que você vai q
 
 ***
 ## 💡 Pintura de Peso e Correção de Vértice
-Vá para [[Guia do Blender|Básico do Blender, Dicas e truques]] para Dicas, truques e correções de como usar o Blender
+Vá para [Guia do Blender|Básico do Blender, Dicas e truques](Blender_page3) para Dicas, truques e correções de como usar o Blender
 
 1. Primeiro, abra o Blender, vá em arquivo/importar/Wavefront (.obj) e importe sua armadura que você acabou de criar no blockbench.
 2. Depois disso, selecione uma parte de armadura para atualizar, no nosso caso estaremos remendando a parte de camada de cabeça para remessa primeiro. Vamos corrigir a camada de cabeça primeiro. Então vamos selecionar cada cubo e parte que compõe o capacete para a armadura do arqueiro. Para nós, a "head" e "headback.001" são as partes que fazem o capacete então selecionaremos as duas e pressionamos "ctrl + j" para juntar todas as partes em um único modelo _(DICA: para juntar todas as partes, você precisa estar no modo objeto)_.  
@@ -88,7 +88,9 @@ Depois disso, edite e adicione estas linhas de código para que o seu banco de d
 | ------------- | ----- |
 | 1.16.2–1.16.5 | 6     |
 | 1.17.x        | 7     |
-| 1.18.2        | 9     |
+| 1.18.2        | 8     |
+| 1.19.2        | 9     |
+| 1.20.1        | 15    |
 
 ### 🗂️ Criando o caminho da pasta
 
@@ -100,4 +102,4 @@ Você precisará criar uma série de pastas com os seguintes nomes. Toda pasta o
 🎉 **Parabéns, você corrigiu com sucesso sua armadura.**🎉
 
 
-**_Algumas soluções mais fáceis para a correção de armaduras aqui: [Outras soluções para glitches de armaduras 3D](3Darmor_page2.pt.md)_**
+**_Algumas soluções mais fáceis para a correção de armaduras podem ser encontradas aqui: [Outras soluções para glitches de armadura 3D](3Darmor_page2.en.md)_**

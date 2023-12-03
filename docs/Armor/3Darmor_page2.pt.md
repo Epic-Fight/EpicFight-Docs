@@ -41,7 +41,7 @@ Em seguida, você pode modificar a textura da armadura personalizada para corres
 
 _O mapeamento de texturas do modelo de armadura do jogo base_
 
-Salve em seguida suas texturas, mas evite sobrescrever a textura existente porque ela pode debilitar o modelo vanilla. Em vez disso, você deve salvar sua textura sob o caminho: assets/modid/`existing_path`/epicfight/`texturename` Por exemplo, vamos supor que um caminho é: "assets/minecraft/textures/models/armor/iron_layer_1. ng". Você usará: "assets/minecraft/textures/models/armor/epicfight/iron_layer_1.png"
+Salve em seguida suas texturas, mas evite sobrescrever a textura existente porque ela pode debilitar o modelo vanilla. Em vez disso, você deve salvar sua textura sob o caminho: assets/modid/`existing_path`/epicfight/`texturename` Por exemplo, vamos supor que um caminho é: "assets/minecraft/textures/models/armor/iron_layer_1. Você usará: "assets/minecraft/textures/models/armor/epicfight/iron_layer_1.png"
 
 ## **💡 Dar transparência às armaduras personalizadas**
 ***
