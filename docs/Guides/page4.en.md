@@ -92,6 +92,7 @@ You can check them out by going to our repository [here](https://github.com/Yess
 
 ### ✏️ Trail data customization
 *[Reference](https://github.com/Yesssssman/epicfightmod/tree/1.18.2/src/main/resources/assets/epicfight/animmodels/animations/biped/combat/data)*
+
 You can also have an in depth customization of the trail data for each animation. Above you can check the reference in our repo, and see how it's used in multiple animation datas.
 
 (Make sure to use this folder structure: **``assets/epicfight/animmodels/animations/biped/combat/data/animation_name.json``**)

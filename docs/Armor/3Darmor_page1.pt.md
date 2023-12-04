@@ -102,4 +102,4 @@ Você precisará criar uma série de pastas com os seguintes nomes. Toda pasta o
 🎉 **Parabéns, você corrigiu com sucesso sua armadura.**🎉
 
 
-**_Algumas soluções mais fáceis para a correção de armaduras podem ser encontradas aqui: [Outras soluções para glitches de armadura 3D](3Darmor_page2.en.md)_**
+**_Algumas soluções mais fáceis para a correção de armaduras podem ser encontradas aqui: [Outras soluções para glitches de armadura 3D](3Darmor_page2.pt.md)_**

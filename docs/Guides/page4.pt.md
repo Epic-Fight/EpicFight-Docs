@@ -10,8 +10,8 @@ _(Clique em swing\_trail ou katana\_trail para ver exemplos)_
 ## 🦶 Primeiros passos
 
 - Primeiro, crie uma pasta dentro da sua pasta de texturepack assim (o nome não importa):
-  !\[image]
-  (https\://github.com/Yesssssman/epicfightmod/assets/77132244/c549e612-7475-4a3e-8f83-f99a3c0d6764)
+ ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/c549e612-7475-4a3e-8f83-f99a3c0d6764)
+  
   _(Você pode acessar esta pasta facilmente abrindo o minecraft, e indo para Opções > Pacotes de recursos...)_
 
 - Dentro dela, crie uma nova pasta chamada assets, e um novo arquivo de texto chamado pack.mcmeta
@@ -87,12 +87,14 @@ Dentro desta pasta "modid", você pode criar quantas texturas quiser, e simplesm
 
 **Aqui estão alguns exemplos de texturas de trilha usadas em epic fight:**
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/eccfefb9-f9f8-4518-a2f6-eab3a2c4e3f8)
-!\[image]\(https\://github. om/Yesssssman/epicfightmod/assets/77132244/8421ff50-0f75-4308-8793-fb4be3f60a23)
+![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/8421ff50-0f75-4308-8793-fb4be3f60a23)
+
 Você pode conferi-los indo nosso repositório [here](https://github.com/Yesssssman/epicfightmod/tree/1.18.2/src/main/assets/epicfight/textures/particle)
 
 ### ✏️ Personalização dos dados do rastro
 
 _[Reference](https://github.com/Yesssssman/epicfightmod/tree/1.18.2/src/main/assets/epicfight/animmodels/animations/biped/combat/data)_
+
 Você também pode ter uma personalização em profundidade dos dados de trilha para cada animação. Acima, você pode verificar a referência em nosso repositório e ver como ele é usado em vários dados de animação.
 
 (Certifique-se de usar esta estrutura de pastas: **`assets/epicfight/animmodels/animations/biped/combat/data/animation_name.json`**)

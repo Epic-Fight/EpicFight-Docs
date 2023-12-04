@@ -14,7 +14,9 @@ To install Blender (2.79) head to the following website:
 Make sure to select the correct version that corresponds to your Operational System. 
 (Here we'll be using Win 64x bits)
  
- ### Extracting and Running ...
+
+### Extracting and Running ...
+ 
 After you downloaded the correct file from the blender index, you can extract the files with your program of choice. (We recommend you to use something like 7zip)
 
 Once you've extracted the files, make sure Blender runs. You can test that by opening the folder hierarchy and executing Blender.exe. If a window like this is opened, then it means you've successfully installed blender.
@@ -127,7 +129,10 @@ You can create new textures by clicking this bottom button / You can also assign
 
 <img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/742e9658-1832-48d3-a681-005a417226ae" alt="image" style="float:left; margin-right:10px;"/> /  <img  src="https://github.com/Yesssssman/epicfightmod/assets/77132244/12a57d9a-ad48-4daf-8830-806afc9b98cf"  alt="Image"  style="float:right; margin-left:10px;" />
 
-#### Fixing issues in between bends (Loop Cuts)
+
+
+***
+#### ⚙️ Fixing issues in between bends (Loop Cuts)
 If you are a developer or someone looking to make entity models you may find yourself having to add bends to your models. One of the most commonly occuring issues is when blender fails to determine which texture should be used in that narrow space in between loop cuts.
 
 <p align="center">  <img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/933a7101-0db1-480d-8af8-f58d928ecd94" alt="Image" style="display: block; margin: 0 auto;" />  </p>
@@ -151,6 +156,7 @@ Warning: Make sure to select UV selection and display mode to Edge.
 Snap allows you to move objects in precise ways. Its main function is to allow you to alling other objects with each other more easily, kinda working like a ruler when you want to make a straight line.
 You can enable snapping by clicking the little magnet icon near your 3D orientation transform options.
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/c2f16673-dcb5-4f8f-8b02-59f3c3c79860)
+
 ***
 ### 🔀 X-Axis Mirror
 You may find yourself having to make two different animations for one single action. For example, if you wanted to make a "Holding Torch" arnimation you'd need to mirror your animation on the X-Axis in order to have both the main and offhand variants of said animation.
@@ -158,6 +164,7 @@ You may find yourself having to make two different animations for one single act
 You are able to do this kind of mirroring by copying the current pose (Ctrl + C), then selecting the right side (Ctrl + i) and finally in a newly created action you can then paste said animation by pressing "Shift" + "Ctrl" + "V"
 
 [Reference](https://blender.stackexchange.com/questions/75848/how-do-i-make-x-axis-mirror-available-in-pose-mode)
+
 ***
 ### 🔲 Transparency
 Some objects that you import inside blender may or may not have the following issue: 
