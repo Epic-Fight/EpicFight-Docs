@@ -1,0 +1,955 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../page2/">
+      
+      
+        <link rel="next" href="../page4/">
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+    
+    
+      
+        <title>Empezando con Blender - My Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#empezando-con-blender" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../../" title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Empezando con Blender
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+            
+              <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+              </label>
+            
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+            
+              <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+              </label>
+            
+          
+        </form>
+      
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon" aria-label="Seleccionar idioma">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="../../../Guides/page3/" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+              
+                <li class="md-select__item">
+                  <a href="../../../pt/Guides/page3/" hreflang="pt" class="md-select__link">
+                    Português
+                  </a>
+                </li>
+              
+                <li class="md-select__item">
+                  <a href="./" hreflang="es" class="md-select__link">
+                    Español
+                  </a>
+                </li>
+              
+                <li class="md-select__item">
+                  <a href="../../../ru/Guides/page3/" hreflang="ru" class="md-select__link">
+                    Русский
+                  </a>
+                </li>
+              
+                <li class="md-select__item">
+                  <a href="../../../pl/Guides/page3/" hreflang="pl" class="md-select__link">
+                    Polski
+                  </a>
+                </li>
+              
+                <li class="md-select__item">
+                  <a href="../../../ja/Guides/page3/" hreflang="ja" class="md-select__link">
+                    日本語
+                  </a>
+                </li>
+              
+                <li class="md-select__item">
+                  <a href="../../../uk/Guides/page3/" hreflang="uk" class="md-select__link">
+                    українська
+                  </a>
+                </li>
+              
+                <li class="md-select__item">
+                  <a href="../../../zh/Guides/page3/" hreflang="zh" class="md-select__link">
+                    中文
+                  </a>
+                </li>
+              
+                <li class="md-select__item">
+                  <a href="../../../ko/Guides/page3/" hreflang="ko" class="md-select__link">
+                    한국어
+                  </a>
+                </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Yesssssman/epicfightmod" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../" title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    My Docs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Yesssssman/epicfightmod" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Armadura
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Armadura
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Armor/3Darmor_page1/" class="md-nav__link">
+        Problemas de renderizado de Texturas & Armaduras 3D
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Armor/3Darmor_page2/" class="md-nav__link">
+        Otras soluciones para fallos de armadura 3D
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Guías
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Guías
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../page1/" class="md-nav__link">
+        Paquete de datos de Entidad Personalizada
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../page2/" class="md-nav__link">
+        Paquete de Datos de Armadura y Arma Personalizada
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Empezando con Blender
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Empezando con Blender
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instalando-blender" class="md-nav__link">
+    ⬇️ Instalando Blender
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#json-exporter" class="md-nav__link">
+    ⬇️ Json exporter
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aprender-lo-basico" class="md-nav__link">
+    💡 Aprender lo básico
+  </a>
+  
+    <nav class="md-nav" aria-label="💡 Aprender lo básico">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#moviendo-tu-camara" class="md-nav__link">
+    Moviendo tu cámara
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editar-modo-objeto-basico" class="md-nav__link">
+    ✏️ Editar &amp; Modo objeto básico
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modo-pose" class="md-nav__link">
+    🚶 Modo pose
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anadir-huesos-y-eliminar-cosas" class="md-nav__link">
+    🦴 Añadir huesos y eliminar cosas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autokey-e-iniciando-con-animaciones" class="md-nav__link">
+    🔴 AutoKey e iniciando con animaciones
+  </a>
+  
+    <nav class="md-nav" aria-label="🔴 AutoKey e iniciando con animaciones">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#autokey" class="md-nav__link">
+    AutoKey
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mostrar-modos-para-objetos" class="md-nav__link">
+    🔘 Mostrar modos para objetos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pintura-de-peso" class="md-nav__link">
+    ✒️ Pintura de peso
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mapeo-uv-texturizado" class="md-nav__link">
+    🟪 Mapeo UV &amp; Texturizado
+  </a>
+  
+    <nav class="md-nav" aria-label="🟪 Mapeo UV & Texturizado">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#corregir-problemas-entre-articulaciones-cortes-de-bucle" class="md-nav__link">
+    Corregir problemas entre articulaciones (Cortes de Bucle)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transformacion-de-ajuste" class="md-nav__link">
+    🧲 Transformación de ajuste
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#espejo-de-eje-x" class="md-nav__link">
+    Espejo de Eje-X
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transparencia" class="md-nav__link">
+    🔲 Transparencia
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../page4/" class="md-nav__link">
+        Custom Trails
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instalando-blender" class="md-nav__link">
+    ⬇️ Instalando Blender
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#json-exporter" class="md-nav__link">
+    ⬇️ Json exporter
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aprender-lo-basico" class="md-nav__link">
+    💡 Aprender lo básico
+  </a>
+  
+    <nav class="md-nav" aria-label="💡 Aprender lo básico">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#moviendo-tu-camara" class="md-nav__link">
+    Moviendo tu cámara
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editar-modo-objeto-basico" class="md-nav__link">
+    ✏️ Editar &amp; Modo objeto básico
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modo-pose" class="md-nav__link">
+    🚶 Modo pose
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anadir-huesos-y-eliminar-cosas" class="md-nav__link">
+    🦴 Añadir huesos y eliminar cosas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autokey-e-iniciando-con-animaciones" class="md-nav__link">
+    🔴 AutoKey e iniciando con animaciones
+  </a>
+  
+    <nav class="md-nav" aria-label="🔴 AutoKey e iniciando con animaciones">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#autokey" class="md-nav__link">
+    AutoKey
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mostrar-modos-para-objetos" class="md-nav__link">
+    🔘 Mostrar modos para objetos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pintura-de-peso" class="md-nav__link">
+    ✒️ Pintura de peso
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mapeo-uv-texturizado" class="md-nav__link">
+    🟪 Mapeo UV &amp; Texturizado
+  </a>
+  
+    <nav class="md-nav" aria-label="🟪 Mapeo UV & Texturizado">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#corregir-problemas-entre-articulaciones-cortes-de-bucle" class="md-nav__link">
+    Corregir problemas entre articulaciones (Cortes de Bucle)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transformacion-de-ajuste" class="md-nav__link">
+    🧲 Transformación de ajuste
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#espejo-de-eje-x" class="md-nav__link">
+    Espejo de Eje-X
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transparencia" class="md-nav__link">
+    🔲 Transparencia
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="empezando-con-blender">Empezando con Blender</h1>
+<p>Epic Fight utiliza animaciones personalizadas para múltiples acciones en el juego, desde beber, comer hasta combos de ataque. Estas animaciones son manejadas por Blender, un software 3D de código abierto para modelar, animar, texturizar, composición, renderizado y edición de vídeo.</p>
+<p>Puede parecer abrumador trabajar con la mezcla, pero aquí solo voy a enseñarle lo absolutamente necesario para trabajar con Epic Fight.</p>
+<p>(Nota: Epic Fight usa Blender 2.79)</p>
+<hr />
+<h2 id="instalando-blender">⬇️ Instalando Blender</h2>
+<p>Para instalar Blender (2.79) diríjase al siguiente sitio web:</p>
+<ul>
+<li><a href="https://download.blender.org/release/Blender2.79/">Blender 2.79</a></li>
+</ul>
+<p>Asegúrese de seleccionar la versión correcta que corresponde a su Sistema Operativo. (Aquí usaremos windows de 64x bits)</p>
+<p>### Extraer y Ejecutar ... Después de descargar el archivo correcto desde el índice de Blender, puede extraer los archivos con su programa elegido. (Recomendamos usar algo como 7zip)</p>
+<p>Una vez que haya extraído los archivos, asegúrese de que se ejecuta Blender. Puede probarlo abriendo el conjunto de carpetas y ejecutando Blender.exe. Si se abre una ventana como esta, significa que ha instalado con éxito blender.</p>
+<hr />
+<h2 id="json-exporter">⬇️ Json exporter</h2>
+<p>Para instalar nuestro exportador de Blender personalizado, vaya a nuestro repositorio y descargue nuestra sucursal maestra. <a href="https://github.com/Yesssssman/blender-json-exporter"></a>Blender Json Exporter</p>
+<p><img alt="showcase98" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/95ce0412-b498-466b-ae1b-7a79a1ab27a1" /></p>
+<ol>
+<li>Vaya a la carpeta donde está instalado Blender, mueva todos los archivos bajo /2.79/scripts/addons/xxxxxxx/.  (Puede crear una nueva carpeta representada aquí por la X múltiple)</li>
+<li>
+<p>Ve a Blender &gt; Archivo &gt; Preferencias de usuario &gt; Complementos, y encuentra un complemento llamado "Importar-Exportar: Exportador de modelos de Minecraft Json" <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/b327a99b-ca2e-44d5-bc32-554a4d56be1b" /></p>
+</li>
+<li>
+<p>Marque la casilla de verificación y haga clic en "Guardar configuración de usuario".</p>
+</li>
+<li>Como puedes ver al hacer clic para exportar, serás capaz de generar un archivo json en el cual puedes elegir 3 opciones, Mesh, Animaciones y esqueletos, pero las veremos más adelante.</li>
+</ol>
+<hr />
+<h2 id="aprender-lo-basico">💡 Aprender lo básico</h2>
+<p>En primer lugar, deberíamos aprender a trabajar con mezcla, cómo movernos alrededor de unos pocos teclados útiles y lo que hace cada modo. Como punto de partida, aprenderemos a movernos con mezcla.</p>
+<hr />
+<h3 id="moviendo-tu-camara">Moviendo tu cámara</h3>
+<p>Para mover la rotación de la cámara, puede pulsar la rueda del ratón y mover el ratón con él presionado. Después de hacer eso, probablemente verás algo similar a esto: <img alt="Gif1" src="https://i.imgur.com/i2nRfF3.gif" /></p>
+<p>Ahora si quieres mover la ubicación de la cámara puedes pulsar el botón central del ratón + shift. Podrás ver algo como esto: <img alt="Gif2" src="https://i.imgur.com/Ozac1y0.gif" /> ¡Buen trabajo! Ahora ya sabes cómo mover tu cámara.</p>
+<hr />
+<h3 id="editar-modo-objeto-basico">✏️ Editar &amp; Modo objeto básico</h3>
+<p><img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/af9b356f-f546-47cd-9c86-e4900cede9c8" /> <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/d50c49ca-8ab2-40df-b47e-acb193092423" /> En resumen, el modo de edición se utiliza para editar objetos geometría y su ubicación real, rotación y escala en un proyecto. A menudo usamos el modo edición para cambiar modelos de maneras que simplemente no son prácticas con el modo Objeto. Una de las maneras en que usamos el modo de edición es añadir huesos a un rig y su posición real (y por posición real quiero decir su posición real, escala, rotación en un proyecto, donde irán después de restablecer la rotación y escala de su ubicación de objeto)</p>
+<p>Así que digamos que tienes un rig y quieres crear una nueva animación, en lugar de tener que cambiar manualmente cada hueso a una nueva posición, puedes simplemente resetear todo el esqueleto a su posición original establecida en el modo Edición, y desde allí trabajan en una nueva animación, mejorando su flujo de trabajo y facilitando la creación de nuevas animaciones o marcos a los ya existentes.</p>
+<p>Rara vez usamos el modo Objeto en Epic Fight, pero básicamente, el modo Objeto le permite editar objetos individualmente. También puede cambiar el tamaño, cambiar la ubicación y la posición de los objetos en el modo objeto.</p>
+<p>Mira <a href="https://www.youtube.com/watch?v=n1lCK8WH62k&amp;t=593s&amp;ab_channel=CGCookie">este video</a> si quieres una explicación más detallada sobre lo que hace Editar y Modo Objeto.</p>
+<hr />
+<h3 id="modo-pose">🚶 Modo pose</h3>
+<p>A menudo usamos el modo pose para animar como su muy útil cuando se trata de hacer el flujo de trabajo más rápido. Con el modo pose puedes cambiar cada una de las coordenadas y rotación individuales de cada hueso. El modo pose está hecho principalmente para ser usado con huesos ya que puede cambiar fácilmente las posturas de los caracteres.</p>
+<p>Aquí tienes un vídeo <a href="https://www.youtube.com/watch?v=x5an6UV5r9c&amp;t=146s&amp;ab_channel=TutorTube">para ver</a> para que puedas tener una explicación visual de lo que puedes hacer con el modo pose.</p>
+<hr />
+<h3 id="anadir-huesos-y-eliminar-cosas">🦴 Añadir huesos y eliminar cosas</h3>
+<p>Una de las formas en que puede agregar huesos es yendo al modo Objeto y seleccionando Agregar &gt; Armadura &gt; Hueso único <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/f34f4e8a-dab5-4aae-b215-4a60b8aaea81" /> Alternativamente, puede presionar <strong>Mayús+A</strong> para abrir el mismo menú y agregar un solo hueso.</p>
+<p>Para eliminar cosas puedes simplemente pulsar la tecla Del en tu teclado y te presentará un aviso preguntando si realmente quieres eliminar tal cosa.</p>
+<hr />
+<h3 id="autokey-e-iniciando-con-animaciones">🔴 AutoKey e iniciando con animaciones</h3>
+<p>Primero diríjase a la pestaña de animaciones de su proyecto. (CONSEJO: probablemente estará en el modo predeterminado, así que intente encontrarlo) <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/87b17fb4-6d73-4ebd-83e9-0e3935247b34" /> &gt; <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/e80f55c4-5eaa-4d9e-ba3d-637a099b5504" /> Ahora ve al modo Pose y asegúrate de haber creado una nueva acción como esta: (Asegúrese de seleccionar el editor de acciones) <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/20b88013-524f-4e7b-ae11-b7676cf29239" /> Haz tu primer cuadro presionando "i" y guardando lo que desees. Loc = Ubicación Rot = Rotación</p>
+<p>No importa los otros tipos de guardar un fotograma clave, por ahora todo lo que queremos deberían ser las opciones de ahorro por defecto. (Sin guardado visual o delta)</p>
+<p>Puede utilizar la hoja de papeles para ver dónde se encuentra cada fotograma, y puede cambiar el stant de animación y los fotogramas finales en la línea de tiempo. Resumen de hoja de papeles: <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/64a1a133-90a9-4a66-97b1-57acd0a1dcf8" /> Línea de tiempo donde desea establecer el marco inicial y final. <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/defbf770-1edc-44d0-a0b0-839ca33e0fcd" /> Puede usar estos botones para reproducir su animación o moverse por los cuadros de animación. <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/eb7f0c29-c0c8-459f-9b6e-bd177c838966" /> También puedes usar las flechas izquierda y derecha en tu teclado para ir al siguiente cuadro.</p>
+<hr />
+<h4 id="autokey">AutoKey</h4>
+<p>AutoKey es una herramienta práctica que se utiliza para autorregistrar fotogramas clave cuando se hace una alteración a un hueso u objeto en una escena. Puedes activarlo haciendo clic en este botón rojo: <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/03954366-7866-4399-8e61-7379a0e527f9" /> (Es importante que la tecla automática pueda ser muy molesta a veces)</p>
+<hr />
+<h3 id="mostrar-modos-para-objetos">🔘 Mostrar modos para objetos</h3>
+<p>Puedes cambiar el modo de visualización para que tengas diferentes perspectivas de cada objeto. <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/bf817606-2367-47aa-932e-5d8b1ba48268" /></p>
+<p>Por ejemplo, tenemos el modo WireFrame que te permite desactivar la textura y trsnaparencia de un objeto para que sólo te quedes con un marco de red rugoso, permitiéndole ver fácilmente lo que hay en el otro lado.</p>
+<p>También tenemos el modo de textura que mostrará la textura de los objetos.</p>
+<p>Y modo sólido que hará que el objeto seleccionado tenga una textura gris y aburrida, a menudo usada para comprobar las proyecciones de las sombras sobre un objeto.</p>
+<hr />
+<h3 id="pintura-de-peso">✒️ Pintura de peso</h3>
+<p>La pintura de peso es probablemente una de las herramientas más utilizadas a la hora de crear un aparato. Sirve como una manera de determinar el peso de influnce que cada grupo de vértices (hueso) tendrá sobre un vértice. Le permite básicamente hacer el proceso de animación más fácil.</p>
+<p>Imagina si tienes que transformar manualmente la malla de tu objeto para cada pose y fotograma de clave que querías crear, llevaría meses hacer una única animación ya que llevaría mucho tiempo, así que los huesos donde se creó por lo que ahora solo necesitas interactuar con ellos, pero cómo se determinan las transformaciones de malla dependiendo de cada hueso, eso se calcula por pintura de peso.</p>
+<p>No hay una forma adecuada de mostrarte cómo hacer frente a la pintura de pesos, pero básicamente, al asignar un grupo de huesos a un objeto creará un grupo de vértices que puede establecer la influencia de cada vértice. Es importante que todos los vértices tengan que ser asignados a un grupo de vértices para que sea exportable.</p>
+<p>Aquí hay dos videos que explican cómo utilizar / qué hace la pintura de peso. (Recomiendo verlos en orden) <a href="https://www.youtube.com/watch?v=4fICQmBEt4Y&amp;ab_channel=RoyalSkies">Video 1</a> <a href="https://www.youtube.com/watch?v=5M7YO3SYJ_U&amp;ab_channel=Yami3D">Video 2</a></p>
+<hr />
+<h3 id="mapeo-uv-texturizado">🟪 Mapeo UV &amp; Texturizado</h3>
+<p>El mapeo UV significa "mapeo de coordenadas UV" en el campo de los gráficos de computadora y el modelado 3D. Es una técnica utilizada para mapear texturas 2D sobre superficies 3D de un objeto generado por computadora. El término "UV" se refiere al sistema de coordenadas 2D usado para representar la imagen de textura 2D, donde U representa el eje horizontal y V representa el eje vertical.</p>
+<p>En epic fight, usamos mayormente mapeo UV para arreglar problemas entre articulaciones (donde blender puede tener problemas determinando dónde usar ciertas partes de la textura), y para mapear adecuadamente la textura de cada lado plano de un cubo.</p>
+<p>Puede cambiar la pantalla a modo de edición UV yendo a la parte superior de la pantalla y cambiando el diseño de pantalla. <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/3fcf3343-f5ae-418b-9797-9704de66d819" /></p>
+<p>Puede crear nuevas texturas haciendo clic en este botón inferior / También puede asignar texturas existentes haciendo clic en esto:</p>
+<p><img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/742e9658-1832-48d3-a681-005a417226ae" alt="image" style="float:left; margin-right:10px;" /> /  <img  src="https://github.com/Yesssssman/epicfightmod/assets/77132244/12a57d9a-ad48-4daf-8830-806afc9b98cf"  alt="Image"  style="float:right; margin-left:10px;" /></p>
+<h4 id="corregir-problemas-entre-articulaciones-cortes-de-bucle">Corregir problemas entre articulaciones (Cortes de Bucle)</h4>
+<p>Si usted es un desarrollador o alguien que busca crear modelos de entidades puede que se encuentre teniendo que añadir articulaciones a sus modelos. Uno de los problemas más comunes es cuando blender no logra determinar qué textura debe utilizarse en ese espacio estrecho entre cortes de bucle.</p>
+<p align="center">  <img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/933a7101-0db1-480d-8af8-f58d928ecd94" alt="Image" style="display: block; margin: 0 auto;" />  </p>
+<p align="center">Este es un ejemplo de lo que puedes enfrentar al parchear armaduras, crear entidades o sumar articulaciones</p>
+
+<p>No se preocupe, ya que esto es fácilmente reparable al escalar dos veces las caras superiores o inferiores de ese modelo. Puedes pulsar:
+* Ctrl + (numpad_plus) - selecciona el siguiente conjunto de vértices
+* Ctrl + (numpad_minus) - deselecciona el último conjunto seleccionado de vértices</p>
+<p>Probablemente esto es lo que te quedará:</p>
+<p><img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/98b8f3fa-0fa7-4bb6-812f-39f5ea358ff3" /></p>
+<p>En modo de edición UV, puedes seleccionar los planos que tienen textura superpuesta y puedes extender sus vértices para usar la parte superior de la textura, o la parte inferior de acuerdo a su ubicación.</p>
+<p><img alt="2023_01_21_15_16_55_33" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/99ed4706-9f78-4955-9667-1925a78258b2" /> Advertencia: Asegúrese de seleccionar la selección UV y el modo de visualización hasta el Borde.</p>
+<hr />
+<h3 id="transformacion-de-ajuste">🧲 Transformación de ajuste</h3>
+<p>El ajuste le permite mover objetos de manera precisa. Su función principal es permitirte ejecutar otros objetos más fácilmente, a trabajar como una regla cuando se quiere hacer una línea recta. Puedes activar el ajuste haciendo clic en el pequeño icono de imán cerca de tus opciones de transformación de orientación 3D. <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/c2f16673-dcb5-4f8f-8b02-59f3c3c79860" /></p>
+<hr />
+<h3 id="espejo-de-eje-x">Espejo de Eje-X</h3>
+<p>Es posible que tengas que hacer dos animaciones diferentes para una sola acción. Por ejemplo, si usted quisiera hacer una animación de "Sostener Antorcha" necesitarías reflejar tu animación en el Eje-X para tener tanto las variantes de mano principal como de mano secundaria de dicha animación.</p>
+<p>Puedes hacer este tipo de reflejo copiando la pose actual (Ctrl + C), luego seleccionando el lado derecho (Ctrl + i) y finalmente en una acción recién creada puede pegar dicha animación pulsando "Shift" + "Ctrl" + "V"</p>
+<p><a href="https://blender.stackexchange.com/questions/75848/how-do-i-make-x-axis-mirror-available-in-pose-mode">Referencia</a></p>
+<hr />
+<h3 id="transparencia">🔲 Transparencia</h3>
+<p>Algunos objetos que importa dentro de Blender pueden o no tener el siguiente problema:</p>
+<p><img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/02a6e79d-ce66-40f8-a017-3cb5dabab20a" /> Básicamente texturas negras donde debe ser transparente.</p>
+<p>Puedes arreglarlo yendo al Modo Objeto, en materiales y habilitando la Transparencia.</p>
+<p><a href="https://docs.blender.org/manual/en/2.79/render/blender_render/materials/properties/transparency.html">Referencia</a></p>
+<hr />
+<p>¡Eso por ahora! Si quieres empezar a aprender a mezclar, te sugiero que mires esta serie de listas de reproducción hecha por banas Derek. <strong>https://www.youtube.com/playlist?list=PLpdCRuhtdVcuwfyl97L7TjeChtx0k8vcb</strong></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["header.autohide"], "search": "../../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>

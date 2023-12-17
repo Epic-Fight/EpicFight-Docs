@@ -35,6 +35,9 @@ plugins:
         ko:
           name: 한국어
           build: true
+        hr:
+          name: Hrvatski
+          build: true
           
       nav_translations:
         pt:
@@ -61,10 +64,24 @@ plugins:
         ko:
           Armor: 방어구
           Guides: 가이드
+        hr:
+          Armor: Oklop
+          Guides: Vodiči
 theme:
   name: material
   font: false
   palette:
-    primary: red
+    - scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
   features:
     - header.autohide
