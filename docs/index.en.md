@@ -26,7 +26,7 @@ This guide will help you add custom trails to your custom patched weapons: [Cust
 ***
 #### Have any questions about the skill books?
 
-Then look no further then this page: [WIP]
+Then look no further then this page: [Skills](Misc/skills)
 
 ***
 
