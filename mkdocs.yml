@@ -1,6 +1,9 @@
 site_name: Epic Fight Wiki
 repo_url: https://github.com/Yesssssman/epicfightmod
 plugins:
+  - social:
+      cards_layout_options:
+        font_family: Noto Sans
   - search:
       lang:
         - en

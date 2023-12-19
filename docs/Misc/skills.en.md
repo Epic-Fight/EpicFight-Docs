@@ -254,3 +254,5 @@ You may only learn one revelation skill at once
 
 * Defend with blocks, parries, or dodges to amass revelation stacks
 * Exceeding the threshold allows a powerful knockdown heavy attack to your enemies
+
+***
