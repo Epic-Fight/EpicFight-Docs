@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Epic Fight Wiki
 repo_url: https://github.com/Yesssssman/epicfightmod
 plugins:
   - search:
@@ -43,33 +43,43 @@ plugins:
         pt:
           Armor: Armadura
           Guides: Guias
+          Misc: Diversos
         es:
           Armor: Armadura
           Guides: Guías
+          Misc: Miscelánea
         ru:
           Armor: Броня  
           Guides: Руководства
+          Misc: Разное
         pl:
           Armor: Zbroja
           Guides: Poradnik
+          Misc: Różne
         ja:
           Armor: アーマー
           Guides: ガイド
+          Misc: その他
         uk:
           Armor: броня
           Guides: напрямні
+          Misc: Різне
         zh:
           Armor: 盔甲
           Guides: 指南
+          Misc: 杂项
         ko:
           Armor: 방어구
           Guides: 가이드
+          Misc: 기타
         hr:
           Armor: Oklop
           Guides: Vodiči
+          Misc: Razno
 theme:
   name: material
   font: false
+  logo: assets/logo.png
   palette:
     - scheme: default
       primary: red
