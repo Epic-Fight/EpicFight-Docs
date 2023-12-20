@@ -8,76 +8,85 @@ plugins:
         - en
         - pl
   - i18n:
-      default_language: en
+      docs_structure: suffix
+      fallback_to_default: true
       languages:
-        en:
-          name: English
-          build: false
-        pt:
-          name: Português
-          build: true
-        es:
-          name: Español
-          build: true
-        ru:
-          name: Русский
-          build: true
-        pl:
-          name: Polski
-          build: true
-        ja:
-          name: 日本語
-          build: true
-        uk:
-          name: українська
-          build: true
-        zh:
-          name: 中文
-          build: true
-        ko:
-          name: 한국어
-          build: true
-        hr:
-          name: Hrvatski
-          build: true
-          
-      nav_translations:
-        pt:
-          Armor: Armadura
-          Guides: Guias
-          Misc: Diversos
-        es:
-          Armor: Armadura
-          Guides: Guías
-          Misc: Miscelánea
-        ru:
-          Armor: Броня  
-          Guides: Руководства
-          Misc: Разное
-        pl:
-          Armor: Zbroja
-          Guides: Poradnik
-          Misc: Różne
-        ja:
-          Armor: アーマー
-          Guides: ガイド
-          Misc: その他
-        uk:
-          Armor: броня
-          Guides: напрямні
-          Misc: Різне
-        zh:
-          Armor: 盔甲
-          Guides: 指南
-          Misc: 杂项
-        ko:
-          Armor: 방어구
-          Guides: 가이드
-          Misc: 기타
-        hr:
-          Armor: Oklop
-          Guides: Vodiči
-          Misc: Razno
+       - build: true
+         default: true
+         locale: en
+         name: English
+       - build: true
+         default: false
+         locale: pt
+         name: Português
+         nav_translations:
+            Armor: Armadura
+            Guides: Guias
+            Misc: Diversos
+       - build: true
+         default: false
+         locale: es
+         name: Español
+         nav_translations:
+            Armor: Armadura
+            Guides: Guías
+            Misc: Miscelánea
+       - build: true
+         default: false
+         locale: ru
+         name: Русский
+         nav_translations:
+            Armor: Броня
+            Guides: Руководства
+            Misc: Разное
+       - build: true
+         default: false
+         locale: pl
+         name: Polski
+         nav_translations:
+            Armor: Zbroja
+            Guides: Poradnik
+            Misc: Różne
+       - build: true
+         default: false
+         locale: ja
+         name: 日本語
+         nav_translations:
+            Armor: アーマー
+            Guides: ガイド
+            Misc: その他
+       - build: true
+         default: false
+         locale: uk
+         name: українська
+         nav_translations:
+            Armor: броня
+            Guides: напрямні
+            Misc: Різне
+       - build: true
+         default: false
+         locale: zh
+         name: 中文
+         nav_translations:
+            Armor: 盔甲
+            Guides: 指南
+            Misc: 杂项
+       - build: true
+         default: false
+         locale: ko
+         name: 한국어
+         nav_translations:
+            Armor: 방어구
+            Guides: 가이드
+            Misc: 기타
+       - build: true
+         default: false
+         locale: hr
+         name: Hrvatski
+         nav_translations:
+            Armor: Oklop
+            Guides: Vodiči
+            Misc: Razno
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
