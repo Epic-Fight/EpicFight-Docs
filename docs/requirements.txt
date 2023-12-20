@@ -1,4 +1,4 @@
-lxml==4.6.3
+lxml
 mkdocs==1.5.3
 mkdocs-material==9.5.2
 mkdocs-static-i18n==0.56
