@@ -1,8 +1,8 @@
 lxml==4.6.3
 mkdocs==1.4.3
-mkdocs-material
+mkdocs-material==9.5.2
 mkdocs-static-i18n==0.56
-mkdocs-git-revision-date-localized-plugin
+mkdocs-git-revision-date-localized-plugin==1.2.2
 mkdocs-git-committers-plugin-2
 Markdown==3.3.7
 imagesize==1.4.1
