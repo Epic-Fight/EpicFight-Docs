@@ -1,4 +1,7 @@
-<!-- Do not edit this! -->
+---
+search:
+  exclude: true
+---
 # <p style="text-align: center;"><span style="color:green;">**Epic fight모드 위키에 오신것을 환영합니다!**</span></p>
 
 

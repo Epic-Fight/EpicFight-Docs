@@ -1,4 +1,7 @@
-<!-- Do not edit this! -->
+---
+search:
+  exclude: true
+---
 # <p style="text-align: center;"><span style="color:green;">**欢迎来到Epic Fight维基**</span></p>
 
 

@@ -1,4 +1,7 @@
-<!-- Do not edit this! -->
+---
+search:
+  exclude: true
+---
 # <p style="text-align: center;"><span style="color:green;">**Epic Fight Wikiへようこそ**</span></p>
 
 

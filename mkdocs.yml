@@ -1,9 +1,8 @@
 site_name: Epic Fight Wiki
 repo_url: https://github.com/Yesssssman/epicfightmod
+copyright: GNU GENERAL PUBLIC LICENSE
 plugins:
   - social:
-      cards_layout_options:
-        font_family: Noto Sans
   - search:
       lang:
         - en
@@ -79,8 +78,16 @@ plugins:
           Armor: Oklop
           Guides: Vodiči
           Misc: Razno
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+  - git-committers:
+      repository: MetalKnight56/EpicFight-Docs
+      branch: main
+      enabled: !ENV [CI, false]
 theme:
   name: material
+  custom_dir: overrides
   font: false
   logo: assets/logo.png
   palette:
@@ -97,4 +104,38 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
   features:
-    - header.autohide
+    - toc.integrate
+    - navigation.top
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tracking
+    - search.sticky
+    - content.code.annotate
+    - content.code.copy
+    - search.highlight
+    - search.share
+    - search.suggest
+extra:
+  social:
+    - icon: github 
+      link: https://github.com/Yesssssman/epicfightmod
+      name: GitHub
+    - icon: curseforge
+      link: https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod
+      name: CurseForge
+    - icon: modrinth
+      link: https://modrinth.com/mod/epic-fight
+      name: Modrinth
+    - icon: discord
+      link: https://discord.com/invite/NbAJwj8RHg
+      name: Discord
+    - icon: youtube
+      link: https://www.youtube.com/@yesman4100
+      name: YouTube
+extra_javascript:
+  - https://www.googletagmanager.com/gtag/js?id=G-EN680XXN1W
+  - |
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-EN680XXN1W');
