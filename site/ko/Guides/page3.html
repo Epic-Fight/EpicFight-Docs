@@ -1,0 +1,1386 @@
+
+<!doctype html>
+<html lang="ko" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="page2.html">
+      
+      
+        <link rel="next" href="page4.html">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Getting started with blender - Epic Fight Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Getting started with blender - Epic Fight Wiki" >
+      
+        <meta  property="og:description"  content="None" >
+      
+        <meta  property="og:image"  content="./assets/images/social/Guides/page3.en.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="None" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Getting started with blender - Epic Fight Wiki" >
+      
+        <meta  name="twitter:description"  content="None" >
+      
+        <meta  name="twitter:image"  content="./assets/images/social/Guides/page3.en.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#getting-started-with-blender" class="md-skip">
+          콘텐츠로 이동
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="상단/헤더">
+    <a href="../index.html" title="Epic Fight Wiki" class="md-header__button md-logo" aria-label="Epic Fight Wiki" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Epic Fight Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Getting started with blender
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="언어설정">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../Guides/page3.html" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../pt/Guides/page3.html" hreflang="pt" class="md-select__link">
+              Português
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../es/Guides/page3.html" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../ru/Guides/page3.html" hreflang="ru" class="md-select__link">
+              Русский
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../pl/Guides/page3.html" hreflang="pl" class="md-select__link">
+              Polski
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../ja/Guides/page3.html" hreflang="ja" class="md-select__link">
+              日本語
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../uk/Guides/page3.html" hreflang="uk" class="md-select__link">
+              українська
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../zh/Guides/page3.html" hreflang="zh" class="md-select__link">
+              中文
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="page3.html" hreflang="ko" class="md-select__link">
+              한국어
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../hr/Guides/page3.html" hreflang="hr" class="md-select__link">
+              Hrvatski
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="검색" placeholder="검색" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="검색">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="공유" aria-label="공유" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="지우기" aria-label="지우기" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            검색 초기화
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Yesssssman/epicfightmod" title="저장소로 이동" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="탭" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+    
+  
+  <p style="text-align: center;"><span style="color:green;">Epic fight모드 위키에 오신것을 환영합니다!</span></p>
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Armor/3Darmor_page1.html" class="md-tabs__link">
+          
+  
+  방어구
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="page1.html" class="md-tabs__link">
+          
+  
+  가이드
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Misc/commands.html" class="md-tabs__link">
+          
+  
+  기타
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="네비게이션" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="Epic Fight Wiki" class="md-nav__button md-logo" aria-label="Epic Fight Wiki" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Epic Fight Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Yesssssman/epicfightmod" title="저장소로 이동" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    <p style="text-align: center;"><span style="color:green;">Epic fight모드 위키에 오신것을 환영합니다!</span></p>
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    방어구
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            방어구
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Armor/3Darmor_page1.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3D방어구 & 텍스쳐 렌더링 문제
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Armor/3Darmor_page2.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3D 방어구의 문제에 대한 다른 해결책입니다.
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    가이드
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            가이드
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="page1.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    커스텀 엔티티 데이터팩
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="page2.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    커스텀 무기 빛 방어구 데이터팩
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Getting started with blender
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="page3.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Getting started with blender
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installing-blender" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⬇️ Installing blender
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⬇️ Installing blender">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#extracting-and-running" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extracting and Running ...
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#json-exporter" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⬇️ Json exporter
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-the-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      💡 Learning the basics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💡 Learning the basics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#moving-your-camera" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎥 Moving your camera
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edit-object-mode-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✏️ Edit &amp; Object mode basics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pose-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚶 Pose mode
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-bones-and-deleting-stuff" class="md-nav__link">
+    <span class="md-ellipsis">
+      🦴 Adding bones and Deleting stuff
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autokey-and-starting-with-animations" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔴 AutoKey and Starting with animations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔴 AutoKey and Starting with animations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#autokey" class="md-nav__link">
+    <span class="md-ellipsis">
+      AutoKey
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#display-modes-for-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔘 Display modes for objects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weight-paint" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✒️ Weight paint
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uv-mapping-texturing" class="md-nav__link">
+    <span class="md-ellipsis">
+      🟪 UV Mapping &amp; Texturing
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🟪 UV Mapping & Texturing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixing-issues-in-between-bends-loop-cuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙️ Fixing issues in between bends (Loop Cuts)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#snap-transform" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧲 Snap Transform
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#x-axis-mirror" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔀 X-Axis Mirror
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transparency" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔲 Transparency
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="page4.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Custom Trails
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    기타
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            기타
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Misc/commands.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Commands & Configurations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Misc/credits.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Misc/recipes.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recipes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Misc/skills.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Skills
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="getting-started-with-blender">Getting started with blender</h1>
+<p>Epic fight uses custom animations for multiple actions in game, from drinking, eating to even attack combos. These animations are handled by Blender, a 3D open source software for modeling, animating, texturing, composition, rendering and video editing.</p>
+<p>It may seem overwhelming to work with blender, but here I'll only be teaching you the absolute necessary to work with epic fight.</p>
+<p>(Note: Epic Fight uses Blender 2.79)</p>
+<hr />
+<h2 id="installing-blender">⬇️ Installing blender</h2>
+<p>To install Blender (2.79) head to the following website:</p>
+<ul>
+<li><a href="https://download.blender.org/release/Blender2.79/">Blender 2.79</a></li>
+</ul>
+<p>Make sure to select the correct version that corresponds to your Operational System. 
+(Here we'll be using Win 64x bits)</p>
+<h3 id="extracting-and-running">Extracting and Running ...</h3>
+<p>After you downloaded the correct file from the blender index, you can extract the files with your program of choice. (We recommend you to use something like 7zip)</p>
+<p>Once you've extracted the files, make sure Blender runs. You can test that by opening the folder hierarchy and executing Blender.exe. If a window like this is opened, then it means you've successfully installed blender.</p>
+<hr />
+<h2 id="json-exporter">⬇️ Json exporter</h2>
+<p>To install our custom made Blender Exporter, go to our repository and download our master branch. Like so:
+<a href="https://github.com/Yesssssman/blender-json-exporter">Blender Json Exporter</a></p>
+<p><img alt="showcase98" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/95ce0412-b498-466b-ae1b-7a79a1ab27a1" /></p>
+<ol>
+<li>Go to the folder where blender is installed, move all files under /2.79/scripts/addons/xxxxxxxx/.  (You can create a new folder that's represented here by the multiple X )</li>
+<li>
+<p>Go to Blender &gt; File &gt; User Preferences &gt; Add-ons, And find an add-on named "Import-Export: Minecraft Model Json Exporter"
+<img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/b327a99b-ca2e-44d5-bc32-554a4d56be1b" />  </p>
+</li>
+<li>
+<p>Check the checkbox and Click "Save User Settings".</p>
+</li>
+<li>As you can see when you click to export, you'll be able to generate a json file, in which you can choose to select 3 options, Mesh, Animations and Armature, but we'll see those later.</li>
+</ol>
+<hr />
+<h2 id="learning-the-basics">💡 Learning the basics</h2>
+<p>First of all we should learn how to actually work with blender, how to move around a few useful keybinds and what each mode does. 
+As a start, we'll be learning how to move around with blender.</p>
+<hr />
+<h3 id="moving-your-camera">🎥 Moving your camera</h3>
+<p>To move your camera rotation, you can press your mouse wheel and move your mouse with it pressed. After you do that, you'll probably see something similar to this:
+<img alt="Gif1" src="https://i.imgur.com/i2nRfF3.gif" /></p>
+<p>Now if you want to move your camera's location you can press your middle mouse button + shift. You'll be able to see something like this:
+<img alt="Gif2" src="https://i.imgur.com/Ozac1y0.gif" />
+Good work! Now you know how to move your camera around.</p>
+<hr />
+<h3 id="edit-object-mode-basics">✏️ Edit &amp; Object mode basics</h3>
+<p><img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/af9b356f-f546-47cd-9c86-e4900cede9c8" /> <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/d50c49ca-8ab2-40df-b47e-acb193092423" />
+In short, edit mode is used to edit objects geometry and their origin location, rotation and scale in a project. We often use edit mode to change models in ways that are simply not practical with Object mode. One of the ways we use edit mode is to add in Bones to a rig and their origin position (and by origin position i mean their actual position, scale, rotation in a project, where they'll go after you reset their object location rotation and scale)</p>
+<p>So lets say you have a rig and you want to create a new animation, instead of having to manually change each and every bone to a new position, you can simply reset the whole skeleton to their original position that was set in Edit Mode, and from there work on a new animation, improving your workflow and making it easier to create new animations or frames to already existing ones.</p>
+<p>We rarely use Object mode in epic fight, but basically, Object mode allows you to edit objects individually. You are also able to resize, change location and rotation of objects in Object Mode, without affecting their origin).</p>
+<p>Watch <a href="https://www.youtube.com/watch?v=n1lCK8WH62k&amp;t=593s&amp;ab_channel=CGCookie">this video</a> if you want a more in depth explanation on what Edit and Object Mode does.</p>
+<hr />
+<h3 id="pose-mode">🚶 Pose mode</h3>
+<p>We often use pose mode in animating as its very handy when it comes to making the workflow faster. With pose mode you are able to change each and every bone's individual coordinate and rotation. Pose mode is mainly made to be used with Bones as it can easily change characters's poses.</p>
+<p>Here's a <a href="https://www.youtube.com/watch?v=x5an6UV5r9c&amp;t=146s&amp;ab_channel=TutorTube">video for you to watch</a> so you can have a visual explanation of what you can do with pose mode.</p>
+<hr />
+<h3 id="adding-bones-and-deleting-stuff">🦴 Adding bones and Deleting stuff</h3>
+<p>One of the ways you can add bones is by going into Object Mode and selecting Add &gt; Armature &gt; Single Bone
+<img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/f34f4e8a-dab5-4aae-b215-4a60b8aaea81" />
+Alternatively you can press <strong>Shift+A</strong> to open the same menu and add a Single Bone.</p>
+<p>To delete stuff you can simply hit the Del key on your keyboard and it'll present you with a promp asking if you really want to delete such thing.</p>
+<hr />
+<h3 id="autokey-and-starting-with-animations">🔴 AutoKey and Starting with animations</h3>
+<p>First head to the animations tab on your project. (TIP: You will probably be in default mode so try and find that)
+<img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/87b17fb4-6d73-4ebd-83e9-0e3935247b34" />       &gt;       <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/e80f55c4-5eaa-4d9e-ba3d-637a099b5504" />
+Now go to Pose mode, and make sure you've created a new action like this:
+(Make sure to select action editor)
+<img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/20b88013-524f-4e7b-ae11-b7676cf29239" />
+Make your first frame by pressing "i" and saving what you desire. 
+Loc = Location
+Rot = Rotation</p>
+<p>Don't mind the other types of saving a keyframe, for now all we want should be the default saving options.
+(No visual or delta saving)</p>
+<p>You can use Dope Sheet to see where each frame is located, and you can change the animation starting and ending frames in the timeline.
+Dope Sheet Summary:
+<img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/64a1a133-90a9-4a66-97b1-57acd0a1dcf8" />
+Timeline where you want to set the initial and end frame.
+<img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/defbf770-1edc-44d0-a0b0-839ca33e0fcd" />
+You can use these buttons to play your animation or move around frames.
+<img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/eb7f0c29-c0c8-459f-9b6e-bd177c838966" />
+You may also use the left and right arrows on your keyboard to go to the next frame.</p>
+<hr />
+<h4 id="autokey">AutoKey</h4>
+<p>AutoKey is a handy tool used to auto register keyframes when you make an alteration to a bone or object in a scene. You can activate it by clicking on this red button: <img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/03954366-7866-4399-8e61-7379a0e527f9" />
+(Mind that auto key can be very annoying at times)</p>
+<hr />
+<h3 id="display-modes-for-objects">🔘 Display modes for objects</h3>
+<p>You can change your display mode so you have different perspectives of each object. 
+<img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/bf817606-2367-47aa-932e-5d8b1ba48268" /></p>
+<p>For example, we have WireFrame mode which allows you to disable an object's texture so you are left with roughly a wireframe of that object, allowing you to easily see whats on the other side.</p>
+<p>We also have Texture mode which will display that objects texture.</p>
+<p>And solid mode which will make the selected object have a gray and boring texture, often used to check shadows projections on a object.</p>
+<hr />
+<h3 id="weight-paint">✒️ Weight paint</h3>
+<p>Weight paint is probably one of the most used tools when it comes to creating a rig. It serves as a way to determine the weight of influence that each vertex group (bone) will have over a vertex. It allows you to basically make the animation process easier.</p>
+<p>Imagine if you had to manually transform the mesh of your object for each pose and key frame you wanted to make, it would take months to make a single animation as it would be very time consuming, so Bones where created so now you only need to interact with them, but how do you determine the mesh transformations depending on each bone, well thatsll all calculated by weight paint.</p>
+<p>There isn't a proper way to show you how to deal with weight paint, but basically, when assigning a bone group to an object it'll create a vertex group which you can set the weight for each vertex. Mind that all vertecies need to be assigned to a vertex group for it to be exportable.</p>
+<p>Here are two videos explaining how to use / what weight paint does. (I recommend watching them in order)
+<a href="https://www.youtube.com/watch?v=4fICQmBEt4Y&amp;ab_channel=RoyalSkies">Video 1</a>
+<a href="https://www.youtube.com/watch?v=5M7YO3SYJ_U&amp;ab_channel=Yami3D">Video 2</a></p>
+<hr />
+<h3 id="uv-mapping-texturing">🟪 UV Mapping &amp; Texturing</h3>
+<p>UV Mapping stands for "UV coordinates mapping" in the field of computer graphics and 3D modeling. It is a technique used to map 2D textures onto 3D surfaces of a computer-generated object. The term "UV" refers to the 2D coordinate system used to represent the 2D texture image, where U represents the horizontal axis and V represents the vertical axis.</p>
+<p>In epic fight, we mostly use UV mapping to fix issues in between bends (where belnder may have issues determining where to use certain parts of the texture), and to properly map out texture for each plane side of a cube.</p>
+<p>You can change your screen to UV editting mode by going to the top of your screen and changing the screen layout.
+<img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/3fcf3343-f5ae-418b-9797-9704de66d819" /></p>
+<p>You can create new textures by clicking this bottom button / You can also assign existing textures by clicking this:</p>
+<p><img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/742e9658-1832-48d3-a681-005a417226ae" alt="image" style="float:left; margin-right:10px;"/> /  <img  src="https://github.com/Yesssssman/epicfightmod/assets/77132244/12a57d9a-ad48-4daf-8830-806afc9b98cf"  alt="Image"  style="float:right; margin-left:10px;" /></p>
+<hr />
+<h4 id="fixing-issues-in-between-bends-loop-cuts">⚙️ Fixing issues in between bends (Loop Cuts)</h4>
+<p>If you are a developer or someone looking to make entity models you may find yourself having to add bends to your models. One of the most commonly occuring issues is when blender fails to determine which texture should be used in that narrow space in between loop cuts.</p>
+<p align="center">  <img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/933a7101-0db1-480d-8af8-f58d928ecd94" alt="Image" style="display: block; margin: 0 auto;" />  </p>
+<p align="center">This is an example of what you may face when patching armors, making entities or overall adding bends</p>
+
+<p>Don't worry as this is easily fixable by scaling the top or bottom faces of that model two times. You can press:
+* Ctrl + (numpad_plus) - select the next set of vertices 
+* Ctrl + (numpad_minus) - unselect the last selected set of vertices </p>
+<p>This is probably what you'll be left with:</p>
+<p><img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/98b8f3fa-0fa7-4bb6-812f-39f5ea358ff3" /> </p>
+<p>In UV edit mode, you can select the planes that have overlapping texture and you can extend their vertexs to use the upper part of the texture, or the lower according to their location.</p>
+<p><img alt="2023_01_21_15_16_55_33" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/99ed4706-9f78-4955-9667-1925a78258b2" />
+Warning: Make sure to select UV selection and display mode to Edge.</p>
+<hr />
+<h3 id="snap-transform">🧲 Snap Transform</h3>
+<p>Snap allows you to move objects in precise ways. Its main function is to allow you to alling other objects with each other more easily, kinda working like a ruler when you want to make a straight line.
+You can enable snapping by clicking the little magnet icon near your 3D orientation transform options.
+<img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/c2f16673-dcb5-4f8f-8b02-59f3c3c79860" /></p>
+<hr />
+<h3 id="x-axis-mirror">🔀 X-Axis Mirror</h3>
+<p>You may find yourself having to make two different animations for one single action. For example, if you wanted to make a "Holding Torch" arnimation you'd need to mirror your animation on the X-Axis in order to have both the main and offhand variants of said animation.</p>
+<p>You are able to do this kind of mirroring by copying the current pose (Ctrl + C), then selecting the right side (Ctrl + i) and finally in a newly created action you can then paste said animation by pressing "Shift" + "Ctrl" + "V"</p>
+<p><a href="https://blender.stackexchange.com/questions/75848/how-do-i-make-x-axis-mirror-available-in-pose-mode">Reference</a></p>
+<hr />
+<h3 id="transparency">🔲 Transparency</h3>
+<p>Some objects that you import inside blender may or may not have the following issue: </p>
+<p><img alt="image" src="https://github.com/Yesssssman/epicfightmod/assets/77132244/02a6e79d-ce66-40f8-a017-3cb5dabab20a" /></p>
+<p>Basically black textures where it should be transparent.</p>
+<p>You can fix that by going to Object Mode, In materials and enabling Transparency.</p>
+<p><a href="https://docs.blender.org/manual/en/2.79/render/blender_render/materials/properties/transparency.html">Reference</a></p>
+<hr />
+<p>Thats it for now !
+If you want to start learning blender, i suggest you look this playlist series made by Derek banas.  </p>
+<p><strong>https://www.youtube.com/playlist?list=PLpdCRuhtdVcuwfyl97L7TjeChtx0k8vcb</strong></p>
+
+
+
+
+
+
+
+  
+    
+  
+  
+    
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="마지막 업데이트">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 4, 2023</span>
+  </span>
+
+    
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="작성일">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 15, 2023</span>
+  </span>
+
+    
+    
+    
+  </aside>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  맨위로
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="하단/푸터" >
+        
+          
+          <a href="page2.html" class="md-footer__link md-footer__link--prev" aria-label="이전: 커스텀 무기 빛 방어구 데이터팩">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                이전
+              </span>
+              <div class="md-ellipsis">
+                커스텀 무기 빛 방어구 데이터팩
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="page4.html" class="md-footer__link md-footer__link--next" aria-label="다음: Custom Trails">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                다음
+              </span>
+              <div class="md-ellipsis">
+                Custom Trails
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      GNU GENERAL PUBLIC LICENSE
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/Yesssssman/epicfightmod" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+       <svg  version="1.0" xmlns="http://www.w3.org/2000/svg"  width="240.000000pt" height="240.000000pt" viewBox="0 0 240.000000 240.000000"  preserveAspectRatio="xMidYMid meet">  <g transform="translate(0.000000,240.000000) scale(0.100000,-0.100000)" fill="#ffffff" stroke="none"> <path d="M1065 2394 c-92 -14 -198 -39 -260 -61 -398 -143 -692 -479 -781 -893 -23 -106 -26 -352 -5 -455 48 -245 161 -457 335 -631 104 -104 209 -178 343 -241 113 -54 156 -63 183 -38 18 16 20 31 20 139 l0 121 -117 0 c-108 0 -122 2 -168 27 -64 34 -85 57 -129 145 -35 71 -83 129 -140 169 -61 42 7 74 88 40 41 -17 103 -71 121 -105 39 -75 127 -130 208 -131 59 0 138 19 141 34 13 50 32 96 52 123 l24 31 -43 7 c-76 12 -187 45 -239 71 -108 55 -198 166 -233 287 -23 80 -34 218 -24 299 9 71 51 174 91 222 24 28 24 30 11 94 -11 50 -11 82 -3 133 17 110 22 119 74 119 55 0 129 -27 219 -80 l68 -39 72 16 c99 23 355 23 454 0 l73 -16 67 40 c90 52 164 79 219 79 52 0 57 -9 74 -119 8 -51 8 -83 -3 -133 -13 -64 -12 -66 11 -94 67 -82 94 -172 93 -309 -1 -192 -48 -322 -153 -422 -81 -76 -182 -119 -352 -148 l-38 -6 20 -22 c50 -53 56 -88 60 -327 3 -192 6 -228 20 -243 24 -27 72 -18 184 36 135 63 240 137 344 241 174 174 287 386 335 631 21 103 18 349 -5 455 -100 464 -456 826 -916 931 -83 19 -327 33 -395 23z"/> </g> </svg> 
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod" target="_blank" rel="noopener" title="CurseForge" class="md-social__link">
+      <?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="56.000000pt" height="30.000000pt" viewBox="0 0 56.000000 30.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.10, written by Peter Selinger 2001-2011
+</metadata>
+<g transform="translate(0.000000,30.000000) scale(0.100000,-0.100000)"
+fill="#ffffff" stroke="none">
+<path d="M153 280 c5 -18 -1 -19 -77 -22 l-81 -3 26 -27 c26 -26 67 -41 140
+-53 28 -4 38 -11 43 -28 3 -13 15 -34 26 -47 11 -13 17 -26 12 -29 -5 -3 -14
+-21 -20 -38 l-11 -33 110 0 c60 0 109 2 109 5 0 2 -7 23 -16 46 -11 27 -13 43
+-7 47 6 4 18 25 27 47 22 52 61 92 97 100 22 5 29 12 29 31 l0 24 -206 0
+c-200 0 -206 -1 -201 -20z m180 -30 c-3 -11 0 -26 6 -34 6 -7 8 -22 4 -31 -4
+-13 -3 -16 6 -11 9 6 10 0 5 -21 -7 -25 -6 -27 9 -14 15 12 17 11 17 -8 0 -46
+-96 -46 -121 0 -14 27 -3 41 21 27 26 -16 36 -4 22 27 -9 20 -9 25 3 25 9 0
+12 6 9 15 -4 8 -1 22 6 30 17 20 19 19 13 -5z"/>
+</g>
+</svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://modrinth.com/mod/epic-fight" target="_blank" rel="noopener" title="Modrinth" class="md-social__link">
+       <svg  version="1.0" xmlns="http://www.w3.org/2000/svg"  width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000"  preserveAspectRatio="xMidYMid meet">  <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" fill="#ffffff" stroke="none"> <path d="M1350 2993 c-455 -49 -869 -302 -1112 -678 -115 -177 -189 -371 -223 -577 l-12 -78 127 0 127 0 13 73 c27 152 98 325 190 463 66 98 242 274 335 336 150 97 309 162 480 193 134 25 385 16 516 -18 372 -98 659 -333 823 -674 22 -46 37 -85 34 -88 -6 -6 -217 -65 -233 -65 -5 0 -18 20 -28 43 -52 126 -202 301 -337 391 -79 54 -241 129 -251 118 -4 -4 -14 -50 -23 -102 -9 -52 -19 -107 -22 -121 -4 -23 1 -29 68 -62 189 -93 336 -278 383 -481 21 -88 21 -243 1 -329 -31 -132 -114 -276 -210 -365 -42 -39 -152 -116 -178 -124 -9 -3 42 -225 58 -250 6 -10 125 51 191 98 124 88 269 264 328 398 58 131 77 221 83 383 l4 153 42 11 c22 5 74 19 114 30 41 11 76 18 79 15 3 -3 9 -45 14 -93 8 -91 -2 -252 -21 -337 -6 -27 -9 -51 -6 -53 3 -3 58 -25 123 -48 137 -50 122 -58 150 82 24 123 24 404 -1 528 -101 506 -428 914 -894 1115 -217 94 -502 138 -732 113z"/> <path d="M1306 2464 c-371 -73 -665 -352 -763 -720 -21 -82 -26 -123 -27 -234 -1 -143 9 -206 51 -328 14 -41 23 -75 21 -77 -13 -12 -208 -125 -216 -125 -23 0 -105 269 -114 375 l-3 30 -128 3 -129 3 7 -53 c74 -600 465 -1078 1032 -1264 168 -55 263 -69 468 -68 255 1 418 37 641 143 164 78 265 151 409 296 131 130 208 233 273 361 l31 62 -62 22 c-34 12 -90 33 -124 46 l-62 23 -36 -64 c-87 -156 -241 -324 -384 -419 -204 -136 -466 -216 -704 -216 -107 0 -269 28 -384 65 -167 55 -297 130 -441 254 -54 46 -152 157 -152 171 0 8 202 130 214 130 3 0 25 -21 48 -47 112 -122 285 -228 455 -279 73 -22 114 -27 241 -32 135 -4 152 -3 152 12 0 8 -13 65 -30 126 -16 61 -30 111 -30 113 0 1 -38 3 -84 4 -139 2 -271 44 -385 122 -56 39 -131 108 -131 121 0 4 55 40 123 80 67 41 130 78 140 84 15 9 31 -2 105 -82 l87 -93 185 60 185 60 96 118 c135 166 127 148 94 227 -18 42 -34 66 -44 66 -9 0 -59 -14 -111 -31 -86 -29 -100 -37 -145 -86 -43 -46 -59 -56 -116 -72 l-67 -19 -50 52 c-37 37 -58 70 -77 120 l-26 69 50 51 c42 42 63 55 123 73 66 20 80 29 147 96 83 85 83 86 18 160 l-42 48 -170 -37 c-193 -41 -166 -24 -336 -205 l-108 -116 39 -104 c22 -57 40 -109 40 -116 0 -12 -259 -173 -278 -173 -5 0 -18 28 -28 63 -29 96 -26 288 4 387 32 99 72 177 129 247 49 61 63 75 128 128 91 75 245 134 386 150 l56 6 17 102 c10 56 20 112 23 125 5 22 3 22 -78 21 -46 0 -115 -7 -153 -15z"/> </g> </svg> 
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://discord.com/invite/NbAJwj8RHg" target="_blank" rel="noopener" title="Discord" class="md-social__link">
+       <svg  version="1.0" xmlns="http://www.w3.org/2000/svg"  width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000"  preserveAspectRatio="xMidYMid meet">  <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" fill="#ffffff" stroke="none"> <path d="M1060 2449 c-109 -23 -200 -51 -328 -101 l-103 -41 -56 -91 c-160 -257 -267 -560 -309 -866 -16 -120 -19 -462 -4 -489 11 -21 158 -118 270 -179 76 -41 212 -100 308 -133 l53 -18 70 106 c38 59 66 110 62 113 -5 4 -42 21 -83 39 -41 17 -86 40 -99 50 l-24 18 26 17 c25 17 29 16 114 -18 349 -139 736 -139 1084 0 48 19 91 34 96 34 6 0 18 -8 27 -19 16 -18 16 -20 -16 -39 -18 -11 -66 -35 -106 -54 l-73 -33 51 -85 c28 -47 59 -96 69 -109 l19 -24 93 32 c129 45 314 138 434 219 l100 67 8 60 c13 93 0 375 -22 510 -49 287 -153 564 -303 801 l-53 84 -105 44 c-106 45 -234 86 -325 106 -27 6 -57 13 -66 16 -12 3 -25 -14 -49 -65 l-34 -70 -60 7 c-79 9 -373 9 -452 0 l-61 -7 -19 42 c-10 23 -25 54 -34 68 l-15 26 -85 -18z m120 -829 c49 -25 104 -89 118 -139 28 -91 5 -195 -56 -256 -95 -95 -207 -98 -302 -9 -143 134 -88 365 100 425 35 11 94 2 140 -21z m788 18 c64 -16 143 -94 161 -161 16 -57 10 -151 -13 -194 -36 -70 -126 -132 -191 -133 -16 0 -48 5 -70 11 -53 14 -136 99 -153 155 -43 144 29 282 168 325 36 11 46 10 98 -3z"/> </g> </svg> 
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.youtube.com/@yesman4100" target="_blank" rel="noopener" title="YouTube" class="md-social__link">
+       <svg  version="1.0" xmlns="http://www.w3.org/2000/svg"  width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000"  preserveAspectRatio="xMidYMid meet">  <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" fill="#ffffff" stroke="none"> <path d="M1001 2239 c-91 -4 -203 -13 -250 -19 -266 -35 -315 -149 -315 -720 0 -481 34 -612 183 -690 128 -67 1394 -81 1698 -19 119 24 194 109 218 246 40 228 45 624 11 863 -25 172 -72 251 -178 294 -112 46 -838 70 -1367 45z m838 -739 c0 -3 -123 -76 -274 -162 l-275 -157 0 319 0 319 275 -157 c151 -86 274 -159 274 -162z"/> </g> </svg> 
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["toc.integrate", "navigation.top", "navigation.footer", "navigation.tabs", "navigation.tracking", "search.sticky", "content.code.annotate", "content.code.copy", "search.highlight", "search.share", "search.suggest"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-EN680XXN1W"></script>
+      
+        <script src="../../window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag(&#39;js&#39;, new Date());
+gtag(&#39;config&#39;, &#39;G-EN680XXN1W&#39;);
+"></script>
+      
+    
+  </body>
+</html>

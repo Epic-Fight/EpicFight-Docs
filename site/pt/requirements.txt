@@ -1,9 +1,0 @@
-mkdocs==1.4.3
-mkdocs-material
-mkdocs-static-i18n==0.56
-Markdown==3.3.7
-imagesize==1.4.1
-docutils==0.18.1
-Babel==2.12.1
-
-

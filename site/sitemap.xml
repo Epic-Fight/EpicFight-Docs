@@ -1,108 +1,1653 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>None./</loc>
-         <lastmod>2023-12-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="None./"/>
-         <xhtml:link rel="alternate" hreflang="pt" href="Nonept/"/>
-         <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
-         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/"/>
-         <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/"/>
-         <xhtml:link rel="alternate" hreflang="ja" href="Noneja/"/>
-         <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/"/>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/"/>
-         <xhtml:link rel="alternate" hreflang="ko" href="Noneko/"/>
-         
+        <loc>Noneindex.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneindex.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/index.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/index.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/index.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/index.html"/>
     </url>
     <url>
-         <loc>NoneArmor/3Darmor_page1/</loc>
-         <lastmod>2023-12-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page1/"/>
-         <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page1/"/>
-         <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page1/"/>
-         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page1/"/>
-         <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page1/"/>
-         <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page1/"/>
-         <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page1/"/>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page1/"/>
-         <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page1/"/>
-         
+        <loc>NoneArmor/3Darmor_page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page1.html"/>
     </url>
     <url>
-         <loc>NoneArmor/3Darmor_page2/</loc>
-         <lastmod>2023-12-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page2/"/>
-         <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page2/"/>
-         <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page2/"/>
-         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page2/"/>
-         <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page2/"/>
-         <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page2/"/>
-         <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page2/"/>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page2/"/>
-         <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page2/"/>
-         
+        <loc>NoneArmor/3Darmor_page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page2.html"/>
     </url>
     <url>
-         <loc>NoneGuides/page1/</loc>
-         <lastmod>2023-12-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page1/"/>
-         <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page1/"/>
-         <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page1/"/>
-         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page1/"/>
-         <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page1/"/>
-         <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page1/"/>
-         <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page1/"/>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page1/"/>
-         <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page1/"/>
-         
+        <loc>NoneGuides/page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page1.html"/>
     </url>
     <url>
-         <loc>NoneGuides/page2/</loc>
-         <lastmod>2023-12-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page2/"/>
-         <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page2/"/>
-         <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page2/"/>
-         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page2/"/>
-         <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page2/"/>
-         <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page2/"/>
-         <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page2/"/>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page2/"/>
-         <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page2/"/>
-         
+        <loc>NoneGuides/page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page2.html"/>
     </url>
     <url>
-         <loc>NoneGuides/page3/</loc>
-         <lastmod>2023-12-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page3/"/>
-         <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page3/"/>
-         <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page3/"/>
-         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page3/"/>
-         <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page3/"/>
-         <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page3/"/>
-         <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page3/"/>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page3/"/>
-         <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page3/"/>
-         
+        <loc>NoneGuides/page3.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page3.html"/>
     </url>
     <url>
-         <loc>NoneGuides/page4/</loc>
-         <lastmod>2023-12-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page4/"/>
-         <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page4/"/>
-         <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page4/"/>
-         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page4/"/>
-         <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page4/"/>
-         <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page4/"/>
-         <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page4/"/>
-         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page4/"/>
-         <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page4/"/>
-         
+        <loc>NoneGuides/page4.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page4.html"/>
+    </url>
+    <url>
+        <loc>NoneMisc/commands.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/commands.html"/>
+    </url>
+    <url>
+        <loc>NoneMisc/credits.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/credits.html"/>
+    </url>
+    <url>
+        <loc>NoneMisc/recipes.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/recipes.html"/>
+    </url>
+    <url>
+        <loc>NoneMisc/skills.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/skills.html"/>
+    </url>
+    <url>
+        <loc>Nonept/index.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneindex.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/index.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/index.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/index.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/index.html"/>
+    </url>
+    <url>
+        <loc>Nonept/Armor/3Darmor_page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page1.html"/>
+    </url>
+    <url>
+        <loc>Nonept/Armor/3Darmor_page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page2.html"/>
+    </url>
+    <url>
+        <loc>Nonept/Guides/page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page1.html"/>
+    </url>
+    <url>
+        <loc>Nonept/Guides/page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page2.html"/>
+    </url>
+    <url>
+        <loc>Nonept/Guides/page3.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page3.html"/>
+    </url>
+    <url>
+        <loc>Nonept/Guides/page4.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page4.html"/>
+    </url>
+    <url>
+        <loc>Nonept/Misc/commands.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/commands.html"/>
+    </url>
+    <url>
+        <loc>Nonept/Misc/credits.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/credits.html"/>
+    </url>
+    <url>
+        <loc>Nonept/Misc/recipes.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/recipes.html"/>
+    </url>
+    <url>
+        <loc>Nonept/Misc/skills.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/skills.html"/>
+    </url>
+    <url>
+        <loc>Nonees/index.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneindex.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/index.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/index.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/index.html"/>
+    </url>
+    <url>
+        <loc>Nonees/Armor/3Darmor_page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page1.html"/>
+    </url>
+    <url>
+        <loc>Nonees/Armor/3Darmor_page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page2.html"/>
+    </url>
+    <url>
+        <loc>Nonees/Guides/page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page1.html"/>
+    </url>
+    <url>
+        <loc>Nonees/Guides/page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page2.html"/>
+    </url>
+    <url>
+        <loc>Nonees/Guides/page3.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page3.html"/>
+    </url>
+    <url>
+        <loc>Nonees/Guides/page4.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page4.html"/>
+    </url>
+    <url>
+        <loc>Nonees/Misc/commands.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/commands.html"/>
+    </url>
+    <url>
+        <loc>Nonees/Misc/credits.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/credits.html"/>
+    </url>
+    <url>
+        <loc>Nonees/Misc/recipes.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/recipes.html"/>
+    </url>
+    <url>
+        <loc>Nonees/Misc/skills.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/skills.html"/>
+    </url>
+    <url>
+        <loc>Noneru/index.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneindex.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/index.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/index.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/index.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/index.html"/>
+    </url>
+    <url>
+        <loc>Noneru/Armor/3Darmor_page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page1.html"/>
+    </url>
+    <url>
+        <loc>Noneru/Armor/3Darmor_page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page2.html"/>
+    </url>
+    <url>
+        <loc>Noneru/Guides/page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page1.html"/>
+    </url>
+    <url>
+        <loc>Noneru/Guides/page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page2.html"/>
+    </url>
+    <url>
+        <loc>Noneru/Guides/page3.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page3.html"/>
+    </url>
+    <url>
+        <loc>Noneru/Guides/page4.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page4.html"/>
+    </url>
+    <url>
+        <loc>Noneru/Misc/commands.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/commands.html"/>
+    </url>
+    <url>
+        <loc>Noneru/Misc/credits.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/credits.html"/>
+    </url>
+    <url>
+        <loc>Noneru/Misc/recipes.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/recipes.html"/>
+    </url>
+    <url>
+        <loc>Noneru/Misc/skills.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/skills.html"/>
+    </url>
+    <url>
+        <loc>Nonepl/index.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneindex.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/index.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/index.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/index.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/index.html"/>
+    </url>
+    <url>
+        <loc>Nonepl/Armor/3Darmor_page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page1.html"/>
+    </url>
+    <url>
+        <loc>Nonepl/Armor/3Darmor_page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page2.html"/>
+    </url>
+    <url>
+        <loc>Nonepl/Guides/page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page1.html"/>
+    </url>
+    <url>
+        <loc>Nonepl/Guides/page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page2.html"/>
+    </url>
+    <url>
+        <loc>Nonepl/Guides/page3.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page3.html"/>
+    </url>
+    <url>
+        <loc>Nonepl/Guides/page4.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page4.html"/>
+    </url>
+    <url>
+        <loc>Nonepl/Misc/commands.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/commands.html"/>
+    </url>
+    <url>
+        <loc>Nonepl/Misc/credits.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/credits.html"/>
+    </url>
+    <url>
+        <loc>Nonepl/Misc/recipes.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/recipes.html"/>
+    </url>
+    <url>
+        <loc>Nonepl/Misc/skills.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/skills.html"/>
+    </url>
+    <url>
+        <loc>Noneja/index.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneindex.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/index.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/index.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/index.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/index.html"/>
+    </url>
+    <url>
+        <loc>Noneja/Armor/3Darmor_page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page1.html"/>
+    </url>
+    <url>
+        <loc>Noneja/Armor/3Darmor_page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page2.html"/>
+    </url>
+    <url>
+        <loc>Noneja/Guides/page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page1.html"/>
+    </url>
+    <url>
+        <loc>Noneja/Guides/page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page2.html"/>
+    </url>
+    <url>
+        <loc>Noneja/Guides/page3.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page3.html"/>
+    </url>
+    <url>
+        <loc>Noneja/Guides/page4.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page4.html"/>
+    </url>
+    <url>
+        <loc>Noneja/Misc/commands.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/commands.html"/>
+    </url>
+    <url>
+        <loc>Noneja/Misc/credits.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/credits.html"/>
+    </url>
+    <url>
+        <loc>Noneja/Misc/recipes.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/recipes.html"/>
+    </url>
+    <url>
+        <loc>Noneja/Misc/skills.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/skills.html"/>
+    </url>
+    <url>
+        <loc>Noneuk/index.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneindex.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/index.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/index.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/index.html"/>
+    </url>
+    <url>
+        <loc>Noneuk/Armor/3Darmor_page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page1.html"/>
+    </url>
+    <url>
+        <loc>Noneuk/Armor/3Darmor_page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page2.html"/>
+    </url>
+    <url>
+        <loc>Noneuk/Guides/page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page1.html"/>
+    </url>
+    <url>
+        <loc>Noneuk/Guides/page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page2.html"/>
+    </url>
+    <url>
+        <loc>Noneuk/Guides/page3.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page3.html"/>
+    </url>
+    <url>
+        <loc>Noneuk/Guides/page4.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page4.html"/>
+    </url>
+    <url>
+        <loc>Noneuk/Misc/commands.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/commands.html"/>
+    </url>
+    <url>
+        <loc>Noneuk/Misc/credits.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/credits.html"/>
+    </url>
+    <url>
+        <loc>Noneuk/Misc/recipes.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/recipes.html"/>
+    </url>
+    <url>
+        <loc>Noneuk/Misc/skills.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/skills.html"/>
+    </url>
+    <url>
+        <loc>Nonezh/index.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneindex.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/index.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/index.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/index.html"/>
+    </url>
+    <url>
+        <loc>Nonezh/Armor/3Darmor_page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page1.html"/>
+    </url>
+    <url>
+        <loc>Nonezh/Armor/3Darmor_page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page2.html"/>
+    </url>
+    <url>
+        <loc>Nonezh/Guides/page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page1.html"/>
+    </url>
+    <url>
+        <loc>Nonezh/Guides/page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page2.html"/>
+    </url>
+    <url>
+        <loc>Nonezh/Guides/page3.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page3.html"/>
+    </url>
+    <url>
+        <loc>Nonezh/Guides/page4.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page4.html"/>
+    </url>
+    <url>
+        <loc>Nonezh/Misc/commands.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/commands.html"/>
+    </url>
+    <url>
+        <loc>Nonezh/Misc/credits.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/credits.html"/>
+    </url>
+    <url>
+        <loc>Nonezh/Misc/recipes.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/recipes.html"/>
+    </url>
+    <url>
+        <loc>Nonezh/Misc/skills.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/skills.html"/>
+    </url>
+    <url>
+        <loc>Noneko/index.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneindex.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/index.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/index.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/index.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/index.html"/>
+    </url>
+    <url>
+        <loc>Noneko/Armor/3Darmor_page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page1.html"/>
+    </url>
+    <url>
+        <loc>Noneko/Armor/3Darmor_page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page2.html"/>
+    </url>
+    <url>
+        <loc>Noneko/Guides/page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page1.html"/>
+    </url>
+    <url>
+        <loc>Noneko/Guides/page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page2.html"/>
+    </url>
+    <url>
+        <loc>Noneko/Guides/page3.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page3.html"/>
+    </url>
+    <url>
+        <loc>Noneko/Guides/page4.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page4.html"/>
+    </url>
+    <url>
+        <loc>Noneko/Misc/commands.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/commands.html"/>
+    </url>
+    <url>
+        <loc>Noneko/Misc/credits.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/credits.html"/>
+    </url>
+    <url>
+        <loc>Noneko/Misc/recipes.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/recipes.html"/>
+    </url>
+    <url>
+        <loc>Noneko/Misc/skills.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/skills.html"/>
+    </url>
+    <url>
+        <loc>Nonehr/index.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneindex.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/index.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/index.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/index.html"/>
+    </url>
+    <url>
+        <loc>Nonehr/Armor/3Darmor_page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page1.html"/>
+    </url>
+    <url>
+        <loc>Nonehr/Armor/3Darmor_page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneArmor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Armor/3Darmor_page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Armor/3Darmor_page2.html"/>
+    </url>
+    <url>
+        <loc>Nonehr/Guides/page1.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page1.html"/>
+    </url>
+    <url>
+        <loc>Nonehr/Guides/page2.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page2.html"/>
+    </url>
+    <url>
+        <loc>Nonehr/Guides/page3.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page3.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page3.html"/>
+    </url>
+    <url>
+        <loc>Nonehr/Guides/page4.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneGuides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Guides/page4.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Guides/page4.html"/>
+    </url>
+    <url>
+        <loc>Nonehr/Misc/commands.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/commands.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/commands.html"/>
+    </url>
+    <url>
+        <loc>Nonehr/Misc/credits.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/credits.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/credits.html"/>
+    </url>
+    <url>
+        <loc>Nonehr/Misc/recipes.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/recipes.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/recipes.html"/>
+    </url>
+    <url>
+        <loc>Nonehr/Misc/skills.html</loc>
+        <lastmod>2023-12-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hr" href="Nonehr/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMisc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="Noneko/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="Nonept/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneuk/Misc/skills.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Misc/skills.html"/>
     </url>
 </urlset>
