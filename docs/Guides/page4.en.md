@@ -1,3 +1,6 @@
+---
+icon: trail_length
+---
 # Custom Trails
 In epic fight we've added a way for users to create and add their own unique taste to sword trails. Not only are you able to change trail's colors but also their textures to fit your needs !
 

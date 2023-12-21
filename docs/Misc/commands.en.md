@@ -1,3 +1,6 @@
+---
+icon: touch_app
+---
 # Commands & Configurations
 ***
 <center>

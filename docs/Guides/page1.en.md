@@ -1,3 +1,6 @@
+---
+icon: pets
+---
 # Custom entity datapack
 
 

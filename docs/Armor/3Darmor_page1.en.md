@@ -1,3 +1,6 @@
+---
+icon: plumbing
+---
 # 3D armor & Texture rendering issues
 
 Most of the custom armors are broken in Epic Fight. This is because Epic Fight uses its own model, not only for entities but also for armors. Luckily, Epic Fight has a model generation algorithm based on the custom armors but sometimes it changes them in a bad way. This is the guide for mod pack makers to make custom armor visually flawless without having to tweak our source code. Here are the steps in which you can follow to achieve a patched armor:

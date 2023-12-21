@@ -1,3 +1,6 @@
+---
+icon: auto_stories
+---
 # Skills
 
 ***

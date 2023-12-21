@@ -1,3 +1,6 @@
+---
+icon: emoji_objects
+---
 # Other solutions for 3D armor glitches
 Be ware that these solutions may not be as effective as manually patching armors in blender. These tools are mainly for modpack and mod developers to test their armor. If you want to properly patch armors and make sure they work in-game, go to _**[Custom 3D armor Resource Pack](armor/page1)**_  
 

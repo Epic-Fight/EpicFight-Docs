@@ -1,3 +1,6 @@
+---
+icon: swords
+---
 # Custom Weapon/Armor datapack
 
 ## **💡 Making the pack.mcmeta file**

@@ -1,3 +1,6 @@
+---
+icon: deployed_code
+---
 # Getting started with blender
 
 Epic fight uses custom animations for multiple actions in game, from drinking, eating to even attack combos. These animations are handled by Blender, a 3D open source software for modeling, animating, texturing, composition, rendering and video editing.
