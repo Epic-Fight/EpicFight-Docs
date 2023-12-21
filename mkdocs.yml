@@ -93,7 +93,6 @@ plugins:
   - git-committers:
       repository: MetalKnight56/EpicFight-Docs
       branch: main
-      token: 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
 theme:
   name: material
   custom_dir: overrides
