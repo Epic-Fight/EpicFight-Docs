@@ -93,6 +93,7 @@ plugins:
   - git-committers:
       repository: MetalKnight56/EpicFight-Docs
       branch: main
+      token: !ENV GITHUB_TOKEN_KEY
 theme:
   name: material
   custom_dir: overrides
@@ -141,11 +142,28 @@ extra:
     - icon: youtube
       link: https://www.youtube.com/@yesman4100
       name: YouTube
-extra_javascript:
-  - https://www.googletagmanager.com/gtag/js?id=G-EN680XXN1W
-  - |
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-EN680XXN1W');
-
+  analytics: 
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

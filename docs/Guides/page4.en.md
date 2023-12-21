@@ -13,7 +13,9 @@ An example of trail texture would be the one used inside of epic fight [here](ht
 
 ## 🦶 Getting Started
 * First, create a folder inside of your texturepack folder like so (its name doesn't matter):
+<center>
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/c549e612-7475-4a3e-8f83-f99a3c0d6764)
+</center>
 
 *(You can access this folder by easily opening minecraft, and heading to Options > Resource Packs...)*
 
@@ -22,7 +24,7 @@ An example of trail texture would be the one used inside of epic fight [here](ht
 
 Inside of the mcmeta file put this:
 *(You can edit the description as you want)*
-```
+``` json
 {
 	"pack": {
 		"pack_format": X,
@@ -33,6 +35,8 @@ Inside of the mcmeta file put this:
 
 *(In pack_format, you should put one of the following options below depending on your minecraft version)*
 
+<center>
+
 | Version | Value |
 | ------------- | ------------- |
 | 1.16.2–1.16.5 | 6 |
@@ -40,6 +44,8 @@ Inside of the mcmeta file put this:
 | 1.18.2 | 8 |
 | 1.19.2 | 9 |
 | 1.20.1 | 15 |
+
+</center>
 
 ***
 
@@ -68,6 +74,8 @@ This is an example JSON file thats used for the diamond_dagger item in epic figh
 
 Here's a list with the possible parameters that can be used inside of the weapon trail .json
 
+<center>
+
 |Parameters| Info|
 | ------------- | ------------- |
 |"trail"| In item skin file|
@@ -79,6 +87,8 @@ Here's a list with the possible parameters that can be used inside of the weapon
 |"texture_path"| The texture path for your custom trail|
 |"particle_type"| The trail's registry name|
 
+</center>
+
 ***
 ### ✏️ Custom Trail Textures
 You can also create new trail textures, by simply making the following structure folder
@@ -86,8 +96,11 @@ You can also create new trail textures, by simply making the following structure
 Inside of this "modid" folder, you can create as many textures as you want, and simply reference their location in the trail .json customization file under  *``"texture_path"``*
 
 **Here are some examples of trail textures used in epic fight:**
+
+<center>
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/eccfefb9-f9f8-4518-a2f6-eab3a2c4e3f8)
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/8421ff50-0f75-4308-8793-fb4be3f60a23)
+</center>
 
 You can check them out by going to our repository [here](https://github.com/Yesssssman/epicfightmod/tree/1.18.2/src/main/resources/assets/epicfight/textures/particle)
 
@@ -99,8 +112,11 @@ You can check them out by going to our repository [here](https://github.com/Yess
 You can also have an in depth customization of the trail data for each animation. Above you can check the reference in our repo, and see how it's used in multiple animation datas.
 
 (Make sure to use this folder structure: **``assets/epicfight/animmodels/animations/biped/combat/data/animation_name.json``**)
+
 *Here's an example of custom trail data:*
-```json	"trail_effects": [
+``` json	
+{
+	"trail_effects": [
 		{
 			"start_time": 0.05,
 			"end_time": 0.15,
@@ -113,6 +129,8 @@ You can also have an in depth customization of the trail data for each animation
 
 You can use the following parameters to change the data in any animation:
 
+<center>
+
 |Parameters| Info|
 | ------------- | ------------- |
 |"trail_effects"| In animation data file|
@@ -120,5 +138,7 @@ You can use the following parameters to change the data in any animation:
 |"end_time"| The animation time when the trailer should end drawing|
 |"joint"| The parent joint of trail position|
 |"item_skin_hand"| The hand where the item skin data should be called|
+
+</center>
 
 ***

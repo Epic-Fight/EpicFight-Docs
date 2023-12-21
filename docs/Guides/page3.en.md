@@ -28,11 +28,16 @@ Once you've extracted the files, make sure Blender runs. You can test that by op
 To install our custom made Blender Exporter, go to our repository and download our master branch. Like so:
 [Blender Json Exporter](https://github.com/Yesssssman/blender-json-exporter)
 
-![showcase98](https://github.com/Yesssssman/epicfightmod/assets/77132244/95ce0412-b498-466b-ae1b-7a79a1ab27a1)
+<center>
+![](https://github.com/Yesssssman/epicfightmod/assets/77132244/95ce0412-b498-466b-ae1b-7a79a1ab27a1)
+</center>
 
 1.  Go to the folder where blender is installed, move all files under /2.79/scripts/addons/xxxxxxxx/.  (You can create a new folder that's represented here by the multiple X )
 2. Go to Blender > File > User Preferences > Add-ons, And find an add-on named "Import-Export: Minecraft Model Json Exporter"
-![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/b327a99b-ca2e-44d5-bc32-554a4d56be1b)  
+
+<center>
+![](https://github.com/Yesssssman/epicfightmod/assets/77132244/b327a99b-ca2e-44d5-bc32-554a4d56be1b)  
+</center>
 
 3.   Check the checkbox and Click "Save User Settings".
 4. As you can see when you click to export, you'll be able to generate a json file, in which you can choose to select 3 options, Mesh, Animations and Armature, but we'll see those later.
@@ -43,14 +48,24 @@ As a start, we'll be learning how to move around with blender.
 ***
 ### 🎥 Moving your camera
 To move your camera rotation, you can press your mouse wheel and move your mouse with it pressed. After you do that, you'll probably see something similar to this:
+
+<center>
 ![Gif1](https://i.imgur.com/i2nRfF3.gif)
+</center>
 
 Now if you want to move your camera's location you can press your middle mouse button + shift. You'll be able to see something like this:
+
+<center>
 ![Gif2](https://i.imgur.com/Ozac1y0.gif)
+</center>
+
 Good work! Now you know how to move your camera around.
 ***
 ### ✏️ Edit & Object mode basics
+<center>
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/af9b356f-f546-47cd-9c86-e4900cede9c8) ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/d50c49ca-8ab2-40df-b47e-acb193092423)
+</center>
+
 In short, edit mode is used to edit objects geometry and their origin location, rotation and scale in a project. We often use edit mode to change models in ways that are simply not practical with Object mode. One of the ways we use edit mode is to add in Bones to a rig and their origin position (and by origin position i mean their actual position, scale, rotation in a project, where they'll go after you reset their object location rotation and scale)
 
 So lets say you have a rig and you want to create a new animation, instead of having to manually change each and every bone to a new position, you can simply reset the whole skeleton to their original position that was set in Edit Mode, and from there work on a new animation, improving your workflow and making it easier to create new animations or frames to already existing ones.
@@ -66,17 +81,29 @@ Here's a [video for you to watch](https://www.youtube.com/watch?v=x5an6UV5r9c&t=
 ***
 ### 🦴 Adding bones and Deleting stuff
 One of the ways you can add bones is by going into Object Mode and selecting Add > Armature > Single Bone
+
+<center>
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/f34f4e8a-dab5-4aae-b215-4a60b8aaea81)
+</center>
+
 Alternatively you can press **Shift+A** to open the same menu and add a Single Bone.
 
 To delete stuff you can simply hit the Del key on your keyboard and it'll present you with a promp asking if you really want to delete such thing.
 ***
 ### 🔴 AutoKey and Starting with animations
 First head to the animations tab on your project. (TIP: You will probably be in default mode so try and find that)
+
+<center>
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/87b17fb4-6d73-4ebd-83e9-0e3935247b34)       >       ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/e80f55c4-5eaa-4d9e-ba3d-637a099b5504)
+</center>
+
 Now go to Pose mode, and make sure you've created a new action like this:
 (Make sure to select action editor)
+
+<center>
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/20b88013-524f-4e7b-ae11-b7676cf29239)
+</center>
+
 Make your first frame by pressing "i" and saving what you desire. 
 Loc = Location
 Rot = Rotation
@@ -86,11 +113,23 @@ Don't mind the other types of saving a keyframe, for now all we want should be t
 
 You can use Dope Sheet to see where each frame is located, and you can change the animation starting and ending frames in the timeline.
 Dope Sheet Summary:
+
+<center>
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/64a1a133-90a9-4a66-97b1-57acd0a1dcf8)
+</center>
+
 Timeline where you want to set the initial and end frame.
-![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/defbf770-1edc-44d0-a0b0-839ca33e0fcd)
+
+<center>
+![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/defbf770-1edc-44d0-a0b0-839ca33e0fcd)]
+</center>
+
 You can use these buttons to play your animation or move around frames.
+
+<center>
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/eb7f0c29-c0c8-459f-9b6e-bd177c838966)
+</center>
+
 You may also use the left and right arrows on your keyboard to go to the next frame.
 ***
 #### AutoKey
@@ -99,7 +138,10 @@ AutoKey is a handy tool used to auto register keyframes when you make an alterat
 ***
 ### 🔘 Display modes for objects
 You can change your display mode so you have different perspectives of each object. 
+
+<center>
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/bf817606-2367-47aa-932e-5d8b1ba48268)
+</center>
 
 For example, we have WireFrame mode which allows you to disable an object's texture so you are left with roughly a wireframe of that object, allowing you to easily see whats on the other side.
 
@@ -125,13 +167,17 @@ UV Mapping stands for "UV coordinates mapping" in the field of computer graphics
 In epic fight, we mostly use UV mapping to fix issues in between bends (where belnder may have issues determining where to use certain parts of the texture), and to properly map out texture for each plane side of a cube.
 
 You can change your screen to UV editting mode by going to the top of your screen and changing the screen layout.
+
+<center>
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/3fcf3343-f5ae-418b-9797-9704de66d819)
+</center>
 
 You can create new textures by clicking this bottom button / You can also assign existing textures by clicking this:
 
 
+<center>
 <img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/742e9658-1832-48d3-a681-005a417226ae" alt="image" style="float:left; margin-right:10px;"/> /  <img  src="https://github.com/Yesssssman/epicfightmod/assets/77132244/12a57d9a-ad48-4daf-8830-806afc9b98cf"  alt="Image"  style="float:right; margin-left:10px;" />
-
+</center>
 
 
 ***
@@ -147,18 +193,26 @@ Don't worry as this is easily fixable by scaling the top or bottom faces of that
 
 This is probably what you'll be left with:
 
+<center>
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/98b8f3fa-0fa7-4bb6-812f-39f5ea358ff3) 
+</center>
 
 In UV edit mode, you can select the planes that have overlapping texture and you can extend their vertexs to use the upper part of the texture, or the lower according to their location.
 
+<center>
 ![2023_01_21_15_16_55_33](https://github.com/Yesssssman/epicfightmod/assets/77132244/99ed4706-9f78-4955-9667-1925a78258b2)
+</center>
+
 Warning: Make sure to select UV selection and display mode to Edge.
 
 ***
 ### 🧲 Snap Transform
 Snap allows you to move objects in precise ways. Its main function is to allow you to alling other objects with each other more easily, kinda working like a ruler when you want to make a straight line.
 You can enable snapping by clicking the little magnet icon near your 3D orientation transform options.
+
+<center>
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/c2f16673-dcb5-4f8f-8b02-59f3c3c79860)
+</center>
 
 ***
 ### 🔀 X-Axis Mirror
@@ -172,7 +226,9 @@ You are able to do this kind of mirroring by copying the current pose (Ctrl + C)
 ### 🔲 Transparency
 Some objects that you import inside blender may or may not have the following issue: 
 
+<center>
 ![image](https://github.com/Yesssssman/epicfightmod/assets/77132244/02a6e79d-ce66-40f8-a017-3cb5dabab20a)
+</center>
 
 Basically black textures where it should be transparent.
 

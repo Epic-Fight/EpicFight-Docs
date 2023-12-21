@@ -11,13 +11,15 @@ After that edit it and add these lines of code for your datapack to work.
 ```JSON
 {
 	"pack":{
-		"pack_format":6,
+		"pack_format":15,
 		"description":"A short description on your pack"
 		}
 }
 ```
 
 ### **📄 pack_format Values**
+
+<center>
 
 | Version | Value |
 | ------------- | ------------- |
@@ -27,22 +29,30 @@ After that edit it and add these lines of code for your datapack to work.
 | 1.19.2 | 9 |
 | 1.20.1 | 15 |
 
+</center>
+
 ### **🗂 Making the folder path**
 
 You'll need to make a series of folders with the following names. Every folder or file needs to be inside the last one.
 
+<center>
 **data -> "modid" -> capabilities -> "type" -> "registryname".JSON**
+</center>
 
 *If the weapon you wish to patch has unexpected syntax like slashes (/) in their registry name like:*
 **"bloodandmadness:weapons/hunter_axe"**  
 
  You can express these unexpected syntaxes (slashes) in the folder hierarchy as such:
  
+<center>
  **data -> "modid" -> capabilities -> "type" -> "Text before the slash" ... -> "registryname".JSON**
+</center>
  
  So for the example mentioned previously ("bloodandmadness:***weapons***/hunter_axe") the folder hierarchy would be the following:
  
+<center>
  **data -> bloodandmadness -> capabilities -> weapons -> *weapons* -> hunter_axe.JSON**
+</center>
 
 ***
 
@@ -52,12 +62,14 @@ From there you'll open the data folder and then there'll be the name, which you'
 `type`: Either `weapons` or `armors`
 
 `registrynames`: When you're in-game, you can press F3+H to turn on Advanced Tooltips to see the registry name of the item you want to configure.
-> 
-> ![2022-05-29_16 48 36](https://user-images.githubusercontent.com/86358160/170875930-7bae2b88-2aa1-41fe-a59b-5de4027e563f.png)
-> 
-> ![2022-05-29_16 51 08](https://user-images.githubusercontent.com/86358160/170876568-5838849a-f578-42ae-8d50-f24fb3f9df6d.png)
+
+<center>
+![2022-05-29_16 48 36](https://user-images.githubusercontent.com/86358160/170875930-7bae2b88-2aa1-41fe-a59b-5de4027e563f.png)
  
-### **❗️ You'll need to make a txt file with only the outlined text + `.json`**
+![2022-05-29_16 51 08](https://user-images.githubusercontent.com/86358160/170876568-5838849a-f578-42ae-8d50-f24fb3f9df6d.png)
+
+<span style="font-size: 24px;">**❗️ You'll need to make a txt file with only the outlined text + `.json`**</span>
+</center>
 ***
 ## **💡 Creating the JSON file**
 
@@ -65,7 +77,7 @@ From there you'll open the data folder and then there'll be the name, which you'
 
  > Here's a simple example of a sword config:
 
-```
+``` json
  {
  	"type": "epicfight:sword",
  	"attributes": {
@@ -82,7 +94,7 @@ From there you'll open the data folder and then there'll be the name, which you'
 
  > Here's an example of a spear config with both one-handed and two-handed attributes:
  
-```
+``` json
  {
  	"type": "epicfight:spear",
  	"attributes": {
@@ -102,6 +114,8 @@ From there you'll open the data folder and then there'll be the name, which you'
 
 `type`: Which animations it should use. Available Type Values:
 
+<center>
+
 | Type | Style Info |
 | ---------- | ---------- |
 | axe | One-Handed |
@@ -120,6 +134,8 @@ From there you'll open the data folder and then there'll be the name, which you'
 | crossbow | Two-Handed |
 | trident | One-Handed |
 | shield | Dual Wielding |
+
+</center>
 
 One-Handed: Can only be used if held in the main hand.
 
@@ -184,8 +200,7 @@ It is hard to expect the size of the collider only with the numerical estimation
 ## **💡 Armor file**
 
  > Here's a simple example of an armor config:
- 
-```
+``` json
  {
  	"attributes": {
  		"stun_armor":1.5,
@@ -217,4 +232,4 @@ Then right-click, go under 7-Zip, and click on `add to "datapack.zip"`.
 And that's it, all you'll have to do now is just put the datapack in a world's datapack folder and have fun :)
 ***
 
-** The [Youtube Tutorial](https://www.youtube.com/watch?v=JNpahwjriac&t=33s) for those who don't want to read**
+**The [Youtube Tutorial](https://www.youtube.com/watch?v=JNpahwjriac&t=33s) for those who don't want to read**

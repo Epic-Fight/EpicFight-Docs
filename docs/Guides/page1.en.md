@@ -7,16 +7,47 @@ icon: pets
 Epic Fight isn't normally compatible with other mods, especially with the entities. So you have to manually define the entity's model, animations, and other attribute values. This can be achieved by using Datapack.
 ***
 
-## **💡 Creating a JSON file -**
+## **💡 Making the pack.mcmeta file**
+
+First, you'll need to create a pack.mcmeta by making a normal txt file and renaming it to pack.mcmeta (make sure filename extensions are turned on).
+
+After that edit it and add these lines of code for your datapack to work.
+```JSON
+{
+	"pack":{
+		"pack_format":15,
+		"description":"A short description on your pack"
+		}
+}
+```
+
+### **📄 pack_format Values**
+
+<center>
+
+| Version | Value |
+| ------------- | ------------- |
+| 1.16.2–1.16.5 | 6 |
+| 1.17.x | 7 |
+| 1.18.2 | 8 |
+| 1.19.2 | 9 |
+| 1.20.1 | 15 |
+
+</center>
+
+## **💡 Creating a JSON file & Folder path -**
 
 
 Before you create a JSON file, you should get the registry name of the entity you want to make compatible. In Minecraft, you can see the list of entities registered now by "/summon" command.
 
+<center>
 ![image](https://user-images.githubusercontent.com/79469058/166224784-b556e090-4e56-45bd-ad80-ccc33c06d859.png)
+</center>
 
-
-Most of the registry names consist of "modid:entityname". If you get the registry name, you can create the JSON file under
+Most of the registry names consist of "modid:entityname". If you get the registry name, you can create the JSON file under the following path -
+<center>
 `data/"modid"/epicfight_mobpatch/"entityname".json`
+</center>
 ***
 
 ## **💡 Obtaining armature, animation and model tags -**
@@ -41,7 +72,7 @@ For entities that extend the vanilla classes/or simmilar models to the ones in v
 
 You should know that this will not work properly if the targeted entity doesn't share its code with the vanilla entity (if the entity class doesn't extend the vanilla class), although it is seemingly the same. The allowed values are all the entity's registry names that are registered in the [code](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/world/capabilities/provider/EntityPatchProvider.java)
 
-### **❌ Disabling an epicfied entity**
+### **❌ Disabling an "epicfied" entity**
 
 
 You also can disable entity animations and custom models by using the following line (inside of entityname.json):
@@ -124,8 +155,12 @@ All the entity's registry names that are registered in our source code can be ob
 
 `isHumanoid`: Determines if the entity is humanoid. Humanoid mobs are able to change the animations based on what item they're holding.
 
-`faction`: Entities that have the same faction will not attack each other by melee attack. The allowed values are:`enderman, piglins, wither, neutral, undead, illager, villager`
+`faction`: Entities that have the same faction will not attack each other by melee attack. The allowed values are:
+<center>
+`enderman, piglins, wither, neutral, undead, illager, villager`
+</center>
 ***
+<center>
 `attributes`:
 
 | Key | Feature |
@@ -135,7 +170,9 @@ All the entity's registry names that are registered in our source code can be ob
 | max_strikes | Determines how many entities can hit per one swing |
 | chasing_speed | For melee attack mobs, determines how fast the mob chases the enemy |
 | scale | Determines the size of the entity |
+
 ***
+
 `default_livingmotions`:
 
 | Key | Feature |
@@ -146,7 +183,9 @@ All the entity's registry names that are registered in our source code can be ob
 | fall | When the entity falls because of gravity |
 | death | When the entity dies |
 | mount | When the entity is riding |
+
 ***
+
 `stun_animations`:
 
 | Key | Feature |
@@ -155,7 +194,9 @@ All the entity's registry names that are registered in our source code can be ob
 | long | For some special attacks |
 | knockdown | Ender dragon's ground slam |
 | fall | Fall damage |
+
 ***
+
 `combat_behavior`: defines the attack moves of the entity.
 
 | Key | Feature |
@@ -165,14 +206,18 @@ All the entity's registry names that are registered in our source code can be ob
 | looping | Determines whether the current behavior should be saved when canceled |
 | cooldown | Determines how many "ticks" it'll take to be used again |
 | behaviors | Definition of the conditions and attack animation |
+
 ***
+
 `behaviors`:
 
 | Key | Feature |
 | ------------- | ------------- |
 | conditions | Conditions that have to be met to be selected |
 | animation | The animation path |
+
 ***
+
 `conditions`:
 
 | Key | Feature | Arguments |
@@ -183,6 +228,8 @@ All the entity's registry names that are registered in our source code can be ob
 | within_angle | Checks if the angle towards the target is within the given argument. | "min": double, "max": double |
 | within_angle_horizontal | Checks if the Y-axis angle towards the target is within the given argument. | "min": double, "max": double |
 | health | Checks the entity's health. | "health": double, "comparator": `enum:(greater_absolute, less_absolute, greater_ratio, less_ratio)` |
+
+</center>
 
 ***
 ## **💡 Changing the animation based on the weapon its holding -**
@@ -300,3 +347,4 @@ public enum WeaponCategory {
 
 `style`: Holding style. Allowed values are: `one_hand, two_hand, common`.
 
+***
