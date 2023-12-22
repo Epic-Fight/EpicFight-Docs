@@ -8,6 +8,9 @@ build:
   os: "ubuntu-22.04"
   tools:
     python: "3.11"
+  commands:
+    - cat mkdocs.yml
+    - mkdocs build --clean --site-dir $READTHEDOCS_OUTPUT/html --config-file mkdocs.yml
 
 mkdocs:
   configuration: mkdocs.yml
