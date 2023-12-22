@@ -9,6 +9,10 @@ build:
   tools:
     python: "3.11"
   commands:
+    - pip install poetry
+    - poetry config virtualenvs.create false
+    - poetry install --only docs
+    - poetry env info
     - cat mkdocs.yml
     - mkdocs build --clean --site-dir $READTHEDOCS_OUTPUT/html --config-file mkdocs.yml
 
