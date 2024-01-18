@@ -50,6 +50,7 @@ imagesize = "1.4.1"
 docutils = "0.18.1"
 Babel = "2.12.1"
 cairosvg = "2.7.1"
+mkdocs-simple-hooks = "0.1.5"
 
 # Python-style entrypoints and scripts are easily expressed
 [tool.poetry.scripts]

@@ -7,7 +7,11 @@ plugins:
       lang:
         - en
         - pl
+  - mkdocs-simple-hooks:
+      hooks:
+        on_page_markdown: 'docs.hooks:page_markdown'
   - i18n:
+      reconfigure_search: true
       docs_structure: suffix
       fallback_to_default: true
       languages:
@@ -23,6 +27,7 @@ plugins:
             Armor: Armadura
             Guides: Guias
             Misc: Diversos
+            API: API
        - build: true
          default: false
          locale: es
@@ -31,6 +36,7 @@ plugins:
             Armor: Armadura
             Guides: Guías
             Misc: Miscelánea
+            API: API
        - build: true
          default: false
          locale: ru
@@ -39,6 +45,7 @@ plugins:
             Armor: Броня
             Guides: Руководства
             Misc: Разное
+            API: API
        - build: true
          default: false
          locale: pl
@@ -47,6 +54,7 @@ plugins:
             Armor: Zbroja
             Guides: Poradnik
             Misc: Różne
+            API: API
        - build: true
          default: false
          locale: ja
@@ -55,6 +63,7 @@ plugins:
             Armor: アーマー
             Guides: ガイド
             Misc: その他
+            API: API
        - build: true
          default: false
          locale: uk
@@ -63,6 +72,7 @@ plugins:
             Armor: броня
             Guides: напрямні
             Misc: Різне
+            API: API
        - build: true
          default: false
          locale: zh
@@ -71,6 +81,7 @@ plugins:
             Armor: 盔甲
             Guides: 指南
             Misc: 杂项
+            API: API
        - build: true
          default: false
          locale: ko
@@ -79,6 +90,7 @@ plugins:
             Armor: 방어구
             Guides: 가이드
             Misc: 기타
+            API: API
        - build: true
          default: false
          locale: hr
@@ -87,12 +99,15 @@ plugins:
             Armor: Oklop
             Guides: Vodiči
             Misc: Razno
+            API: API
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
   - git-committers:
       repository: MetalKnight56/EpicFight-Docs
       branch: main
+  - tags:
+  
 theme:
   name: material
   custom_dir: overrides
@@ -100,13 +115,15 @@ theme:
   favicon: assets/icon.png
   logo: assets/logo.png
   palette:
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: red
       accent: red
       toggle:
         icon: clear_day
         name: Switch to light mode
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: red
       accent: red
       toggle:
@@ -124,7 +141,9 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+    - content.tooltips
 extra:
+  generator: false
   social:
     - icon: github 
       link: https://github.com/Yesssssman/epicfightmod
@@ -172,3 +191,15 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - attr_list
+  - pymdownx.details
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - abbr
+  - pymdownx.tabbed:
+      alternate_style: true
+extra_css:
+  - stylesheets/extra_css/roundimages.css
