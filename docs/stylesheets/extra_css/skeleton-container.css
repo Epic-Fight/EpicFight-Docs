@@ -1,0 +1,37 @@
+.skeleton-container {
+    position: relative;
+    width: 600px; /* Adjust as needed */
+}
+
+.skeleton-image {
+    position: relative;
+}
+
+.bone {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.3); /* Semi-transparent red */
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.info-box {
+    position: absolute;
+    top: 0;
+    left: 100%; /* Position the info box beside the image */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none; /* Initially hidden */
+}
+
+/* Additional styling for bones */
+.bone:hover {
+    background-color: rgba(255, 0, 0, 0.6); /* Darker red on hover */
+}
+
+/* Styling for the info box */
+.info-box.active {
+    display: block; /* Show info box when active */
+}

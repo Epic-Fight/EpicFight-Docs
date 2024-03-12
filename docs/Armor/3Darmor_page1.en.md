@@ -10,10 +10,11 @@ Required tools:<br>
 
 * **[BlockBench](https://www.blockbench.net/) (Optional)**<br> 
 * **[Blender 2.79](https://download.blender.org/release/Blender2.79/)**<br>  
-- **[Blender Json Exporter](https://github.com/Yesssssman/blender-json-exporter)**<br>   
-- **[Blender Armor Files](https://drive.google.com/file/d/15xYnpmkmlJaEnw3Y7bykpqmjx1Rr9Koh/view?usp=share_link)**<br>     
+- **[Json Exporter dor Blender 2.79](https://github.com/Yesssssman/blender-json-exporter)**<br>   
+- **[Blender Armor Files](https://github.com/MetalKnight56/EpicFight-Files/raw/Blender-Armor/Blender%20armor%20files.zip)**<br>     
 
 ***
+
 ## 💡 Remaking armors in Blockbench (Optional)
 You don't need to remake the armor in blockbench as long as you have the official armor files for the mod you want to patch.
 

@@ -64,7 +64,7 @@ Good work! Now you know how to move your camera around.
 ***
 ### :fontawesome-solid-pencil: Edit & Object mode basics
 <center>
-![](https://github.com/MetalKnight56/RafTale/assets/77132244/6162e878-7d92-4438-866a-750116c92f0a){.img-rounded} ![](https://github.com/Yesssssman/epicfightmod/assets/77132244/d50c49ca-8ab2-40df-b47e-acb193092423){.img-rounded}
+![](https://github.com/MetalKnight56/EpicFight-Files/assets/77132244/3ec8d8b4-7607-4f36-83cf-47f212bbb7ab){.img-rounded} ![](https://github.com/Yesssssman/epicfightmod/assets/77132244/d50c49ca-8ab2-40df-b47e-acb193092423){.img-rounded}
 </center>
 
 In short, edit mode is used to edit objects geometry and their origin location, rotation and scale in a project. We often use edit mode to change models in ways that are simply not practical with Object mode. One of the ways we use edit mode is to add in Bones to a rig and their origin position (and by origin position i mean their actual position, scale, rotation in a project, where they'll go after you reset their object location rotation and scale)
@@ -226,12 +226,12 @@ In epic fight, we mostly use UV mapping to fix issues in between bends, where bl
 You can change your screen to UV editting mode by going to the top of your screen and changing the screen layout.
 
 <center>
-![image](https://github.com/MetalKnight56/RafTale/assets/77132244/40bdb587-ab20-4e56-afb2-f1ef16ec6e68){.img-rounded}
+![image](https://github.com/MetalKnight56/EpicFight-Files/assets/77132244/cc32cb29-c51a-4f20-a10e-5d6871d691d5){.img-rounded}
 </center>
 
 <br>   
 <div class="grid cards" markdown>
--   <center><img src="https://github.com/MetalKnight56/RafTale/assets/77132244/c9fe07f2-ca04-4a7a-b291-e464ba4ac971" alt="Image" style="margin-left: 10px; border-radius: 10px;"/></center>
+-   <center><img src="https://github.com/MetalKnight56/EpicFight-Files/assets/77132244/fcfb6190-be2d-4a10-b12a-831e39b4290b" alt="Image" style="margin-left: 10px; border-radius: 10px;"/></center>
 
 	---
 	

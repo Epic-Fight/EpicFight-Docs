@@ -4,7 +4,7 @@ icon: auto_stories
 # Skills
 
 ***
-## 💨 Dodge Skills
+## :simple-dash: Dodge Skills
 Only one Dodge skill can be equipped at once.
 
 ***
@@ -28,7 +28,7 @@ Only one Dodge skill can be equipped at once.
 * The stamina impact and speed of the skill are affected by the "weight" of your armor<br> 
 
 ***
-## 🛡 Guard Skills
+## :fontawesome-solid-shield: Guard Skills
 Guard skill can always be equipped but only one addon can be equipped at once.
 
 ***
@@ -39,7 +39,7 @@ Guard skill can always be equipped but only one addon can be equipped at once.
 * You can block attacks by pressing the default use item key [default = Right Mouse Button]<br> 
 * While blocking a hit, you get stunned for a short time<br> 
 * As consecutive blocks are performed without pauses, stamina use increases (x0.6 to x1.2)<br> 
-* Learn Energizing Guard or Active Guard skills to reduce consecutive block penalties<br> 
+* Learn Parrying or Impact Guard skills to reduce consecutive block penalties<br> 
 
 <center>
 
@@ -96,7 +96,7 @@ Guard skill can always be equipped but only one addon can be equipped at once.
 </center>
 
 ***
-## 🔪 Passive Skills
+## :material-sword: Passive Skills
 You have access to 3 Passive Skill Slots, and only one may be equipped per slot.
 
 ***
@@ -208,7 +208,7 @@ You have access to 3 Passive Skill Slots, and only one may be equipped per slot.
 * Grants +4 Stamina points<br> 
 
 ***
-## 💢 Mobility Skills
+## :fontawesome-solid-person-running: Mobility Skills
 You can only enable one mobility skill, that may assist you on your movement
 ***
 
@@ -227,7 +227,7 @@ You can only enable one mobility skill, that may assist you on your movement
 * Grants an additional mid-air jump (Jump ammount is configurable with datapacks)<br> 
 
 ***
-## 👤 Revelation Skills
+## :material-eye: Revelation Skills
 You may only learn one revelation skill at once
 ***
 
@@ -236,6 +236,7 @@ You may only learn one revelation skill at once
 <p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/meteor_slam.gif?raw=true"></p>
 
 * Perform a powerful ground slam. Damage and stamina cost increase with height
+* Perform a Meteor Slam by simply *looking down while airborne.*
 * Risk damage if fall surpasses stamina limit
 * Stamina consumtion is based on fall Damage
 
