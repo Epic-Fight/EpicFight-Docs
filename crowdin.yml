@@ -1,0 +1,5 @@
+files:
+  - source: docs/index.en.md
+    translation: docs/index.es.md
+  - source: docs/index.en.md
+    translation: docs/index.pt.md
