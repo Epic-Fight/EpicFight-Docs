@@ -37,4 +37,4 @@ To access a compilation of EpicFight versions at your disposal, refer to the lis
 !!! tip
 	For an easier setup of your Dependencies, you can click on the version file on curseforge you wish to implement, and press on the dropdown arrow next to Curse Maven Snippet :octicons-question-16:{ title="Curse Maven is a repository that simplifies including packages in projects" }
 	
-	<center>![](https://github.com/MetalKnight56/RafTale/assets/77132244/33af4f8f-44a8-44af-b430-55248a30a202){.img-rounded}</center>
+	<center>![](https://github.com/MetalKnight56/EpicFight-Files/blob/Wiki-Images/Images/Maven%20Snippet.png?raw=true){.img-rounded}</center>
