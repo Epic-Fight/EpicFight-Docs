@@ -28,6 +28,7 @@ plugins:
             Guides: Guias
             Misc: Diversos
             API: API
+            Gameplay: Jogabilidade
        - build: true
          default: false
          locale: es
@@ -37,6 +38,7 @@ plugins:
             Guides: Guías
             Misc: Miscelánea
             API: API
+            Gameplay: Jugabilidad
        - build: true
          default: false
          locale: ru
@@ -46,6 +48,7 @@ plugins:
             Guides: Руководства
             Misc: Разное
             API: API
+            Gameplay: Геймплей
        - build: true
          default: false
          locale: pl
@@ -55,6 +58,7 @@ plugins:
             Guides: Poradnik
             Misc: Różne
             API: API
+            Gameplay: Rozgrywka
        - build: true
          default: false
          locale: ja
@@ -64,6 +68,7 @@ plugins:
             Guides: ガイド
             Misc: その他
             API: API
+            Gameplay: ゲームプレイ
        - build: true
          default: false
          locale: uk
@@ -73,6 +78,7 @@ plugins:
             Guides: напрямні
             Misc: Різне
             API: API
+            Gameplay: Геймплей
        - build: true
          default: false
          locale: zh
@@ -82,6 +88,7 @@ plugins:
             Guides: 指南
             Misc: 杂项
             API: API
+            Gameplay: 游戏玩法
        - build: true
          default: false
          locale: ko
@@ -91,6 +98,7 @@ plugins:
             Guides: 가이드
             Misc: 기타
             API: API
+            Gameplay: 게임플레이
        - build: true
          default: false
          locale: hr
@@ -100,6 +108,7 @@ plugins:
             Guides: Vodiči
             Misc: Razno
             API: API
+            Gameplay: Igranje
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
@@ -107,7 +116,7 @@ plugins:
       repository: MetalKnight56/EpicFight-Docs
       branch: main
   - tags:
-  
+
 theme:
   name: material
   custom_dir: overrides
@@ -130,11 +139,12 @@ theme:
         icon: clear_night
         name: Switch to dark mode
   features:
-    - toc.integrate
     - navigation.top
     - navigation.footer
     - navigation.tabs
+    - navigation.sections
     - navigation.tracking
+    - navigation.indexes
     - search.sticky
     - content.code.annotate
     - content.code.copy
@@ -142,6 +152,8 @@ theme:
     - search.share
     - search.suggest
     - content.tooltips
+    - content.code.copy
+    - content.code.select
 extra:
   generator: false
   social:
@@ -160,6 +172,9 @@ extra:
     - icon: youtube
       link: https://www.youtube.com/@yesman4100
       name: YouTube
+    - icon: patreon
+      link: https://www.patreon.com/join/yessman
+      name: Patreon
   analytics: 
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
@@ -184,6 +199,8 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. By giving your consent, you're helping us improve our documentation and giving us an important feedback on each page here :)
 markdown_extensions:
+  - toc:
+      title: On this page
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -199,7 +216,13 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
   - abbr
+  - sane_lists
   - pymdownx.tabbed:
       alternate_style: true
 extra_css:
   - stylesheets/extra_css/roundimages.css
+  - stylesheets/extra_css/extra.css
+extra_javascript:
+  - javascripts/extra.js
+hooks:
+  - overrides/hooks/shortcodes.py

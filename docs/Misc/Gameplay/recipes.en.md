@@ -1,5 +1,7 @@
 ---
 icon: hardware
+hide:
+  - announcement
 ---
 # Recipes
 In epic fight, recipes forge powerful weapons, each with a unique story, as players collect rare ingredients to shape their own battle.

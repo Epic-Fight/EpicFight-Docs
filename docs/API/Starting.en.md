@@ -1,7 +1,9 @@
 ---
 icon: simple/gradle
+hide:
+  - announcement
 ---
-# Getting Started with EpicFight [1.18.2 - 1.20.1]
+# Getting started
 
 ***
 ## Setting up your Gradle Build

@@ -1,163 +1,243 @@
 ---
 icon: plumbing
+hide:
+  - announcement
+  - toc
 ---
-# 3D armor & Texture rendering issues
+# 3D Armor Fix [Blender 2.79]
 
-Most of the custom armors are broken in Epic Fight. This is because Epic Fight uses its own model, not only for entities but also for armors. Luckily, Epic Fight has a model generation algorithm based on the custom armors but sometimes it changes them in a bad way. This is the guide for mod pack makers to make custom armor visually flawless without having to tweak our source code. Here are the steps in which you can follow to achieve a patched armor:
+In Epic Fight, many custom armors are dysfunctional due to the game's unique model system, which differs from both standard entities and armor. However, the mod provides a model generation algorithm based on custom armors, though it occasionally alters them unfavorably. 
+  
+!!! question ""
+	This guide extensively utilizes Blender, so refer to [Blender Basics and Tips and Tricks] for comprehensive insights on using Blender effectively, including tips, tricks, and troubleshooting.
+  
+	To replicate in-game armor models accurately, check [Remaking armor models in Blockbench] if your models aren't ready for Blender patching.
+
+	[Blender Basics and Tips and Tricks]: ../../Guides/page3
+	[Remaking armor models in Blockbench]: ../../Armor/3Darmor_page3
+
+For mod pack creators and developers aiming for visually flawless custom armor without altering the source code, this step-by-step process facilitates the creation of properly patched armor compatible with Epic Fight:
 
 ***
 Required tools:<br>     
 
-* **[BlockBench](https://www.blockbench.net/) (Optional)**<br> 
 * **[Blender 2.79](https://download.blender.org/release/Blender2.79/)**<br>  
-- **[Json Exporter dor Blender 2.79](https://github.com/Yesssssman/blender-json-exporter)**<br>   
+- **[Json Exporter for Blender 2.79](https://github.com/Yesssssman/blender-json-exporter)**<br>   
 - **[Blender Armor Files](https://github.com/MetalKnight56/EpicFight-Files/raw/Blender-Armor/Blender%20armor%20files.zip)**<br>     
 
 ***
-
-## 💡 Remaking armors in Blockbench (Optional)
-You don't need to remake the armor in blockbench as long as you have the official armor files for the mod you want to patch.
-
-After downloading and installing all three softwares, the first thing you'll want to do is, pick a mod that has an armor set you want to patch, and from there try to recreate the model as accurately as possible. One efficient way you can do this, is usually by looking at the armor in-game and getting the textures from the source code of your desired mod.
-
- **EXAMPLE:**
- 
-<center>
-<img src="https://user-images.githubusercontent.com/77132244/215155978-874a293e-71ea-4690-adf3-059e45a37ed8.png" width="480" height="320">
-</center>
-
-Above is the texture file for the archers_armor of the Dungeon Gear Mod. Lets take a look how we can re-create this armor only with Blockbench<br>   
-1. Create a Generic Model so we can export it to blender later on. Preferably name the model something you can recognize, for example, *Archer's Armor*.
-<center>
-![showcase55](https://user-images.githubusercontent.com/77132244/215159597-aac5fdb1-45f1-4084-8f18-50baae9df6f0.jpg)
-</center>
-2. Make sure you have the CEM Template Loader installed so you can import the vanilla models. (You can download plugins under File/Plugins option).<br>   
-3. From there, you'll want to import all vanilla armor models. (You can import the vanilla armor models under Tools/Load CEM Template/Unsupported Entities).
-<center>
- ![showcase66](https://user-images.githubusercontent.com/77132244/215161290-8ecb58ec-55e3-4297-8f46-48551a0769d7.jpg)
-</center>
-4. Import the textures, and change the texture size on the project to the same one as the texture. (Tip: You can apply the textures on the model by dragging and dropping it on each armor part group).
-<center>
-![showcase77](https://user-images.githubusercontent.com/77132244/215230534-6eb84ed6-1afb-4a44-bdf2-3ef98bfccdc6.jpg)
-</center>
-5. Now, fix the textures until they are in the correct order and look like the original model.<br>   
-6. After organizing the textures, press "ctrl + A", and make sure all textures are being used. If you miss any textures, that means you model needs more adjustments and so you'll need to add in extra pieces to the armor. In our case, the Archer's Armor has an extra part to its hat so we'll need to add in a cube and try to guess its rotation, scale and position based on the in-game armor added by Dungeon's gear and the texture size.
-<center>
-<img src="https://user-images.githubusercontent.com/77132244/215236925-8fcf459a-e972-4f2d-b43d-65667ce39e1e.jpg">
-</center>
-7. As you can see, after a few changes, we got our model to look like the original one, and now we are ready to move on to blender and to patching each individual part.
-<center>
-![image](https://user-images.githubusercontent.com/77132244/215238157-3ddd8369-6f04-48f5-8d95-0623d833b3be.png)
-</center>
-8. Now when exporting you armor file, be sure to export it as a .obj, because that's what we'll be using inside blender.
-
-***
-## 💡 Weight Paint and Vertex Correction
-Go to [Blender Basics and Tips and Tricks](Blender_page3) for Tips, Tricks and Fixes in how to use Blender
+## :fontawesome-solid-lightbulb: Weight Paint and Vertex Correction
 
 1. First, open blender, go to file/import/Wavefront (.obj), and import your armor file you've just created in blockbench.
-2. After this, select one armor part to patch. We will patch the head layer first. So we'll select every cube and part that composes the helmet for the archer's armor. For us, the "head" and "headback.001" are the parts that make up for the helmet so we'll select both and press "ctrl + j" to join all of the parts into one single model _(TIP: To join all parts, you'll want to be in object mode)_.  
+2. After this, select one armor part to patch. We will patch the head layer first. So we'll select every cube and part that composes the helmet for the archer's armor. For us, the "head" and "headback.001" are the parts that make up for the helmet so we'll select both and press <kbd>Ctrl</kbd> + <kbd>J</kbd> to join all of the parts into one single model. 
+
+	!!!	tip 
+		<center>To join all parts, you'll have to be in object mode</center>
+
+	<center>
+	**Select**  
+	<img src="https://user-images.githubusercontent.com/77132244/215290753-d88f7ed2-a32b-43bc-9e33-a35c273d04b9.png" class="img-rounded white-border">  
+	**Join** _(Feel free to rename the new joined model the armor part it corresponds to, in our case i later renamed it "Helmet")_.  
+	<img src="https://user-images.githubusercontent.com/77132244/215290768-f91985a4-31a5-4606-bd25-91b150ba0119.png" class="img-rounded white-border">  
+	</center>
+	<blockquote>In these screenshots all the other armor parts are hidden.</blockquote>
+<ol start="3">
+<li> 
+In object mode, correct the import rotation, and postion by clicking <kbd>Alt</kbd> + <kbd>R</kbd> & <kbd>Alt</kbd> + <kbd>G</kbd>.
+</li>
+
+<li> 
+On edit mode, rotate the model and correct its position to the original location before you reset the rot/pos on object mode.
+</li>  
+
+<li> 
+Now after fixing the import rotation, we'll parent the model to the armature by going to object mode, selecting the helmet model and also the armature, going over to Object/Parent/Armature Deform/With Empty Groups/With Empty Groups. Now You've successfully parented the model to the armature, lets head over to weight paint. 
+</li>
+</ol>
+
+!!!	tip 
+	<center>You can select two things by pressing shift while right clicking them. Make sure both are selected in object mode and not pose or edit mode</center>
+
+
 <center>
-**Select**  
-![image](https://user-images.githubusercontent.com/77132244/215290753-d88f7ed2-a32b-43bc-9e33-a35c273d04b9.png)  
-**Join** _(Feel free to rename the new joined model the armor part it corresponds to, in our case i later renamed it "Helmet")_.  
-![image](https://user-images.githubusercontent.com/77132244/215290768-f91985a4-31a5-4606-bd25-91b150ba0119.png)  
-_(In these screenshots all the other armor parts are hidden)_
-</center>
-3. In object mode, correct the import rotation, and postion by clicking _"alt + r"_ & _"alt + g"_.
-4. On edit mode, rotate the model and correct its position to the original location before you reset the rot/pos on object mode.
-5. Now after fixing the import rotation, we'll parent the model to the armature by going to object mode, selecting the helmet model and also the armature, going over to Object/Parent/Armature Deform/With Empty Groups/With Empty Groups. Now You've successfully parented the model to the armature, lets head over to weight paint. _(TIP: You can select two things by pressing shift while right clicking them. Make sure both are selected in object mode and not pose or edit mode)_
+<img src="https://user-images.githubusercontent.com/77132244/218175943-dcde10ab-9f45-4fb3-a1ec-a2ec7f851483.png" class="img-rounded white-border">
+</center>  
+
+<ol start="6">
+<li> 
+By selecting the helmet model, and switching from object mode to weight paint, we'll finally apply the vertex group deformations so the helmet follows the head while our player plays any animation.
 <center>
-![image](https://user-images.githubusercontent.com/77132244/218175943-dcde10ab-9f45-4fb3-a1ec-a2ec7f851483.png)
-![image](https://user-images.githubusercontent.com/77132244/218176163-4972a8bf-a70d-4570-aafe-a0b9a0bbcb85.png)
+<img src="https://user-images.githubusercontent.com/77132244/218176695-4cfafe68-7010-4450-a5f8-93e3dff1f3dd.png" class="img-rounded white-border">
 </center>
-6. By selecting the helmet model, and switching from object mode to weight paint, we'll finally apply the vertex group deformations so the helmet follows the head while our player plays any animation.
+</li>
+
+<li> 
+To apply the weight paint, make sure you can see the vertices and you have wireframe mode enabled like in the following image:
 <center>
-![image](https://user-images.githubusercontent.com/77132244/218176695-4cfafe68-7010-4450-a5f8-93e3dff1f3dd.png)
+<img src="https://user-images.githubusercontent.com/77132244/218177435-f9d01478-fbe0-45f9-b754-adf5d2efa745.jpg" class="img-rounded white-border">
 </center>
-7. To apply the weight paint, make sure you can see the vertices and you have wireframe mode enabled like in the following image:
+</li>
+
+<li> 
+Now you can choose from a range of brushes to apply the weight paint, but the ones we mainly use is subtract and add
 <center>
-![Showcase89](https://user-images.githubusercontent.com/77132244/218177435-f9d01478-fbe0-45f9-b754-adf5d2efa745.jpg)
+<img src="https://user-images.githubusercontent.com/77132244/218177593-95794246-6d9a-4caf-afa2-636b784b8d3a.png" class="img-rounded white-border">
 </center>
-8. Now you can choose from a range of brushes to apply the weight paint, but the ones we mainly use is subtract and add
+</li>
+
+<li> 
+Select the desired vertex group on the right, the one we'll be working with is the head group as we are patching a helmet.
 <center>
-![image](https://user-images.githubusercontent.com/77132244/218177593-95794246-6d9a-4caf-afa2-636b784b8d3a.png)
+<img src="https://user-images.githubusercontent.com/77132244/218178265-69388152-b465-45e5-8ccd-cfe3e430dfb7.jpg" class="img-rounded white-border">
 </center>
-9. Select the desired vertex group on the right, the one we'll be working with is the head group as we are patching a helmet.
+</li>
+
+<li> 
+Now simply go on your way painting the whole model so it follows the whole head. In the end you'll be able to get something like this:
 <center>
-![Showcase99](https://user-images.githubusercontent.com/77132244/218178265-69388152-b465-45e5-8ccd-cfe3e430dfb7.jpg)
+<img src="https://user-images.githubusercontent.com/77132244/218178527-210b4b77-5f16-4cf7-9310-6c2b3e2ce83a.png" class="img-rounded white-border">
 </center>
-10. Now simply go on your way painting the whole model so it follows the whole head. In the end you'll be able to get something like this:
+</li>
+
+<li> 
+You can test to see if you've successfully parented and weight painted the helmet to the head by going over to your armature in pose mode and rotating the head bone around. If your model follows the head bone, then its correct, if not, then please go back a few steps and recheck to see if you've missed something.
 <center>
-![image](https://user-images.githubusercontent.com/77132244/218178527-210b4b77-5f16-4cf7-9310-6c2b3e2ce83a.png)
+<img src="https://github.com/MetalKnight56/EpicFight-Files/blob/Wiki-Images/Images/gizmos.gif?raw=true" class="img-rounded white-border">
 </center>
-11. You can test to see if you've successfully parented and weight painted the helmet to the head by going over to your armature in pose mode and rotating the head bone around. If your model follows the head bone, then its correct, if not, then please go back a few steps and recheck to see if you've missed something.
-<center>
-![2023-02-10-16-20-11](https://user-images.githubusercontent.com/77132244/218179173-df15dcba-97fa-4081-ad1d-cf1ffbcd92e8.gif)
-</center>
+</li>
+</ol>
+
 ***
-## 💡 Exporting your patched models
+## :fontawesome-solid-lightbulb: Exporting your patched models
 Now that you've patched yourt models you'll want to export your work and apply the changes in game. But how can you do that? Well it's really simple.
 
-1. Make sure you don't have any armor parts or unwanted models on your project and only the desired armor part to be exported like so. _(TIP: You can't export two armor parts at once, so export one at a time and delete all the other ones.)_  
-<center>
-![image](https://user-images.githubusercontent.com/77132244/218179518-18c8d979-68af-44ff-989a-aa55ebb6c239.png)
-</center>
-2. After cleaning any unwanted models or armor parts that won't be exported, head over to File/Export/Animated Minecraft Model (.json)  
-<center>
-![image](https://user-images.githubusercontent.com/77132244/218179838-bbc7d557-8525-4ab8-beaf-41211bf334fd.png)
-</center>
-3. Make sure you only have Export Mesh selected as we're only exporting an armor and not an animation or custom armature.  
-<center>
-![image](https://user-images.githubusercontent.com/77132244/218179992-0f54bb48-99b6-45c2-8166-107668b200e7.png)
-</center>
-4. Check the export name to see if it matches the custom armor registry name in-game.  
-<center>
-![image](https://user-images.githubusercontent.com/77132244/218180136-b229edd0-3941-4a68-b82b-dfc0fcf80bca.png)
-</center>
-5. Click Export to Json Minecraft after you are done.  
-<center>
-![image](https://user-images.githubusercontent.com/77132244/218180246-7c04c4ad-ad96-4361-b43a-3ff434de419d.png)
-</center>
-6. Now go to your game, select resourcepacks, and inside the resourcepacks folder, create a new folder. Inside it, you can create your pack.mcmeta like so: 
-### Making the pack.mcmeta file
+1. Make sure you don't have any armor parts or unwanted models on your project and only the desired armor part to be exported like so. 
 
-First, you'll need to create a pack.mcmeta by making a normal txt file and renaming it to pack.mcmeta (make sure filename extensions are turned on).
+!!!	tip inline
+	You **can't** export two armor parts at once, so export one at a time and delete all the other ones
 
-After that edit it and add these lines of code for your datapack to work.
+<span class="left-align">
+<img src="https://user-images.githubusercontent.com/77132244/218179518-18c8d979-68af-44ff-989a-aa55ebb6c239.png" class="img-rounded white-border">
+</span>
+
+<ol start="2">
+<li> 
+After cleaning any unwanted models or armor parts that won't be exported, head over to File/Export/Animated Minecraft Model (.json)  
+<center>
+<img src="https://user-images.githubusercontent.com/77132244/218179838-bbc7d557-8525-4ab8-beaf-41211bf334fd.png" class="img-rounded white-border">
+</center>
+</li>
+
+<li>
+Make sure you only have Export Mesh selected as we're only exporting an armor and not an animation or custom armature.  
+<center>
+<img src="https://user-images.githubusercontent.com/77132244/218179992-0f54bb48-99b6-45c2-8166-107668b200e7.png" class="img-rounded white-border">
+</center>
+</li>
+
+<li>
+Check the export name to see if it matches the custom armor registry name in-game.  
+<center>
+<img src="https://user-images.githubusercontent.com/77132244/218180136-b229edd0-3941-4a68-b82b-dfc0fcf80bca.png" class="img-rounded white-border">
+</center>
+</li>
+
+<li>
+Click Export to Json Minecraft after you are done.  
+<center>
+<img src="https://user-images.githubusercontent.com/77132244/218180246-7c04c4ad-ad96-4361-b43a-3ff434de419d.png" class="img-rounded white-border">
+</center>
+</li>
+</ol>
+
+***
+<div markdown style="display: flex; align-items: flex-start;">
+<div markdown style="flex: 1; margin-right: 20px; max-width:75%;">
+
+
+<h2 markdown id="making-the-packmcmeta-file"><strong><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M272 384c9.6-31.9 29.5-59.1 49.2-86.2 5.2-7.1 10.4-14.2 15.4-21.4 19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176c0 37.3 11.6 71.9 31.4 100.3 5 7.2 10.2 14.3 15.4 21.4 19.8 27.1 39.7 54.4 49.2 86.2h160zm-80 128c44.2 0 80-35.8 80-80v-16H112v16c0 44.2 35.8 80 80 80zm-80-336c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-61.9 50.1-112 112-112 8.8 0 16 7.2 16 16s-7.2 16-16 16c-44.2 0-80 35.8-80 80z"></path></svg></span> Making the pack.mcmeta file</strong></h2>
+
+First, you'll need to create a pack.mcmeta file. Here's how to do it:
+
+1. **Create the File**:  
+   - Start by creating a new text file.  
+   - Rename the file to `pack.mcmeta`. Ensure that file extensions are visible so you can properly change the extension (e.g., from `.txt` to `.mcmeta`).  
+
+2. **Edit the File**:  
+   - Open the file with a text editor and add the following code for your datapack to function properly:  
+
 ```JSON
 {
 	"pack":{
-		"pack_format":6,
+		"pack_format":15,
 		"description":"A short description on your pack"
 		}
 }
 ```
-
-### pack_format Values
-
-<center>
-
-| Version | Value |
-| ------------- | ------------- |
-| 1.16.2–1.16.5 | 6 |
-| 1.17.x | 7 |
-| 1.18.2 | 8 |
-| 1.19.2 | 9 |
-| 1.20.1 | 15 |
-
-</center>
-
-### Making the folder path
-
-You'll need to make a series of folders with the following names. Every folder or file needs to be inside the last one.
+</div> <div style="flex: 1; max-width:25%;">
+<center><h3 id="pack_format-values"><strong><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M192 0c-41.8 0-77.4 26.7-90.5 64H64C28.7 64 0 92.7 0 128v320c0 35.3 28.7 64 64 64h256c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64h-37.5C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM72 272a24 24 0 1 1 48 0 24 24 0 1 1-48 0zm104-16h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16zM72 368a24 24 0 1 1 48 0 24 24 0 1 1-48 0zm88 0c0-8.8 7.2-16 16-16h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16z"></path></svg></span> pack_format Values</strong></h3></center>
 
 <center>
-``assets -> "modid" -> animmodels -> armor -> "registryname".json`` _(Drop your exported armor file here)_
 
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.16.5</td>
+<td>6</td>
+</tr>
+<tr>
+<td>1.17.x</td>
+<td>7</td>
+</tr>
+<tr>
+<td>1.18.2</td>
+<td>8</td>
+</tr>
+<tr>
+<td>1.19.2</td>
+<td>9</td>
+</tr>
+<tr>
+<td>1.20.1</td>
+<td>15</td>
+</tr>
+</tbody>
+</table>
 
-
-🎉 **Congratulations, you've successfully patched your armor.** 🎉
 </center>
+</div></div>
 
-**_A few easier solutions for armor patching here: [Other solutions for 3D armor glitches](3Darmor_page2.en.md)_**
+***
+### :fontawesome-solid-folder: Making the folder path
+
+To set up the folder structure, follow these steps. Each folder or file must be nested inside the previous one in the hierarchy:
+<center> <code>assets <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> "modid" <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> animmodels <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> armor <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> "registryname".JSON</code> </center>
+<div class="content-container2">
+	<div class="text-section2" style="--text-max-width: 70%;">
+		<ul>
+		<li>
+		<p><div class="hover-text" data-left="73.8%" data-top="59.0%" data-width="9.8%" data-height="7.5%" style="padding: 8px 0px; display: block;"><code>modid</code>: The mod ID is usually the name of the mod. You can often find it by checking in-game item tooltips (press <code>F3 + H</code> to enable Advanced Tooltips) or by looking at commands or messages related to the mod. For example, if the tooltip for an item shows <code>modid:itemname</code>, the part before the colon <code>(modid)</code> is what you’ll use to name the <code>"modid"</code> folder.<br></div></p>
+		</li>
+		<br>
+		<li>
+		<p><div class="hover-text" data-left="83.3%" data-top="59.0%" data-width="14.8%" data-height="7.5%" style="padding: 8px 0px; display: block;"><code>registrynames</code>: To locate an item’s registry name, press <code>F3 + H</code> in-game to enable Advanced Tooltips. Then, hover over the item to view its registry name.<br></div></p>
+		</li>
+		</ul>
+	</div>
+	<div class="image-section2">
+		<center>
+			<div class="glow-box3"></div>
+			<div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/tooltips_example1.png?raw=true" class="img-rounded white-border img-rounded" style="--image-width: 400px;"></div><br>
+			<span style="font-size: 0.5rem;">Make a <code>.txt</code> file with the outlined text, then change it's type to <code>.json</code></span>
+		</center>
+	</div>
+</div>
+
+***
+[:octicons-arrow-right-24: [Other solutions for 3D armor glitches](3Darmor_page2.en.md)](#)

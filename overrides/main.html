@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block announce %}
+    {% if page.meta and page.meta.hide %}
+        {% set hidden = "true" if "announcement" in page.meta.hide %}
+    {% endif %}
+    <!-- Announcement bar -->
+    <div data-md-component="announce" {% if hidden == "true" %} style="display: none;" {% endif %}>
+            <div class="md-banner__inner md-grid md-typeset" style="overflow: hidden;">
+<span class="twemoji" style="font-size: 25px; vertical-align: middle;">
+  <span style="color: #ff9900; display: inline;">{% include ".icons/fontawesome/solid/circle-exclamation.svg" %}</span>
+</span>
+<p style="font-size: 20px; color: #ffff66; display: inline; vertical-align: middle;">You are viewing a translated version of the wiki. It may be Outdated!</p>
+{% if hidden == "false" %}
+<style>
+  .md-banner__inner {
+    margin: 1px auto;
+  }
+</style>{% endif %}
+{% if hidden == "true" %}
+<style>
+  .md-banner__inner {
+    margin: 0px auto;
+  }
+</style>{% endif %}
+
+                <!-- Announcement bar content -->
+                {{ super() }}
+            </div>
+        </aside>
+    </div>
+{% endblock %}
+
+<!-- Sponsorship footer, credits to discord-tickets, support them out here: https://github.com/discord-tickets/?sponsor=1 -->
+{% block content %}
+{{ super() }}
+<br>
+<footer class="sponsorship">
+	<hr>
+	<a href="https://github.com/Yesssssman/epicfightmod/?sponsor=1" title="Donate & support our team !">
+		<span class="twemoji heart-throb-hover">
+			{% set icon = "octicons/heart-fill-16" %}
+			{% include ".icons/" ~ icon ~ ".svg" %}
+		</span>
+	</a>
+	<hr>
+</footer>
+{% endblock %}

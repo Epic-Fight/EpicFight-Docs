@@ -1,5 +1,7 @@
 ---
 icon: auto_stories
+hide:
+  - announcement
 ---
 # Skills
 

@@ -1,5 +1,8 @@
 ---
 icon: groups
+hide:
+  - announcement
+  - toc
 ---
 <center>
 
@@ -113,11 +116,18 @@ icon: groups
 * VeroxUniverse (Epic Samurais)
 * Blade Master X (Epic Stats)
 * SchauWalki(Epic Guns)
-* jvn (ACG Addon)
+* jvn (ACG Addon & multiple contributions)
 * Vanilla (Old Wiki & former community manager)
 * TheIronDisciple (Efm X ParaGliders)
 * box (blender 3.6 json-exporter)
 * Reascer (WOM & API)
+* eehunter (Mixin code less invasive)
+* PaintNinja (Multiple contributions)
+* Cyber2049 (Fix stun immunity and parry)
+* Saithe6 (Fix for FakePlayers)
+* Walks Von-Longberry (Multiple issue reports & Voxel Duel)
+* Doc (Banner Image)
+* Akaleaf (Logo Inspiration & Permission)
 
 More Contributors + Missing Ones will be added as time goes
 

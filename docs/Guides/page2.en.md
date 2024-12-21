@@ -1,235 +1,51 @@
 ---
-icon: swords
+icon: cube-solid
+hide:
+  - announcement
 ---
-# Custom Weapon/Armor datapack
+# Starting with Blender 3.6
 
-## **💡 Making the pack.mcmeta file**
+Epic fight uses custom animations for multiple actions in game, from drinking, eating to even attack combos. These animations are handled by Blender, a 3D open source software for modeling, animating, texturing, composition, rendering and video editing.
 
-First, you'll need to create a pack.mcmeta by making a normal txt file and renaming it to pack.mcmeta (make sure filename extensions are turned on).
+It may seem overwhelming to work with blender, but here I'll only be teaching you the absolute necessary to work with epic fight.
 
-After that edit it and add these lines of code for your datapack to work.
-```JSON
-{
-	"pack":{
-		"pack_format":15,
-		"description":"A short description on your pack"
-		}
-}
-```
+***
+## :material-download: Installing blender
+To install Blender (2.79) head to the following website:
 
-### **📄 pack_format Values**
+* [:material-download: Blender 3.6](https://download.blender.org/release/Blender3.6/)
 
-<center>
-
-| Version | Value |
-| ------------- | ------------- |
-| 1.16.2–1.16.5 | 6 |
-| 1.17.x | 7 |
-| 1.18.2 | 8 |
-| 1.19.2 | 9 |
-| 1.20.1 | 15 |
-
-</center>
-
-### **🗂 Making the folder path**
-
-You'll need to make a series of folders with the following names. Every folder or file needs to be inside the last one.
-
-<center>
-**data -> "modid" -> capabilities -> "type" -> "registryname".JSON**
-</center>
-
-*If the weapon you wish to patch has unexpected syntax like slashes (/) in their registry name like:*
-**"bloodandmadness:weapons/hunter_axe"**  
-
- You can express these unexpected syntaxes (slashes) in the folder hierarchy as such:
+Make sure to select the correct version that corresponds to your Operational System. 
+(Here we'll be using Win 64x bits)
  
-<center>
- **data -> "modid" -> capabilities -> "type" -> "Text before the slash" ... -> "registryname".JSON**
-</center>
- 
- So for the example mentioned previously ("bloodandmadness:***weapons***/hunter_axe") the folder hierarchy would be the following:
- 
-<center>
- **data -> bloodandmadness -> capabilities -> weapons -> *weapons* -> hunter_axe.JSON**
-</center>
 
+### :fontawesome-solid-play: Extracting and Running ...
+<p style="margin-bottom: 0;">After downloading the correct file from the Blender index, you can extract the files using your preferred program.</p>
+<div style="font-size:0.6rem;">(It's recommended to use a program such as 7-Zip for extracting the files)</div>
+After extracting the files, verify that Blender runs correctly. To test this, open the folder hierarchy and launch `Blender.exe`. If a window appears, Blender has been successfully installed.
 ***
+## :material-download: Json exporter
+To install the custom Blender Exporter, visit the repository and download the master branch by following these steps:
 
-`modid`: You'll find the modid by using a zip program like 7-zip and clicking "open archive" on the mod that you want to make compatible.
-From there you'll open the data folder and then there'll be the name, which you'll name the "modid" folder.
-
-`type`: Either `weapons` or `armors`
-
-`registrynames`: When you're in-game, you can press F3+H to turn on Advanced Tooltips to see the registry name of the item you want to configure.
+* [:material-download: Blender Json Exporter](https://github.com/Yesssssman/blender-json-exporter/tree/3.6)
 
 <center>
-![2022-05-29_16 48 36](https://user-images.githubusercontent.com/86358160/170875930-7bae2b88-2aa1-41fe-a59b-5de4027e563f.png)
- 
-![2022-05-29_16 51 08](https://user-images.githubusercontent.com/86358160/170876568-5838849a-f578-42ae-8d50-f24fb3f9df6d.png)
-
-<span style="font-size: 24px;">**❗️ You'll need to make a txt file with only the outlined text + `.json`**</span>
-</center>
-***
-## **💡 Creating the JSON file**
-
-### **⚔️ Weapon file**
-
- > Here's a simple example of a sword config:
-
-``` json
- {
- 	"type": "epicfight:sword",
- 	"attributes": {
- 		"common": {
- 			"armor_negation": 0.0,
-				"impact": 1.1,
- 			"max_strikes": 1
- 		}
- 	}
- }
-```
-
-### **🗡 One/Two-handed weapon file**
-
- > Here's an example of a spear config with both one-handed and two-handed attributes:
- 
-``` json
- {
- 	"type": "epicfight:spear",
- 	"attributes": {
- 		"one_hand": {
- 			"armor_negation": 8.0,
-				"impact": 1.9,
- 			"max_strikes": 1
- 		},
- 		"two_hand": {
- 			"armor_negation": 0.0,
-				"impact": 1.3,
- 			"max_strikes": 3
- 		}
- 	}
- }
-```
-
-`type`: Which animations it should use. Available Type Values:
-
-<center>
-
-| Type | Style Info |
-| ---------- | ---------- |
-| axe | One-Handed |
-| fist | Dual Wielding |
-| hoe | One-Handed |
-| pickaxe | One-Handed |
-| shovel | One-Handed |
-| sword | Dual Wielding |
-| spear | One-Handed/Two-Handed |
-| greatsword | Two-Handed |
-| uchigatana | Two-Handed |
-| tachi | Two-Handed |
-| longsword | Two-Handed |
-| dagger | Dual Wielding |
-| bow | Two-Handed |
-| crossbow | Two-Handed |
-| trident | One-Handed |
-| shield | Dual Wielding |
-
+<div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/95ce0412-b498-466b-ae1b-7a79a1ab27a1" class="img-rounded white-border img-rounded" style="border-radius:4px;"></div>
 </center>
 
-One-Handed: Can only be used if held in the main hand.
+<ol>
+<li>Go to the folder where blender is installed, move all files under /3.6/scripts/addons/xxxxxxxx/.<br><div style="font-size:0.6rem;">(You should create a new folder, represented here by the multiple Xs, it's naming does not matter)</div></li>
 
-Two-Handed: Can only be used if held in the main hand and disable the offhand function.
+<li>Go to Blender <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> File <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> User Preferences <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> Add-ons, And find an add-on named <strong>"Import-Export: Minecraft Model Json Exporter"</strong></li>
 
-Dual Wielding: Can be used in the offhand if the same type of weapon is held in the main hand.
+<center><div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/b327a99b-ca2e-44d5-bc32-554a4d56be1b" class="img-rounded white-border img-rounded" style="border-radius:4px;"></div></center><br>
 
-* If you want to use other weapon types provided by other mods such as Weapons Of Miracle, make sure to change the Mod Id before the weapon type, so you'd have something like "coolmodid:rapier" instead of "epicfight:rapier"
+  
+<li>Check the checkbox and Click "Save User Settings".</li>
+<li>As you can see when you click to export, you'll be able to generate a json file, in which you can choose to select 3 options, Mesh, Animations and Armature, but we'll see those later.</li>
+</ol>
 ***
 
-`attributes`: This decides if the weapon should have different stats when something is held in the off-hand
-* `common`: If the weapon should have the same stats regardless of something being held in the off-hand or if the weapon type has the two-handed restriction.
+<span style="font-size: 33px;">:material-account-hard-hat-outline: This page is still being worked on, help us contributing to it on our [discord] :material-account-hard-hat-outline:</span>
 
-* `one_hand/two_hand`: If the weapon type doesn't have the two-handed style, then they can be set to have different stats when something is held in the off-hand or not.
-
-***
-
-### **🔵 The next few attribute values are added to their base values.**
-
-`armor_negation`: This percentage won't decrease the total damage by defense points. (base value: 0.0)
-
-`impact`: This attribute will increase the total stun time of the hit target. (base value: 0.5)
-
-`max_strikes`: The maximum number of hittable enemies per swing. (base value: 1.0)
-
-`damage_bonus`: This attribute will increase the damage. (base value: 0.0)
-
-`speed_bonus`: This attribute will increase the attack speed. (base value: 0.0)
-
-***
-
-## **💡 Resizing collider**
-
-You can resize the collider to make it match visually.
-
- > Here's a simple example of an armor config:
-```JSON
- {
- 	"attributes":
- 	{
- 		...
- 	},
- 	"collider":
- 	{
- 		"number": 3,
- 		"center": [0.0, 0.0, -1.0],
- 		"size": [0.5, 0.8, 1.0]
- 	}
- }
-```
-
-`number`: The number of colliders interpolating between the previous pose and the current. The higher value will enhance the accuracy of collision detection but more overhead will be out there
-
-`center`: The center position of the collider.
-
-`size`: The x, y, and z size of the collider.
-
-It is hard to expect the size of the collider only with the numerical estimation. You can save your time by referring to the presets. Copy the value of the preset and gradually correct the size.
-
-[Collider Presets](https://github.com/Yesssssman/epicfightmod/blob/1.18.2/src/main/java/yesman/epicfight/gameasset/ColliderPreset.java)
-***
-## **💡 Armor file**
-
- > Here's a simple example of an armor config:
-``` json
- {
- 	"attributes": {
- 		"stun_armor":1.5,
- 		"weight":8.2
- 	}
- }
-```
-
-`stun_armor`: This attribute will increase the time between stuns.
-
-`weight`: This attribute shortens the stun time when hit, but increases the stamina consumption of skills and decreases attack speed. Items with high attack speed will be affected more.
-***
-## **📦 Finishing up the Datapack**
-
-Now what you should have ended up with is:
-* The data folder that contains all the JSON files and other folders like capabilities.
-* The pack.mcmeta file.
-***
-### **✉️ This next step is only necessary if you want to be able to send the datapack.**
-
-You don't have to make the datapack a zip, you could just put both the data folder and the pack.mcmeta file in another folder but here's how to do it with 7-Zip.
-
-> First, you'll have to select both the data folder and the pack.mcmeta file.
-> 
-> ![data pack mcdata](https://user-images.githubusercontent.com/86358160/171872228-00816dc2-cf98-4bdc-bddf-a3a7bd1cd9c1.PNG)
-
-Then right-click, go under 7-Zip, and click on `add to "datapack.zip"`.
-
-And that's it, all you'll have to do now is just put the datapack in a world's datapack folder and have fun :)
-***
-
-**The [Youtube Tutorial](https://www.youtube.com/watch?v=JNpahwjriac&t=33s) for those who don't want to read**
+[discord]: https://discord.com/invite/NbAJwj8RHg
