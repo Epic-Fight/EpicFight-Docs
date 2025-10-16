@@ -113,7 +113,7 @@ plugins:
       enable_creation_date: true
       fallback_to_build_date: true
   - git-committers:
-      token: !ENV MKDOCS_GIT_COMMITTERS_APIKEY
+      #Regenerate token for security
       repository: MetalKnight56/EpicFight-Docs
       branch: main
   - tags:
