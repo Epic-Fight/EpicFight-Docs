@@ -293,3 +293,74 @@ You can retrieve the patched entity instance from a vanilla entity using:
 final YourEntity entity = ...;
 final YourEntityPatch entityPatch = EpicFightCapabilities.getEntityPatch(entity, YourEntityPatch.class);
 ```
+
+## Registering custom skill slots
+
+This example explains how to extend **Epic Fight** by adding new skill slots through your mod and using them in custom skills.
+
+First, define an **enum** that declares the additional skill slots your mod introduces to Epic Fight.  
+Each enum constant represents a distinct slot — for example, an extra **Passive** or **Identity** slot:
+
+```java
+public enum YourModSkillSlots implements SkillSlot {
+    Passive4(SkillCategories.PASSIVE),
+    Passive5(SkillCategories.PASSIVE),
+    Identity2(SkillCategories.IDENTITY),
+    ;
+
+    final SkillCategory category;
+    final int id;
+
+    YourModSkillSlots(SkillCategory category) {
+        this.category = category;
+        id = SkillSlot.ENUM_MANAGER.assign(this);
+    }
+
+    @Override
+    public SkillCategory category() {
+        return category;
+    }
+
+    @Override
+    public int universalOrdinal() {
+        return this.id;
+    }
+}
+```
+
+Ensure that the **enum names are globally unique** and not shared with other mods.  
+If two mods define a slot with the same name (such as `Passive5`),
+the game will crash during startup due to conflicts.
+Also, avoid naming your enums with [existing Epic Fight skill slots](https://github.com/Epic-Fight/epicfight/blob/1.21.1/src/main/java/yesman/epicfight/skill/SkillSlots.java#L4-L15),  
+since these built-in slots are always available and should not be redefined.
+
+After defining the enum, **register it in your mod’s constructor** to make Epic Fight recognize the new slots:
+
+```java
+
+@Mod(YourMod.MOD_ID)
+public class YourMod {
+    public static final String MOD_ID = "your_mod_id";
+
+    public YourMod() {
+        SkillSlot.ENUM_MANAGER.registerEnumCls(MOD_ID, MoreSkillSlots.class);
+    }
+}
+```
+
+Next, add **translations** for these slots in your `assets/your_mod_id/lang/en_us.json` file.  
+These entries control how the slot names appear in the game’s interface.
+
+```json
+{
+  "epicfight.skill_slot.passive4": "Passive 4",
+  "epicfight.skill_slot.passive5": "Passive 5",
+  "epicfight.skill_slot.identity2": "Identity 2"
+}
+```
+
+Once completed, **launch the game** to verify that your custom skill slots are properly integrated.  
+You can then assign skills to these new slots and utilize them in your mod’s features.
+
+For additional information on registering skill categories or implementing custom skill slots, refer to the  
+[`yesman.epicfight.skill`](https://github.com/Epic-Fight/epicfight/tree/1.21.1/src/main/java/yesman/epicfight/skill) package.
