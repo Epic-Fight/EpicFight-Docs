@@ -121,8 +121,8 @@ theme:
   name: material
   custom_dir: overrides
   font: false
-  favicon: assets/icon.png
-  logo: assets/logo.png
+  favicon: assets/favicon.svg
+  logo: assets/logo_searchbar.svg
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
