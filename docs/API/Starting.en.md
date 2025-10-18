@@ -9,7 +9,7 @@ hide:
 ## Setting up your Gradle Build
 To seamlessly incorporate EpicFight into your mod project using Gradle and facilitate automatic download using Gradle, simply include the following snippet within your build script (``build.gradle``):
 
-### 1. Add Curse Forge maven repository
+### 1. Add Modrinth Forge maven repository
 
 <details>
 <summary>NeoForge 1.21.1</summary>
@@ -19,11 +19,12 @@ repositories {
     exclusiveContent {
         forRepository {
             maven {
-                url "https://cursemaven.com"
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
             }
         }
         filter {
-            includeGroup "curse.maven"
+            includeGroup "maven.modrinth"
         }
     }
 }
@@ -39,12 +40,13 @@ repositories {
     exclusiveContent {
         forRepository {
             maven {
-                url "https://cursemaven.com"
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
             }
         }
         forRepositories(fg.repository)
         filter {
-            includeGroup "curse.maven"
+            includeGroup "maven.modrinth"
         }
     }
 }
@@ -55,7 +57,7 @@ repositories {
 !!! tip
     A repository is a storage location where your Gradle project fetches libraries using Maven-style coordinates (`group:artifact:version`).
 
-    You can also use [Modrinth repository](https://support.modrinth.com/en/articles/8801191-modrinth-maven) instead of [Curse Forge repository](https://cursemaven.com/).
+    You can also use [Curse Forge repository](https://www.cursemaven.com/) instead of [Modrinth repository](https://support.modrinth.com/en/articles/8801191-modrinth-maven).
 
 ### 2. Add Epic Fight mod dependency
 
@@ -63,7 +65,7 @@ repositories {
 
 ```gradle
 dependencies {
-	implementation "curse.maven:epic-fight-mod-405076:${epicfight_version}"
+	implementation "maven.modrinth:epic-fight:${epicfight_version}"
 }
 ```
 
@@ -73,7 +75,7 @@ dependencies {
 
 ```gradle
 dependencies {
-	implementation fg.deobf("curse.maven:epic-fight-mod-405076:${epicfight_version}")
+	implementation fg.deobf("maven.modrinth:epic-fight:${epicfight_version}")
 }
 ```
 
@@ -81,12 +83,12 @@ dependencies {
 
 ### How to choose a version...
 
-To access a compilation of EpicFight versions at your disposal, refer to the listings on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod/files)
+To access a compilation of EpicFight versions at your disposal, refer to the listings on [Modrinth](https://modrinth.com/mod/epic-fight/versions)
 
 !!! tip
-	For an easier setup of your Dependencies, you can click on the version file on curseforge you wish to implement, and press on the dropdown arrow next to Curse Maven Snippet :octicons-question-16:{ title="Curse Maven is a repository that simplifies including packages in projects" }
+	For an easier setup of your Dependencies, you can click on a version on Modrinth you wish to implement, and then copy either the **Version number** or **Version ID** as the Epic Fight version, for example `21.12.5`:octicons-question-16:{ title="Modrinth Maven is a repository that simplifies downloading mods from Modrinth platform in your Gradle build" }
 	
-	<center>![](https://github.com/MetalKnight56/EpicFight-Files/blob/Wiki-Images/Images/Maven%20Snippet.png?raw=true){.img-rounded}</center>
+	<center>![](https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/modrinth_epic_fight_version_details.jpg?raw=true){.img-rounded}</center>
 
 ## Forge / NeoForge Events
 
