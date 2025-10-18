@@ -154,8 +154,10 @@ To delete an object, simply press <kbd>Del</kbd> on your keyboard, and a confirm
 	</div>
 </div>
 ***
-<!-- md:example https://github.com/MetalKnight56/EpicFight-Files/raw/refs/heads/Blender-Armor/EpicFight%20Animation%20Rig.blend -->
+<!-- md:example https://github.com/Epic-Fight/EpicFight-Files/blob/Blender-Armor/EpicFight%20Animation%20Rig.blend?raw=true -->
 ### :fontawesome-solid-circle: Starting with animations 
+
+You can download the [EpicFight Animation Rig](https://github.com/Epic-Fight/EpicFight-Files/blob/Blender-Armor/EpicFight%20Animation%20Rig.blend?raw=true) and use it in Blender to create animations for the Epic Fight player.
 
 <div class="content-container2">
 	<div class="text-section2">

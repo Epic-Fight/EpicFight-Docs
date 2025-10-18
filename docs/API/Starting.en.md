@@ -86,7 +86,13 @@ dependencies {
 To access a compilation of EpicFight versions at your disposal, refer to the listings on [Modrinth](https://modrinth.com/mod/epic-fight/versions)
 
 !!! tip
-	For an easier setup of your Dependencies, you can click on a version on Modrinth you wish to implement, and then copy either the **Version number** or **Version ID** as the Epic Fight version, for example `21.12.5`:octicons-question-16:{ title="Modrinth Maven is a repository that simplifies downloading mods from Modrinth platform in your Gradle build" }
+    For an easier setup of your dependencies, you can click on the version you want to use on Modrinth, then copy either the **Version Number** or **Version ID** as the Epic Fight version.:octicons-question-16:{ title="Modrinth Maven is a repository that simplifies downloading mods from the Modrinth platform in your Gradle build." }
+
+    For example, `21.12.5`; then include it in `gradle.properties`:
+
+    ```properties
+    epicfight_version=21.12.5
+    ```
 	
 	<center>![](https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/modrinth_epic_fight_version_details.jpg?raw=true){.img-rounded}</center>
 
@@ -105,7 +111,9 @@ Epic Fight event packages by version:
 
 ## Registering Custom Animations
 
-You can create animations in Blender and export them using the [Epic Fight Blender Exporter Addon](https://epicfight-docs.readthedocs.io/Guides/page1/).
+You can create animations in Blender and export them using the [Epic Fight Blender Exporter Addon](https://github.com/Epic-Fight/blender-json-exporter).  
+You can download the [EpicFight Animation Rig](https://github.com/Epic-Fight/EpicFight-Files/blob/Blender-Armor/EpicFight%20Animation%20Rig.blend?raw=true) and use it in Blender to create animations for the Epic Fight player.  
+For more details, refer to [Starting with Blender 2.79](https://epicfight-docs.readthedocs.io/Guides/page1/).
 
 To import your animations into your mod / resource pack, follow the instructions on [Asset Importing](https://epicfight-docs.readthedocs.io/Guides/page3) page.
 
@@ -242,14 +250,18 @@ Then, register your patched entity with `EntityPatchRegistryEvent` and also regi
 
 ```java
 @EventBusSubscriber(modid = YourMod.MOD_ID)
-public class EpicFightEvents {
+public class YourModEvents {
     @SubscribeEvent
     public static void registerPatchedEntities(EntityPatchRegistryEvent event) {
         event.getTypeEntry().put(YourModEntities.THE_ENTITY.get(), entity -> new YourEntityPatch((YourEntity) entity));
     }
 
     @SubscribeEvent
-    public static void registerEntityArmatures(FMLCommonSetupEvent event) {
+    public static void commonSetup(FMLCommonSetupEvent event) {
+        event.enqueueWork(YourModEvents::registerEntityTypeArmatures);
+    }
+
+    private static void registerEntityTypeArmatures() {
         Armatures.registerEntityTypeArmature(YourModEntities.THE_ENTITY.get(), Armatures.BIPED);
     }
 }
@@ -305,9 +317,9 @@ Each enum constant represents a distinct slot — for example, an extra **Passiv
 
 ```java
 public enum YourModSkillSlots implements SkillSlot {
-    Passive4(SkillCategories.PASSIVE),
-    Passive5(SkillCategories.PASSIVE),
-    Identity2(SkillCategories.IDENTITY),
+    PASSIVE4(SkillCategories.PASSIVE),
+    PASSIVE5(SkillCategories.PASSIVE),
+    IDENTITY2(SkillCategories.IDENTITY),
     ;
 
     final SkillCategory category;
