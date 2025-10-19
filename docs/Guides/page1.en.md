@@ -157,7 +157,12 @@ To delete an object, simply press <kbd>Del</kbd> on your keyboard, and a confirm
 <!-- md:example https://github.com/Epic-Fight/EpicFight-Files/blob/Blender-Armor/EpicFight%20Animation%20Rig.blend?raw=true -->
 ### :fontawesome-solid-circle: Starting with animations 
 
-You can download the [EpicFight Animation Rig](https://github.com/Epic-Fight/EpicFight-Files/blob/Blender-Armor/EpicFight%20Animation%20Rig.blend?raw=true) and use it in Blender to create animations for the Epic Fight player.
+You can download the [**Epic Fight Player Animation Rig**](https://github.com/Epic-Fight/EpicFight-Files/blob/Blender-Armor/EpicFight%20Animation%20Rig.blend?raw=true)  
+and use it in **Blender** to create animations for the Epic Fight player.  
+Once you're done, export them using the **Epic Fight Blender JSON Exporter Add-on**.
+
+Animations made with the **Epic Fight Player Animation Rig** can be applied to any **biped (humanoid)** entity.  
+However, they are **not compatible** with non-humanoid entities such as the **Ender Dragon**.
 
 <div class="content-container2">
 	<div class="text-section2">
