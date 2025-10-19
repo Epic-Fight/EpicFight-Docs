@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # 3D oklop i problemi s prikazom Teksture
 
 Većina "Custom" oklopa su pokvarena u Epic Fightu. To je zato što Epic Fight koristi vlastite modele, ne samo za entitete već i za oklope. Srećom, Epic Fight ima algoritam za generiranje modela temeljen na prilagođenim oklopima, ali ponekad ih mijenja na loš način. Ovo je vodič za proizvođače "modpack-a" kako bi prilagođeni oklopi vizualno bili besprijekorni bez potrebe za podešavanjem našeg izvornog koda. Evo koraka koje možete slijediti kako biste postigli zakrpani oklop:
