@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # Zbroja 3D & Problemy z renderowaniem tekstur
 
 Większość niestandardowych zbroi jest uszkodzona w Epic Fight. Dzieje się tak dlatego, że Epic Fight używa własnego modelu, nie tylko dla bytów, ale także dla zbroi. Na szczęście Epic Fight posiada algorytm generowania modelu oparty na niestandardowych pancerzach, ale czasami zmienia je w niewłaściwy sposób. Oto poradnik dla twórców modów, jak stworzyć niestandardową zbroję wyglądającą jak trzeba bez konieczności grzebania w naszym kodzie. Oto kroki, w których możesz wykonać naprawioną zbroję:
