@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # Ostale solucije za 3D kvarove oklopa
 Imajte na umu da ova rješenja možda neće biti tako učinkovita kao ručno krpanje oklopa u blenderu. Ovi su alati uglavnom namijenjeni modpacku i programerima modova kako bi testirali svoj oklop. If you want to properly patch armors and make sure they work in-game, go to _**[Custom 3D armor Resource Pack](armor/page1)**_
 

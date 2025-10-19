@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # Inne rozwiązania błędów w pancerzach 3D
 Należy pamiętać, że rozwiązania te mogą nie być tak skuteczne, jak ręczne patchowanie pancerzy w blenderze. Narzędzia te przeznaczone są głównie dla twórców modów i modpack'ów do testowania pancerzy. Jeśli chcesz poprawnie naprawić zbroje i upewnić się, że będą one poprawnie działać w grze, przejdź do _**[Niestandardowy pakiet zasobów pancerza 3D](armor/page1)**_
 

@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # 3D 盔甲故障的其他解决方案
 请注意，这些解决方案可能不如在blender中手动修补盔甲那么有效。 这些工具主要供 modpack 和 mod 开发人员测试他们的盔甲。 如果您想正确修补盔甲并确保它们在游戏中正常工作，请转到_**[Custom 3D armor Resource ](armor/page1)**_
 

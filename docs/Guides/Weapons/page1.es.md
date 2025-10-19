@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # Paquete de Datos de Armadura y Arma Personalizada
 
 ## **💡 Haciendo el archivo pack.mcmeta**

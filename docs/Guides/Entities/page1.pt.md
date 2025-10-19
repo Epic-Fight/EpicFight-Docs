@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # Pacote de Dados (Datapack) Customizado de Entidade
 
 

@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # Rastros Personalizados
 
 No epic fight, nós adicionamos aos usuários uma maneira de criar e adicionar seu próprio gosto aos rastros de espadas. Não só você é capaz de mudar as cores do rastro mas também suas texturas para atender às suas necessidades!

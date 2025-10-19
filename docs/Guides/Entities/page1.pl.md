@@ -1,5 +1,7 @@
-UWAGA: Ostatnia aktualizacja w wersji: 18.1.16
-
+---
+search:
+  exclude: true
+---
 # Datapack własnych Mobów
 
 

@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # Outras soluções para os glitches de armadura 3D
 Tenha cuidado que essas soluções não podem ser tão eficazes quanto arrumar as armaduras manualmente no blender. Estas ferramentas são principalmente para modpack e desenvolvedores de mods testarem sua armadura. Se você quiser corrigir corretamente as armaduras e ter certeza que elas funcionem no jogo, vá em _**[Pacote de recurso de armadura personalizada 3D](armor/page1)**_
 

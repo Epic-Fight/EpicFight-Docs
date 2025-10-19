@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # 自定义实体数据包
 
 

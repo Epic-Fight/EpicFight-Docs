@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # 커스텀 무기 빛 방어구 데이터팩
 
 ## **💡 pack.mcmeta 파일 만들기**

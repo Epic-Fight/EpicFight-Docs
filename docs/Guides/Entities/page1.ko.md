@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # 커스텀 엔티티 데이터팩
 
 

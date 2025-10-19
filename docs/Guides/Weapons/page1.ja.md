@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # カスタムウェポン・アーマーデータパック
 
 ## **💡pack.mcmetaファイルの作成**

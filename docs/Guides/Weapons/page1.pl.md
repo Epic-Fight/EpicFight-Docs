@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # Datapack z niestandardową bronią i zbrojami
 
 ## **💡 Tworzenie pliku pack.mcmeta**

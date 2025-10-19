@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # Otras soluciones para fallos de armadura 3D
 Tenga en cuenta que estas soluciones pueden no ser tan efectivas como parchear armaduras manualmente en Blender. Estas herramientas son principalmente para Paquetes de Mods y desarrolladores de mods para probar su armadura. Si quieres parchear correctamente las armaduras y asegurarte de que funcionen en el juego, ve a _**[Paquete de Recursos de armadura 3D personalizada](armor/page1)**_
 

@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # Paquete de datos de Entidad Personalizada
 
 
