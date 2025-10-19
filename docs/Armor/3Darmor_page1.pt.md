@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # Problemas de renderização de Texturas & 3D
 
 A maioria das armaduras personalizadas são quebradas no Epic Fight. Isso porque Epic Fight usa o seu próprio modelo, não só para as entidades, mas também para armaduras. Felizmente, Epic Fight tem um algoritmo de geração de modelo baseado nas armaduras personalizadas, mas às vezes isso as muda de maneira negativa. Este é o guia para os criadores de mods para criar armaduras personalizadas visualmente sem falhas sem ter que modificar nosso código fonte. Aqui estão os passos que você pode seguir para corrigir sua armadura:
