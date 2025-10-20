@@ -5,6 +5,8 @@ hide:
 ---
 # Getting started
 
+If you're a mod developer looking to add Epic Fight compatibility, this guide will help you get started.
+
 ***
 ## Setting up your Gradle Build
 To seamlessly incorporate EpicFight into your mod project using Gradle and facilitate automatic download using Gradle, simply include the following snippet within your build script (``build.gradle``):
@@ -120,10 +122,14 @@ To import your animations into your mod / resource pack, follow the instructions
 Here is an example of how to register your custom animations:
 
 ```java
+import yesman.epicfight.api.animation.AnimationManager.AnimationRegistryEvent;
+import yesman.epicfight.api.animation.AnimationManager.AnimationAccessor;
+import yesman.epicfight.gameasset.Armatures.ArmatureAccessor;
+
 @EventBusSubscriber(modid = YourMod.MOD_ID)
 public class Animations {
     @SubscribeEvent
-    public static void registerAnimations(AnimationManager.AnimationRegistryEvent event) {
+    public static void registerAnimations(AnimationRegistryEvent event) {
         event.newBuilder(YourMod.MOD_ID, Animations::build);
     }
 
@@ -138,13 +144,15 @@ public class Animations {
 
     // Define the actual animations and their properties
     private static void build(AnimationManager.AnimationBuilder builder) {
-        BIPED_IDLE = builder.nextAccessor("biped/living/idle", (accessor) -> new StaticAnimation(true, accessor, Armatures.BIPED));
-        BIPED_WALK = builder.nextAccessor("biped/living/walk", (accessor) -> new MovementAnimation(true, accessor, Armatures.BIPED));
-        BIPED_FLYING = builder.nextAccessor("biped/living/fly", (accessor) -> new StaticAnimation(true, accessor, Armatures.BIPED));
+        ArmatureAccessor<HumanoidArmature> armatureAccessor = Armatures.BIPED;
 
-        TRIDENT_AUTO1 = builder.nextAccessor("biped/combat/trident_auto1", (accessor) -> new ComboAttackAnimation(0.3F, 0.05F, 0.16F, 0.45F, null, Armatures.BIPED.get().toolR, accessor, Armatures.BIPED));
-        TRIDENT_AUTO2 = builder.nextAccessor("biped/combat/trident_auto2", (accessor) -> new ComboAttackAnimation(0.05F, 0.25F, 0.36F, 0.55F, null, Armatures.BIPED.get().toolR, accessor, Armatures.BIPED));
-        TRIDENT_AUTO3 = builder.nextAccessor("biped/combat/trident_auto3", (accessor) -> new ComboAttackAnimation(0.2F, 0.3F, 0.46F, 0.9F, null, Armatures.BIPED.get().toolR, accessor, Armatures.BIPED));
+        BIPED_IDLE = builder.nextAccessor("biped/living/idle", (accessor) -> new StaticAnimation(true, accessor, armatureAccessor));
+        BIPED_WALK = builder.nextAccessor("biped/living/walk", (accessor) -> new MovementAnimation(true, accessor, armatureAccessor));
+        BIPED_FLYING = builder.nextAccessor("biped/living/fly", (accessor) -> new StaticAnimation(true, accessor, armatureAccessor));
+
+        TRIDENT_AUTO1 = builder.nextAccessor("biped/combat/trident_auto1", (accessor) -> new ComboAttackAnimation(0.3F, 0.05F, 0.16F, 0.45F, null, armatureAccessor.get().toolR, accessor, armatureAccessor));
+        TRIDENT_AUTO2 = builder.nextAccessor("biped/combat/trident_auto2", (accessor) -> new ComboAttackAnimation(0.05F, 0.25F, 0.36F, 0.55F, null, armatureAccessor.get().toolR, accessor, armatureAccessor));
+        TRIDENT_AUTO3 = builder.nextAccessor("biped/combat/trident_auto3", (accessor) -> new ComboAttackAnimation(0.2F, 0.3F, 0.46F, 0.9F, null, armatureAccessor.get().toolR, accessor, armatureAccessor));
     }
 }
 ```
