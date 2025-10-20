@@ -113,9 +113,16 @@ Epic Fight event packages by version:
 
 ## Registering Custom Animations
 
-You can create animations in Blender and export them using the [Epic Fight Blender Exporter Addon](https://github.com/Epic-Fight/blender-json-exporter).  
-You can download the [EpicFight Animation Rig](https://github.com/Epic-Fight/EpicFight-Files/blob/Blender-Armor/EpicFight%20Animation%20Rig.blend?raw=true) and use it in Blender to create animations for the Epic Fight player.  
-For more details, refer to [Starting with Blender 2.79](https://epicfight-docs.readthedocs.io/Guides/page1/).
+You can download the [**Epic Fight Player Animation Rig**](https://github.com/Epic-Fight/EpicFight-Files/blob/Blender-Armor/EpicFight%20Animation%20Rig.blend?raw=true)  
+and use it in **Blender** to create animations for the Epic Fight player.  
+Once you're done, export them using the [**Epic Fight Blender Exporter Add-on**](https://github.com/Epic-Fight/blender-json-exporter).
+
+Animations made with the **Epic Fight Player Animation Rig** can be applied to any **biped (humanoid)** entity.  
+However, they are **not compatible** with non-humanoid entities such as the **Ender Dragon**.
+
+!!! tip
+    For more information, refer to  
+    📘 [**Starting with Blender 2.79**](https://epicfight-docs.readthedocs.io/Guides/page1/).
 
 To import your animations into your mod / resource pack, follow the instructions on [Asset Importing](https://epicfight-docs.readthedocs.io/Guides/page3) page.
 
