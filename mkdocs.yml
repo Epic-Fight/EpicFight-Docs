@@ -1,5 +1,10 @@
 site_name: Epic Fight Wiki
+site_url: https://epicfight-docs.readthedocs.io/
 repo_url: https://github.com/Yesssssman/epicfightmod
+site_author: Guilherme V & Lee jae hoon
+site_description: >-
+  The Official Epic Fight Wiki, Contains useful documentation for developers & users !
+
 copyright: GNU GENERAL PUBLIC LICENSE
 
 # Page tree
