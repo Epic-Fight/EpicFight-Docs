@@ -1,5 +1,5 @@
 ---
-icon: simple/gradle
+icon: file-multiple
 hide:
   - announcement
 ---

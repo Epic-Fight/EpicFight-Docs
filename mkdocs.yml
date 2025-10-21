@@ -1,6 +1,37 @@
 site_name: Epic Fight Wiki
 repo_url: https://github.com/Yesssssman/epicfightmod
 copyright: GNU GENERAL PUBLIC LICENSE
+
+# Page tree
+nav:
+  - Home: index.md
+  - Guides:
+    - Starting with Blender 2.79: Guides/page1.md
+    - Starting with Blender 3.6: Guides/page2.md
+    - Asset Importing: Guides/page3.md
+    - Entities:
+      - Custom Entity Datapack: Guides/Entities/page1.md
+      - Mob Capabilities Editor: Guides/Entities/page2.md
+    - Weapons: 
+      - Item Capability: Guides/Weapons/page1.md
+      - Weapon Type Editor: Guides/Weapons/page2.md
+      - Custom Trails: Guides/Weapons/page3.md
+  - Armor:
+    - 3D Armor Fix [Blender 2.79]: Armor/3Darmor_page1.md
+    - Alternate 3D Armor Fixes: Armor/3Darmor_page2.md
+    - Blockbench Armor Model Remake: Armor/3Darmor_page3.md
+  - API:
+    - Getting started: API/Starting.md
+    - Migration: API/Migration.md
+  - Misc:
+    - Credits: Misc/credits.md
+    - Gameplay: 
+      - Misc/Gameplay/index.md
+      - Enchantments: Misc/Gameplay/enchantments.md
+      - Recipes: Misc/Gameplay/recipes.md
+      - Skills: Misc/Gameplay/skills.md
+
+# Plugins
 plugins:
   - social:
   - search:
@@ -113,11 +144,12 @@ plugins:
       enable_creation_date: true
       fallback_to_build_date: true
   - git-committers:
-      #Regenerate token for security
+      #Regenerate token for security -- fixes issue for commiters not displaying
       repository: MetalKnight56/EpicFight-Docs
       branch: main
   - tags:
 
+# Theme Configuration
 theme:
   name: material
   custom_dir: overrides
@@ -155,6 +187,8 @@ theme:
     - content.tooltips
     - content.code.copy
     - content.code.select
+    
+# Additional configuration
 extra:
   generator: false
   social:
@@ -199,6 +233,8 @@ extra:
       We at the Epic Fight Team collect cookies in order to recognize your repeated visits and preferences, as well
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. By giving your consent, you're helping us improve our documentation and giving us an important feedback on each page here :)
+      
+# Extensions
 markdown_extensions:
   - toc:
       title: On this page
@@ -220,6 +256,8 @@ markdown_extensions:
   - sane_lists
   - pymdownx.tabbed:
       alternate_style: true
+      
+# Hooks & Extras
 extra_css:
   - stylesheets/extra_css/roundimages.css
   - stylesheets/extra_css/extra.css
@@ -227,5 +265,3 @@ extra_javascript:
   - javascripts/extra.js
 hooks:
   - overrides/hooks/shortcodes.py
-
-#test
