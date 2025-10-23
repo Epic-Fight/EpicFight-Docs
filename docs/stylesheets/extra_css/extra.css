@@ -1,3 +1,22 @@
+:root {
+  --colw: #afa0ab;
+  --colww: #dddddd;
+  --colr: #b6313f;
+  --colo: #e67e23;
+  --coly: #c4a908;
+  --coll: #bad34d;
+  --colg: #26b36c;
+  --colb: #4791b1;
+  --colp: #b96ad9;
+  --colm: #c13479;
+  --colgr: #585157;
+  --colgrw: #736771;
+  --colhr: #393637;
+}
+
+code {
+  color: inherit !important;
+}
 
 .md-main__inner {
 	margin-left: 2rem;

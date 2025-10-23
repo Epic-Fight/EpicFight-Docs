@@ -21,10 +21,10 @@ nav:
       - Item Capability: Guides/Weapons/page1.md
       - Weapon Type Editor: Guides/Weapons/page2.md
       - Custom Trails: Guides/Weapons/page3.md
-  - Armor:
-    - 3D Armor Fix [Blender 2.79]: Armor/3Darmor_page1.md
-    - Alternate 3D Armor Fixes: Armor/3Darmor_page2.md
-    - Blockbench Armor Model Remake: Armor/3Darmor_page3.md
+    - Armor:
+      - 3D Armor Fix [Blender 2.79]: Guides/Armor/3Darmor_page1.md
+      - Alternate 3D Armor Fixes: Guides/Armor/3Darmor_page2.md
+      - Blockbench Armor Model Remake: Guides/Armor/3Darmor_page3.md
   - API:
     - Getting started: API/Starting.md
     - Migration: API/Migration.md

@@ -9,14 +9,14 @@ If you're a mod developer with a mod that targets older,
 now-incompatible versions of Epic Fight, this guide will help you migrate to the latest version.
 
 ***
-## From `20.9.7` → `20.10.2.101` and Newer Versions
+## :octicons-code-16: From `20.9.7` → `20.10.2.101` and Newer Versions
 
 These breaking changes were introduced in an **Epic Fight** version that already supports **Forge 1.20.1**.  
 However, the initial release of **NeoForge 1.21.1** already uses the **new system**,  
 so this guide is **only relevant** for mod developers who previously supported **Epic Fight `20.9.7`**  
 (which was available **only for Forge 1.20.1**).
 
-### Accessors
+### :material-file-code: Accessors
 
 One of the **breaking changes** introduced in versions **newer than `20.9.7`**  
 is the way **animations** and **armatures** are registered.

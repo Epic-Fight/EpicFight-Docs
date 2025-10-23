@@ -8,10 +8,10 @@ hide:
 If you're a mod developer looking to add Epic Fight compatibility, this guide will help you get started.
 
 ***
-## Setting up your Gradle Build
+## :simple-gradle: Setting up your Gradle Build
 To seamlessly incorporate EpicFight into your mod project using Gradle and facilitate automatic download using Gradle, simply include the following snippet within your build script (``build.gradle``):
 
-### 1. Add Modrinth Forge maven repository
+### :simple-modrinth: Add Modrinth Forge maven repository
 
 <details>
 <summary>NeoForge 1.21.1</summary>
@@ -61,7 +61,7 @@ repositories {
 
     You can also use [Curse Forge repository](https://www.cursemaven.com/) instead of [Modrinth repository](https://support.modrinth.com/en/articles/8801191-modrinth-maven).
 
-### 2. Add Epic Fight mod dependency
+### :octicons-package-dependents-16: Add Epic Fight mod dependency
 
 <details><summary>NeoForge 1.21.1</summary>
 
@@ -83,7 +83,7 @@ dependencies {
 
 </details>
 
-### How to choose a version...
+### :octicons-versions-16: How to choose a version...
 
 To access a compilation of EpicFight versions at your disposal, refer to the listings on [Modrinth](https://modrinth.com/mod/epic-fight/versions)
 
@@ -98,7 +98,7 @@ To access a compilation of EpicFight versions at your disposal, refer to the lis
 	
 	<center>![](https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/modrinth_epic_fight_version_details.jpg?raw=true){.img-rounded}</center>
 
-## Forge / NeoForge Events
+## :octicons-file-code-16: Forge / NeoForge Events
 
 Epic Fight event packages by version:
 
@@ -111,7 +111,7 @@ Epic Fight event packages by version:
     The paths above are shortened. The actual package root is 
     `yesman/epicfight/api/...`, but we write it as `epicfight/api/...` for clarity.
 
-## Registering Custom Animations
+## :octicons-code-16: Registering Custom Animations
 
 You can download the [**Epic Fight Player Animation Rig**](https://github.com/Epic-Fight/EpicFight-Files/blob/Blender-Armor/EpicFight%20Animation%20Rig.blend?raw=true)  
 and use it in **Blender** to create animations for the Epic Fight player.  
@@ -174,7 +174,7 @@ All available animation types are listed in
     On **Forge**, you need to use `@Mod.EventBusSubscriber` instead of `@EventBusSubscriber`  
     and explicitly specify the bus — in this case, it must be the **MOD bus**.
 
-### Playing the animation
+### :fontawesome-solid-play: Playing the animation
 
 Before you can play an Epic Fight animation on an entity, the entity must be **patched** by Epic Fight.  
 (See the next section for details on how to patch entities.)
@@ -200,7 +200,7 @@ public class YourEntity extends PathfinderMob {
 Make sure that **Epic Fight** is either declared as a required dependency in your [mods.toml](https://docs.neoforged.net/docs/gettingstarted/modfiles/#neoforgemodstoml) file
 or that you check for its presence at runtime as shown above. This prevents crashes if the mod isn’t installed.
 
-## Patching a custom entity
+## :fontawesome-solid-band-aid: Patching a custom entity
 
 This tutorial shows how to patch a custom humanoid entity for use with Epic Fight.  
 It assumes you already have the entity set up in vanilla Minecraft, including its registration, [renderer](https://docs.neoforged.net/docs/entities/renderer/), and [attributes](https://docs.neoforged.net/docs/entities/attributes).
@@ -211,7 +211,7 @@ You need to register 3 different things:
 - The armature type for the entity.
 - The patched renderer.
 
-### 1. Patching the entity
+### :material-walk: Patching the entity
 
 An example patched entity class:
 
@@ -286,7 +286,7 @@ public class YourModEvents {
 !!! tip
     On Forge 1.20.1, you must manually specify the **MOD bus** for `EntityPatchRegistryEvent`.
 
-### 2. Patching the renderer
+### :fontawesome-solid-cube: Patching the renderer
 
 An example of a patched entity renderer
 
@@ -314,7 +314,7 @@ public class EpicFightClientEvents {
 }
 ```
 
-### Getting the patched entity
+### :fontawesome-solid-check: Getting the patched entity
 
 You can retrieve the patched entity instance from a vanilla entity using:
 
@@ -323,7 +323,7 @@ final YourEntity entity = ...;
 final YourEntityPatch entityPatch = EpicFightCapabilities.getEntityPatch(entity, YourEntityPatch.class);
 ```
 
-## Registering custom skill slots
+## :fontawesome-solid-code: Registering custom skill slots
 
 This example explains how to extend **Epic Fight** by adding new skill slots through your mod and using them in custom skills.
 
