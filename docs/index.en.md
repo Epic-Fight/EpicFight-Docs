@@ -7,7 +7,7 @@ hide:
   - footer
   - announcement
 ---
-<p align="center">  <img src="https://raw.githubusercontent.com/MetalKnight56/EpicFight-Files/976a40176846144eb926850a56ad1003998c51ce/Images/logo_wiki.svg" width="2072" height="600">  </p>
+<p align="center">  <img src="/assets/logo/logo_wiki.svg" width="2072" height="600">  </p>
 <center>
 <p>
   <div class="grow-effect">
