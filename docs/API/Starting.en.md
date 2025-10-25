@@ -9,9 +9,11 @@ If you're a mod developer looking to add Epic Fight compatibility, this guide wi
 
 ***
 ## :simple-gradle: Setting up your Gradle Build
-To seamlessly incorporate EpicFight into your mod project using Gradle and facilitate automatic download using Gradle, simply include the following snippet within your build script (``build.gradle``):
 
-### :simple-modrinth: Add Modrinth Forge maven repository
+To integrate EpicFight into your mod project via Gradle and enable automatic downloading, add the Modrinth Maven repository.
+This allows you to declare EpicFight mod as a dependency directly in your ``build.gradle`` (or ``build.gradle.kts``).
+
+### :simple-modrinth: Add Modrinth maven repository
 
 <details>
 <summary>NeoForge 1.21.1</summary>
@@ -19,15 +21,8 @@ To seamlessly incorporate EpicFight into your mod project using Gradle and facil
 ```gradle
 repositories {
     exclusiveContent {
-        forRepository {
-            maven {
-                name = "Modrinth"
-                url = "https://api.modrinth.com/maven"
-            }
-        }
-        filter {
-            includeGroup "maven.modrinth"
-        }
+        forRepository { maven { name = "Modrinth"; url = "https://api.modrinth.com/maven" } }
+        filter { includeGroup "maven.modrinth" }
     }
 }
 ```
@@ -40,16 +35,9 @@ repositories {
 ```gradle
 repositories {
     exclusiveContent {
-        forRepository {
-            maven {
-                name = "Modrinth"
-                url = "https://api.modrinth.com/maven"
-            }
-        }
+        forRepository { maven { name = "Modrinth"; url = "https://api.modrinth.com/maven" } }
         forRepositories(fg.repository)
-        filter {
-            includeGroup "maven.modrinth"
-        }
+        filter { includeGroup "maven.modrinth" }
     }
 }
 ```
