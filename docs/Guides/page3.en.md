@@ -25,24 +25,24 @@ You can access the asset import screen via the selection menus for animations or
 See the images below in weapon types editor:
 
 <div class="showcasemobeditor">
-	<img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/weapon-type-animations.png?raw=true" class="img-rounded white-border">
+	<img src="/assets/images/weapon-type-animations.png" class="white-border">
 	<div class="glow-box2" title="Click either here to access the import screen" style="--default-top: 57.9%; --default-left: 28.3%; --default-width: 1.8%; --default-height: 3%;"></div>
 	<div class="glow-box2" title="Or here to access the import screen" style="--default-top: 85.9%; --default-left: 28.3%; --default-width: 1.8%; --default-height: 3%;"></div>
 </div>
 <br>
 <div class="showcasemobeditor">
-	<img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/weapon-type-animations2.png?raw=true" class="img-rounded white-border">
+	<img src="/assets/images/weapon-type-animations2.png" class="white-border">
 	<div class="glow-box2" title="Click here to open the import screen" style="--default-top: 12.6%; --default-left: 80%; --default-width: 18.3%; --default-height: 4%;"></div>
 </div>
 <br>
 <div class="showcasemobeditor">
-	<img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/weapon-type-animations3.png?raw=true" class="img-rounded white-border">
+	<img src="/assets/images/weapon-type-animations3.png" class="white-border">
 	<div class="glow-box2" title="Click here to finally open the import screen" style="--default-top: 12.6%; --default-left: 80%; --default-width: 18.3%; --default-height: 4%;"></div>
 </div>
 <br>
 You should be left with the following screen:
 <div class="showcasemobeditor">
-	<img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/weapon-type-animations4.png?raw=true" class="img-rounded white-border">
+	<img src="/assets/images/weapon-type-animations4.png" class="white-border">
 	<div class="glow-box2" title="Drop down the files here" style="--default-top: 2.6%; --default-left: 1%; --default-width: 42.6%; --default-height: 89%;"></div>
 </div>
 

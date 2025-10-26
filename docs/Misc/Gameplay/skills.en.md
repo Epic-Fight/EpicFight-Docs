@@ -12,7 +12,7 @@ Only one Dodge skill can be equipped at once.
 ***
 ### Roll
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/roll.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/roll.gif"></p>
 
 * You can roll in all 4 directions by walking and pressing the dodge key [default = "Left Alt"]<br> 
 * While executing this skill you are immune to physical attacks<br> 
@@ -22,7 +22,7 @@ Only one Dodge skill can be equipped at once.
 ***
 ### Step
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/step.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/step.gif"></p>
 
 * You can step in all 4 directions by walking and pressing the dodge key [default = "Left Alt"]<br> 
 * While executing this skill you are immune to physical attacks<br> 
@@ -36,7 +36,7 @@ Guard skill can always be equipped but only one addon can be equipped at once.
 ***
 ### Guard
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/guard.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/guard.gif"></p>
 
 * You can block attacks by pressing the default use item key [default = Right Mouse Button]<br> 
 * While blocking a hit, you get stunned for a short time<br> 
@@ -60,7 +60,7 @@ Guard skill can always be equipped but only one addon can be equipped at once.
 ***
 ### Parrying
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/parrying.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/parrying.gif"></p>
 
 * Avoid consecutive penalties by timing blocks to match enemy attacks with this skill<br> 
 * You will be able to block projectiles<br> 
@@ -80,7 +80,7 @@ Guard skill can always be equipped but only one addon can be equipped at once.
 ***
 ### Impact Guard
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/impact_guard.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/impact_guard.gif"></p>
 
 * This skill will reduce the consecutive block penalty, from 0.6 per stack to 0.2<br> 
 * Block explosions, fire, projectiles, and magic with 80% reduced damage<br> 
@@ -104,7 +104,7 @@ You have access to 3 Passive Skill Slots, and only one may be equipped per slot.
 ***
 ### Technician
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/technician.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/technician.gif"></p>
 
 * Dodge in sync with enemy attacks to regain used stamina<br> 
 * Grants +0.4 Stamina Regen<br> 
@@ -112,7 +112,7 @@ You have access to 3 Passive Skill Slots, and only one may be equipped per slot.
 ***
 ### Berserker
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/berserker.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/berserker.gif"></p>
 
 * Gain 0.3% DMG and 0.5% SPD boost per 1% lost health (e.g, 9/10♡ = 3%+ DMG|5%+ SPD)<br> 
 * Limiting attack speed increase to 5% (e.g., 1/10♡ = 27%+ damage/5%+ speed)<br> 
@@ -123,7 +123,7 @@ You have access to 3 Passive Skill Slots, and only one may be equipped per slot.
 ***
 ### Sword Master
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/sword_master.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/sword_master.gif"></p>
 
 * This skill grants a notable boost with a 30% increase in attack speed<br> 
 * Grants +0.2 Stamina Regen<br> 
@@ -143,7 +143,7 @@ You have access to 3 Passive Skill Slots, and only one may be equipped per slot.
 ***
 ### Stamina Pillager
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/stamina_pillager.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/stamina_pillager.gif"></p>
 > 
 > GIF is unrelated, just killing a sheep for demonstration.
 
@@ -154,7 +154,7 @@ You have access to 3 Passive Skill Slots, and only one may be equipped per slot.
 ***
 ### Death Harvest
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/death_harvest.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/death_harvest.gif"></p>
 
 * Refill weapon charge on innate skill kills, based on weapon damage and enemies defeated<br> 
 * Grants +15% Attack Damage<br> 
@@ -162,7 +162,7 @@ You have access to 3 Passive Skill Slots, and only one may be equipped per slot.
 ***
 ### Forbidden Strength
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/forbidden_strength.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/forbidden_strength.gif"></p>
 
 * Enables health usage when stamina is depleted<br> 
 * Grants +2 Hearts (+4 Max Health)<br> 
@@ -171,7 +171,7 @@ You have access to 3 Passive Skill Slots, and only one may be equipped per slot.
 ***
 ### Emergency Escape
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/emergency_escape.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/emergency_escape.gif"></p>
 
 * Cancel your attacks with dodges<br> 
 * Enables dodging even when stamina is depleted<br> 
@@ -191,7 +191,7 @@ You have access to 3 Passive Skill Slots, and only one may be equipped per slot.
 ***
 ### Hyper Vitality
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/hyper_vitality.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/hyper_vitality.gif"></p>
 
 * Permits the use of stamina for innate weapon skills<br> 
 * Applies a default 20% cooldown to the innate power of the weapon<br> 
@@ -201,7 +201,7 @@ You have access to 3 Passive Skill Slots, and only one may be equipped per slot.
 ***
 ### Endurance
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/endurance.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/endurance.gif"></p>
 
 * Get 12s stun resistance based on attack preparation stamina spent when hit<br> 
 * Default cooldown of 30 seconds<br> 
@@ -216,7 +216,7 @@ You can only enable one mobility skill, that may assist you on your movement
 
 ### Demolition Leap
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/demolition_leap.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/demolition_leap.gif"></p>
 
 * Collect energy, propel yourself, and cut subsequent fall damage by 50%
 * Can be paired with Meteor Slam for a hulk-like movement...
@@ -224,7 +224,7 @@ You can only enable one mobility skill, that may assist you on your movement
 ***
 ### Phantom Ascent
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/phantom_ascent.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/phantom_ascent.gif"></p>
 
 * Grants an additional mid-air jump (Jump ammount is configurable with datapacks)<br> 
 
@@ -235,7 +235,7 @@ You may only learn one revelation skill at once
 
 ### Meteor Slam
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/meteor_slam.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/meteor_slam.gif"></p>
 
 * Perform a powerful ground slam. Damage and stamina cost increase with height
 * Perform a Meteor Slam by simply *looking down while airborne.*
@@ -256,9 +256,13 @@ You may only learn one revelation skill at once
 ***
 ### Revelation
 
-<p align="center"><img src="https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/revelation.gif?raw=true"></p>
+<p align="center"><img src="/assets/gifs/revelation.gif"></p>
 
 * Defend with blocks, parries, or dodges to amass revelation stacks
 * Exceeding the threshold allows a powerful knockdown heavy attack to your enemies
 
 ***
+
+<span style="font-size: 30px;">:material-account-hard-hat-outline: This page is still being worked on, help us contributing to it on our [discord] :material-account-hard-hat-outline:</span>
+
+[discord]: https://discord.com/invite/NbAJwj8RHg

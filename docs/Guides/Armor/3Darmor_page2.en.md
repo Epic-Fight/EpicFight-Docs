@@ -14,7 +14,7 @@ These tools are mainly for modpack and mod developers to test their armor. If yo
 In Minecraft, you can enable the armor debugging mode by pressing F3+Y. This will create an armor model for every frame to check the result of the model generation algorithm. But it could drop the fps seriously, so I don't recommend turning on this function in normal situations.
 
 <center>
-<img src="https://user-images.githubusercontent.com/79469058/168334604-6542eff4-c77e-4ef2-a71a-79ddeef91a9a.png" class="white-border">
+<img src="/assets/images/armor_debug.png" class="white-border">
 </center>
 
 > _This message will be shown when you toggle the armor debugging mode._
@@ -25,7 +25,7 @@ In Minecraft, you can enable the armor debugging mode by pressing F3+Y. This wil
 In the mod config screen. You can see the "Export Armor Models" button. It will export all generated armor models in the cache as the resource pack. Then apply the resource pack and you don't have to debug the armor models every time you launch Minecraft.
 
 <center>
-<img src="https://user-images.githubusercontent.com/79469058/168339170-1965ad10-eb2a-4ab4-919e-3f5d5b0480fd.png" class="white-border">
+<img src="/assets/images/config_screen_old.png" class="white-border">
 </center>
 ***
 ## **:fontawesome-solid-lightbulb: An Alternative, if previous solution doesn't work**
@@ -51,7 +51,7 @@ Allowed model_names are: `helmet_default, chestplate_default, leggings_default, 
 Then you can modify the texture of the custom armor to match the default model's texture format.
 
 <center>
-<img src="https://user-images.githubusercontent.com/79469058/168444508-f1fb4ebe-5949-40ca-9015-7e920f1e6508.png" width="320" height="160">
+<img src="/assets/images/armor_uv_map.png" width="320" height="160">
 </center>
 
 > _The vanilla armor model's texture mapping_

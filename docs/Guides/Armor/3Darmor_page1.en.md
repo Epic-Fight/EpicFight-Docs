@@ -36,9 +36,9 @@ Required tools:<br>
 
 	<center>
 	**Select**  
-	<img src="https://user-images.githubusercontent.com/77132244/215290753-d88f7ed2-a32b-43bc-9e33-a35c273d04b9.png" class="img-rounded white-border">  
+	<img src="/assets/images/select_img.png" class="white-border">  
 	**Join** _(Feel free to rename the new joined model the armor part it corresponds to, in our case i later renamed it "Helmet")_.  
-	<img src="https://user-images.githubusercontent.com/77132244/215290768-f91985a4-31a5-4606-bd25-91b150ba0119.png" class="img-rounded white-border">  
+	<img src="/assets/images/join_img.png" class="white-border">  
 	</center>
 	<blockquote>In these screenshots all the other armor parts are hidden.</blockquote>
 <ol start="3">
@@ -60,49 +60,49 @@ Now after fixing the import rotation, we'll parent the model to the armature by 
 
 
 <center>
-<img src="https://user-images.githubusercontent.com/77132244/218175943-dcde10ab-9f45-4fb3-a1ec-a2ec7f851483.png" class="img-rounded white-border">
+<img src="/assets/images/parent_empty_groups.png" class="white-border">
 </center>  
 
 <ol start="6">
 <li> 
 By selecting the helmet model, and switching from object mode to weight paint, we'll finally apply the vertex group deformations so the helmet follows the head while our player plays any animation.
 <center>
-<img src="https://user-images.githubusercontent.com/77132244/218176695-4cfafe68-7010-4450-a5f8-93e3dff1f3dd.png" class="img-rounded white-border">
+<img src="/assets/images/weight_paint.png" class="white-border">
 </center>
 </li>
 
 <li> 
 To apply the weight paint, make sure you can see the vertices and you have wireframe mode enabled like in the following image:
 <center>
-<img src="https://user-images.githubusercontent.com/77132244/218177435-f9d01478-fbe0-45f9-b754-adf5d2efa745.jpg" class="img-rounded white-border">
+<img src="/assets/images/vertices-wireframe.png" class="white-border">
 </center>
 </li>
 
 <li> 
 Now you can choose from a range of brushes to apply the weight paint, but the ones we mainly use is subtract and add
 <center>
-<img src="https://user-images.githubusercontent.com/77132244/218177593-95794246-6d9a-4caf-afa2-636b784b8d3a.png" class="img-rounded white-border">
+<img src="/assets/images/brush.png" class="white-border">
 </center>
 </li>
 
 <li> 
 Select the desired vertex group on the right, the one we'll be working with is the head group as we are patching a helmet.
 <center>
-<img src="https://user-images.githubusercontent.com/77132244/218178265-69388152-b465-45e5-8ccd-cfe3e430dfb7.jpg" class="img-rounded white-border">
+<img src="/assets/images/vertex-group.png" class="white-border">
 </center>
 </li>
 
 <li> 
 Now simply go on your way painting the whole model so it follows the whole head. In the end you'll be able to get something like this:
 <center>
-<img src="https://user-images.githubusercontent.com/77132244/218178527-210b4b77-5f16-4cf7-9310-6c2b3e2ce83a.png" class="img-rounded white-border">
+<img src="/assets/images/paint_whole.png" class="white-border">
 </center>
 </li>
 
 <li> 
 You can test to see if you've successfully parented and weight painted the helmet to the head by going over to your armature in pose mode and rotating the head bone around. If your model follows the head bone, then its correct, if not, then please go back a few steps and recheck to see if you've missed something.
 <center>
-<img src="https://github.com/MetalKnight56/EpicFight-Files/blob/Wiki-Images/Images/gizmos.gif?raw=true" class="img-rounded white-border">
+<img src="/assets/gifs/gizmos.gif" class="white-border">
 </center>
 </li>
 </ol>
@@ -117,35 +117,35 @@ Now that you've patched yourt models you'll want to export your work and apply t
 	You **can't** export two armor parts at once, so export one at a time and delete all the other ones
 
 <span class="left-align">
-<img src="https://user-images.githubusercontent.com/77132244/218179518-18c8d979-68af-44ff-989a-aa55ebb6c239.png" class="img-rounded white-border">
+<img src="/assets/images/exporting1.png" class="white-border">
 </span>
 
 <ol start="2">
 <li> 
 After cleaning any unwanted models or armor parts that won't be exported, head over to File/Export/Animated Minecraft Model (.json)  
 <center>
-<img src="https://user-images.githubusercontent.com/77132244/218179838-bbc7d557-8525-4ab8-beaf-41211bf334fd.png" class="img-rounded white-border">
+<img src="/assets/images/exporting2.png" class="white-border">
 </center>
 </li>
 
 <li>
 Make sure you only have Export Mesh selected as we're only exporting an armor and not an animation or custom armature.  
 <center>
-<img src="https://user-images.githubusercontent.com/77132244/218179992-0f54bb48-99b6-45c2-8166-107668b200e7.png" class="img-rounded white-border">
+<img src="/assets/images/exporting3.png" class="white-border">
 </center>
 </li>
 
 <li>
 Check the export name to see if it matches the custom armor registry name in-game.  
 <center>
-<img src="https://user-images.githubusercontent.com/77132244/218180136-b229edd0-3941-4a68-b82b-dfc0fcf80bca.png" class="img-rounded white-border">
+<img src="/assets/images/exporting4.png" class="white-border">
 </center>
-</li>
+</li>	
 
 <li>
 Click Export to Json Minecraft after you are done.  
 <center>
-<img src="https://user-images.githubusercontent.com/77132244/218180246-7c04c4ad-ad96-4361-b43a-3ff434de419d.png" class="img-rounded white-border">
+<img src="/assets/images/exporting5.png" class="white-border">
 </center>
 </li>
 </ol>
@@ -233,7 +233,7 @@ To set up the folder structure, follow these steps. Each folder or file must be 
 	<div class="image-section2">
 		<center>
 			<div class="glow-box3"></div>
-			<div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/tooltips_example1.png?raw=true" class="img-rounded white-border img-rounded" style="--image-width: 400px;"></div><br>
+			<div class="grow-effect" style="--scale-size: 1.03;"><img src="/assets/images/tooltips_example1.png" class="white-border" style="--image-width: 400px;"></div><br>
 			<span style="font-size: 0.5rem;">Make a <code>.txt</code> file with the outlined text, then change it's type to <code>.json</code></span>
 		</center>
 	</div>

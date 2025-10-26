@@ -76,7 +76,7 @@ First, you'll need to create a pack.mcmeta file. Here's how to do it:
 Before creating a JSON file, it's important to determine the registry name of the entity you want to make compatible. In Minecraft, you can find a list of all currently registered entities by using the <code>/summon</code> command in the game. When you type <code>/summon</code> and press the Tab key, it will display a list of available entity registry names. These names are what you will use to reference the entities in your JSON file.
 
 <center>
-<img src="https://user-images.githubusercontent.com/79469058/166224784-b556e090-4e56-45bd-ad80-ccc33c06d859.png" class="img-rounded white-border"> 
+<img src="/assets/images/summon_entity.png" class="white-border"> 
 </center>
 
 Most registry names follow the format <code>modid:entityname</code>, where <code>modid</code> represents the identifier for the mod, and <code>entityname</code> is the specific name of the entity. Once you have identified the registry name, you can create the JSON file in the appropriate directory structure based on this format. The file should be placed under the following path: `data/"modid"/epicfight_mobpatch/"entityname".json`

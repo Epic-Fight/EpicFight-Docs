@@ -25,7 +25,7 @@ Start by launching your game with Epic Fight installed. From the main menu, clic
 Select your entity:
 
 <div class="showcasemobeditor">
-	<img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/MobEditor-blank.png?raw=true" class="img-rounded white-border">
+	<img src="/assets/images/mob_editor.png" class="white-border">
 	<div class="glow-box" title="Click here in-game to chose the entity to be patched !"></div>
 </div>
 
@@ -36,12 +36,12 @@ There are two ways to patch an entity. The simpler option is to select from a li
 
 Similar to the [Custom Entities Datapack's Easy Setup], the mob capability options provide a variety of presets for players to choose from. To view the available presets, click on the drop-down menu to the right of the 'Presets' option.
 
-<img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/editor-presets.png?raw=true" class="img-rounded white-border">  
+<img src="/assets/images/editor-presets.png" class="white-border">  
 
 You can also disable already patched entities provided by Epic Fight. For example, you may choose to disable certain vanilla entities, such as the Zombie, Skeleton, or Enderman.
 
 <div class="showcasemobeditor">
-	<img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/MobEditor-Disabled.png?raw=true" class="img-rounded white-border"> 
+	<img src="/assets/images/mob_editor_disable.png" class="white-border"> 
 	<div class="glow-box2" title="Click here in-game to disable the entity's animation"></div>
 </div>
 
@@ -70,7 +70,7 @@ To create a custom entity, it's essential to understand the three foundational c
 </ol>
 </div><div class="image-section2">
 	<div class="glow-box3"></div>
-	<div class="grow-effect" style="--scale-size: 1.01;"><img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/armature-model-renderer.png?raw=true" class="img-rounded white-border img-rounded"></div>
+	<div class="grow-effect" style="--scale-size: 1.01;"><img src="/assets/images/armature-model-renderer.png" class="white-border"></div>
 </div></div>
 
 Each pillar plays a vital role, and together, they form the complete structure of a custom entity. Mastery of these elements allows for the creation of unique and engaging entities that enhance the gameplay experience.
@@ -200,13 +200,13 @@ Entities typically have three main states during their lifecycle:
 
 </div><div class="image-section2">
 	<div class="image-wrapper" data-image-id="image1" style="display: block;">
-		<div class="grow-effect" style="--scale-size: 1.01;"><img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/Idle.gif?raw=true" class="img-rounded white-border img-rounded" style="--image-width: 400px;"></div>
+		<div class="grow-effect" style="--scale-size: 1.01;"><img src="/assets/gifs/Idle.gif" class="white-border" style="--image-width: 400px;"></div>
 	</div>
 	<div class="image-wrapper" data-image-id="image2">
-		<div class="grow-effect" style="--scale-size: 1.01;"><img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/Walk.gif?raw=true" class="img-rounded white-border img-rounded" style="--image-width: 400px;"></div>
+		<div class="grow-effect" style="--scale-size: 1.01;"><img src="/assets/gifs/Walk.gif" class="white-border" style="--image-width: 400px;"></div>
 	</div>
 	<div class="image-wrapper" data-image-id="image3">
-		<div class="grow-effect" style="--scale-size: 1.01;"><img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/Chase.gif?raw=true" class="img-rounded white-border img-rounded" style="--image-width: 400px;"></div>
+		<div class="grow-effect" style="--scale-size: 1.01;"><img src="/assets/gifs/Chase.gif" class="white-border" style="--image-width: 400px;"></div>
 	</div>
 </div></div>
 

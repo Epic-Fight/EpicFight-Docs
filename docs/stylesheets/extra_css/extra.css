@@ -295,8 +295,7 @@ footer.sponsorship:not(:hover) .twemoji.heart-throb-hover svg {
 
 .image-section img {
     width: var(--image-width, 150px);              
-    height: auto;              
-    border-radius: 4px;        
+    height: auto;       
 }
 
 .image-wrapper {
@@ -333,15 +332,18 @@ footer.sponsorship:not(:hover) .twemoji.heart-throb-hover svg {
 
 .text-section2 {
     max-width: var(--text-max-width, 20%);            
-    font-size: auto;           
-    line-height: 1.2em;        
-    overflow: hidden;          
-    text-overflow: ellipsis;  
+    font-size: auto;    
+    line-height: 1.2em; 
+    overflow: hidden;    
+    text-overflow: ellipsis;
 	order: var(--default-text-order, 0); 
 }
 
 .image-section2 img {
-    width: var(--image-width, 1170px);              
-    height: auto;              
-    border-radius: 4px;       
+    width: var(--image-width, 1170px);        
+    height: auto;
 }
+
+.img-rounded {
+    border-radius: var(--border-radius, 30px); /* Use any value to adjust the roundness */
+  }

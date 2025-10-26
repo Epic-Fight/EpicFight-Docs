@@ -25,7 +25,7 @@ Start by launching your game with Epic Fight installed. From the main menu, clic
 Create your weapon type:
 
 <div class="showcasemobeditor">
-	<img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/weapon-editor.png?raw=true" class="img-rounded white-border">
+	<img src="/assets/images/weapon-editor.png" class="white-border">
 	<div class="glow-box2" title="Click here in-game to create your first weapon-type" style="--default-top: 5.3%; --default-left: 14.2%; --default-width: 1.1%; --default-height: 1.9%;"></div>
 </div>
 
@@ -36,7 +36,7 @@ Weapon Types are a data set in Epic Fight that can group items with similar prop
 
 Weapon Categories classify weapons of similar types into distinct groups. This classification system primarily determines the visibility & style of weapons when they are paired together. 
 
-<img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/weapon-editor-category.png?raw=true" class="img-rounded white-border">
+<img src="/assets/images/weapon-editor-category.png" class="white-border">
 
 For instance, if you hold a sword in your main hand and a dagger in your offhand, the dagger will become invisible, as they do not share the same weapon category. A spear adopts a two-handed fighting style when the offhand is empty. However, if the player equips an item categorized under the "Shield" weapon category, the spear switches to its one-handed combat style.
 

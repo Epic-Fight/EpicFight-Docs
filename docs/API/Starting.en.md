@@ -96,7 +96,7 @@ To access a compilation of EpicFight versions at your disposal, refer to the lis
     epicfight_version=21.12.5
     ```
 	
-	<center>![](https://github.com/MetalKnight56/EpicFight-Docs/blob/main/images/modrinth_epic_fight_version_details.jpg?raw=true){.img-rounded}</center>
+	<center><img src="/assets/images/modrinth_epic_fight_version_details.jpg" alt="Modrinth Tutorial"/></center>
 
 ## :octicons-file-code-16: Forge / NeoForge Events
 
@@ -122,7 +122,7 @@ However, they are **not compatible** with non-humanoid entities such as the **En
 
 !!! tip
     For more information, refer to  
-    📘 [**Starting with Blender 2.79**](https://epicfight-docs.readthedocs.io/Guides/page1/).
+    :fontawesome-solid-book: [**Starting with Blender 2.79**](Guides/Armor/3Darmor_page1).
 
 To import your animations into your mod / resource pack, follow the instructions on [Asset Importing](https://epicfight-docs.readthedocs.io/Guides/page3) page.
 
@@ -200,7 +200,7 @@ public class YourEntity extends PathfinderMob {
 Make sure that **Epic Fight** is either declared as a required dependency in your [mods.toml](https://docs.neoforged.net/docs/gettingstarted/modfiles/#neoforgemodstoml) file
 or that you check for its presence at runtime as shown above. This prevents crashes if the mod isn’t installed.
 
-## :fontawesome-solid-band-aid: Patching a custom entity
+## ::material-bandage: Patching a custom entity
 
 This tutorial shows how to patch a custom humanoid entity for use with Epic Fight.  
 It assumes you already have the entity set up in vanilla Minecraft, including its registration, [renderer](https://docs.neoforged.net/docs/entities/renderer/), and [attributes](https://docs.neoforged.net/docs/entities/attributes).

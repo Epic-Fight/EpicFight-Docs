@@ -12,37 +12,37 @@ hide:
 <p>
   <div class="grow-effect">
     <a title="Patreon" href="https://www.patreon.com/bePatron?u=53051224" target="_blank" rel="noopener noreferrer">
-      <img src="https://raw.githubusercontent.com/MetalKnight56/EpicFight-Files/3501a5ba6cc42c29cc211045985ce9fc5655cc38/Icons/SVG/patreon.svg" alt="Patreon" width="100" height="100" />
+      <img src="/assets/icons/SVG/patreon.svg" alt="Patreon" width="100" height="100" />
     </a>
   </div>
   &nbsp;
   <div class="grow-effect">
     <a title="Discord" href="https://discord.com/invite/NbAJwj8RHg" target="_blank" rel="noopener noreferrer">
-      <img src="https://raw.githubusercontent.com/MetalKnight56/EpicFight-Files/3501a5ba6cc42c29cc211045985ce9fc5655cc38/Icons/SVG/discord.svg" alt="Discord" width="100" height="100" />
+      <img src="/assets/icons/SVG/discord.svg" alt="Discord" width="100" height="100" />
     </a>
   </div>
   &nbsp;
   <div class="grow-effect">
     <a title="YouTube" href="https://www.youtube.com/@yesman4100" target="_blank" rel="noopener noreferrer">
-      <img src="https://raw.githubusercontent.com/MetalKnight56/EpicFight-Files/3501a5ba6cc42c29cc211045985ce9fc5655cc38/Icons/SVG/youtube.svg" alt="Youtube" width="100" height="100" />
+      <img src="/assets/icons/SVG/youtube.svg" alt="Youtube" width="100" height="100" />
     </a>
   </div>
   &nbsp;
   <div class="grow-effect">
     <a title="GitHub" href="https://github.com/Yesssssman/epicfightmod/" target="_blank" rel="noopener noreferrer">
-      <img src="https://raw.githubusercontent.com/MetalKnight56/EpicFight-Files/3501a5ba6cc42c29cc211045985ce9fc5655cc38/Icons/SVG/github.svg" alt="GitHub" width="100" height="100" />
+      <img src="/assets/icons/SVG/github.svg" alt="GitHub" width="100" height="100" />
     </a>
   </div>
   &nbsp;
   <div class="grow-effect">
     <a title="CurseForge" href="https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod" target="_blank" rel="noopener noreferrer">
-      <img src="https://raw.githubusercontent.com/MetalKnight56/EpicFight-Files/3501a5ba6cc42c29cc211045985ce9fc5655cc38/Icons/SVG/curseforge.svg" alt="CurseForge" width="100" height="100" />
+      <img src="/assets/icons/SVG/curseforge.svg" alt="CurseForge" width="100" height="100" />
     </a>
   </div>
   &nbsp;
   <div class="grow-effect">
     <a title="Modrinth" href="https://modrinth.com/mod/epic-fight" target="_blank" rel="noopener noreferrer">
-      <img src="https://raw.githubusercontent.com/MetalKnight56/EpicFight-Files/286f1077e69cf7716a479ca580ca90221b120ccb/Icons/SVG/modrinth.svg" alt="Modrinth" width="100" height="100" />
+      <img src="/assets/icons/SVG/modrinth.svg" alt="Modrinth" width="100" height="100" />
     </a>
   </div>
 </p>
@@ -60,7 +60,7 @@ hide:
 
     Fix glitched textures & models from custom modded armors from other mods through a resourcepack.
 
-    [:octicons-arrow-right-24: [Custom 3D armor Resource Pack](Armor/3Darmor_page1)](#)
+    [:octicons-arrow-right-24: [Custom 3D armor Resource Pack](Guides/Armor/3Darmor_page1)](#)
 
 -   :fontawesome-solid-skull:{ .lg .middle } __Entity AI/Datapack__
 

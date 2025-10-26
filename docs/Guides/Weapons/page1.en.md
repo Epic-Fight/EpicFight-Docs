@@ -103,7 +103,7 @@ To set up the folder structure, follow these steps. Each folder or file must be 
 	<div class="image-section2">
 		<center>
 			<div class="glow-box3"></div>
-			<div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/tooltips_example1.png?raw=true" class="img-rounded white-border img-rounded" style="--image-width: 400px;"></div><br>
+			<div class="grow-effect" style="--scale-size: 1.03;"><img src="/assets/images/tooltips_example1.png" class="white-border" style="--image-width: 400px;"></div><br>
 			<span style="font-size: 0.5rem;">Make a <code>.txt</code> file with the outlined text, then change it's type to <code>.json</code></span>
 		</center>
 	</div>
@@ -367,7 +367,7 @@ To prepare the datapack for sharing, follow these steps to zip it using 7-Zip:
 3. Right-click the folder and select 7-Zip > Add to archive.
 4. Finally, select Add to ``"datapack.zip"`` (make sure the ``.zip`` file format is selected)
 
-> ![](https://user-images.githubusercontent.com/86358160/171872228-00816dc2-cf98-4bdc-bddf-a3a7bd1cd9c1.PNG)
+> <img src="/assets/images/package.png" class="white-border">
 
 Then right-click, go under 7-Zip, and click on `add to "datapack.zip"`.
 

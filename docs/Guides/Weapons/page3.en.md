@@ -93,7 +93,7 @@ To set up the folder structure, follow these steps. Each folder or file must be 
 	<div class="image-section2">
 		<center>
 			<div class="glow-box3"></div>
-			<div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/tooltips_example1.png?raw=true" class="img-rounded white-border img-rounded" style="--image-width: 400px;"></div><br>
+			<div class="grow-effect" style="--scale-size: 1.03;"><img src="/assets/images/tooltips_example1.png" class="white-border" style="--image-width: 400px;"></div><br>
 			<span style="font-size: 0.5rem;">Make a <code>.txt</code> file with the outlined text, then change it's type to <code>.json</code></span>
 		</center>
 	</div>
@@ -153,8 +153,8 @@ Inside the `"modid"` folder, you can add as many texture files as you need. To u
 **Here are some examples of trail textures used in Epic Fight:**
 
 [<center>
-![](https://github.com/Yesssssman/epicfightmod/assets/77132244/eccfefb9-f9f8-4518-a2f6-eab3a2c4e3f8)
-![](https://github.com/Yesssssman/epicfightmod/assets/77132244/8421ff50-0f75-4308-8793-fb4be3f60a23)
+<img src="/assets/images/trail1.png">
+<img src="/assets/images/trail2.png">
 </center>](https://github.com/Yesssssman/epicfightmod/tree/1.18.2/src/main/resources/assets/epicfight/textures/particle)
 
 ***

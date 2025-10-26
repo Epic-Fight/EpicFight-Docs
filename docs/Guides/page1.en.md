@@ -35,7 +35,7 @@ To install the custom Blender Exporter, visit the repository and download the ma
 * [:material-download: Blender Json Exporter](https://github.com/Yesssssman/blender-json-exporter)
 
 <center>
-<div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/95ce0412-b498-466b-ae1b-7a79a1ab27a1" class="img-rounded white-border img-rounded" style="border-radius:4px;"></div>
+<div class="grow-effect" style="--scale-size: 1.03;"><img src="/assets/images/blender-json-exporter.png" class="img-rounded white-border img-rounded" style="border-radius:4px;"></div>
 </center>
 
 <ol>
@@ -43,7 +43,7 @@ To install the custom Blender Exporter, visit the repository and download the ma
 
 <li>Go to Blender <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> File <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> User Preferences <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> Add-ons, And find an add-on named <strong>"Import-Export: Minecraft Model Json Exporter"</strong></li>
 
-<center><div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/b327a99b-ca2e-44d5-bc32-554a4d56be1b" class="img-rounded white-border img-rounded" style="border-radius:4px;"></div></center><br>
+<center><div class="grow-effect" style="--scale-size: 1.03;"><img src="/assets/images/blender_exporter_selected.png" class="img-rounded white-border img-rounded" style="border-radius:4px;"></div></center><br>
 
   
 <li>Check the checkbox and Click "Save User Settings".</li>
@@ -80,7 +80,7 @@ As a start, we'll be learning how to move around with blender.
 	---
 	
 	Right under file, you'll find the following window:<br>
-	<center><img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/SavingExporting.png?raw=true" style="width:250px;" class="img-rounded white-border img-rounded"></center><br>
+	<center><img src="/assets/images/saving_exporting.png" style="width:250px;" class="white-border"></center><br>
 	You may export, save & do various other needed tasks through this window in the following guides.
 	
 -	<h2><center><strong>Keyframe Saving</strong></center></h2>
@@ -100,19 +100,19 @@ As a start, we'll be learning how to move around with blender.
 To move your camera rotation, you can press your mouse wheel and move your mouse with it pressed. After you do that, you'll probably see something similar to this:
 
 <center>
-<img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/cameramove1.gif?raw=true" style="width:850px;" class="img-rounded white-border img-rounded">
+<img src="/assets/gifs/cameramove1.gif" style="width:850px;" class="white-border">
 </center>
 
 Now if you want to move your camera's location you can press your <kbd>middle mouse button</kbd> + <kbd>Shift</kbd>. You'll be able to see something like this:
 
 <center>
-<img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/cameramove.gif?raw=true" style="width:850px;" class="img-rounded white-border img-rounded"><br> 
+<img src="/assets/gifs/cameramove2.gif" style="width:850px;" class="white-border"><br> 
 Good work! Now you know how to move your camera around.
 </center>
 ***
 ### :fontawesome-solid-pencil: Edit & Object mode basics
 <center>
-<img src="https://github.com/MetalKnight56/EpicFight-Files/assets/77132244/3ec8d8b4-7607-4f36-83cf-47f212bbb7ab" class="img-rounded white-border img-rounded" style="border-radius:4px;"> <img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/d50c49ca-8ab2-40df-b47e-acb193092423"  class="img-rounded white-border img-rounded" style="border-radius:4px; height:30px;">
+<img src="/assets/images/edit_mode.png" class="white-border" > <img src="/assets/images/object_mode.png"  class="white-border" style="height:30px;">
 </center>
 
 In short, edit mode is used to edit objects geometry and their origin location, rotation and scale in a project. We often use edit mode to change models in ways that are simply not practical with Object mode. One of the ways we use edit mode is to add in Bones to a rig and their origin position (and by origin position i mean their actual position, scale, rotation in a project, where they'll go after you reset their object location rotation and scale)
@@ -150,7 +150,7 @@ Alternatively, you can press <kbd>Shift</kbd> + <kbd>A</kbd> in Object Mode to q
 To delete an object, simply press <kbd>Del</kbd> on your keyboard, and a confirmation prompt will appear to confirm the deletion.
 	</div>
 	<div class="image-section">
-		<div class="grow-effect" style="--scale-size: 1.05;"><img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/f34f4e8a-dab5-4aae-b215-4a60b8aaea81" class="img-rounded white-border img-rounded" style="--image-width: 500px;"></div>
+		<div class="grow-effect" style="--scale-size: 1.05;"><img src="/assets/images/add_singlebone.png" class="white-border" style="--image-width: 500px;"></div>
 	</div>
 </div>
 ***
@@ -178,7 +178,7 @@ However, they are **not compatible** with non-humanoid entities such as the **En
 	</div>
 	<div class="image-section2">
 	<div class="glow-box3"></div>
-		<div class="grow-effect" style="--scale-size: 1.01;"><img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/Blender-Animations.png?raw=true" class="img-rounded white-border img-rounded"></div>
+		<div class="grow-effect" style="--scale-size: 1.01;"><img src="/assets/images/blender_animations.png" class="white-border"></div>
 	</div>
 </div>
 <div class="hover-text" data-top="10.7%" data-left="30%" data-width="20%" data-height="47%">The Dope Sheet provides a comprehensive view of your animation's keyframes, allowing you to easily identify the position of each frame within your animation. You can also fine-tune your animation by adjusting the starting and ending frames directly in the timeline, giving you full control over the flow and timing of your sequence.</div>
@@ -202,7 +202,7 @@ You may also use the <kbd>:octicons-arrow-left-24:</kbd> and <kbd>:octicons-arro
 			Finally, the Solid viewport mode displays the object in a neutral gray tone without textures. This plain view is commonly used to analyze the object’s form, lighting, and shadow projections without the distraction of textures, helping you check how shadows interact with the object's surface.</p>
     </div>
     <div class="image-section">
-        <div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/bf817606-2367-47aa-932e-5d8b1ba48268" class="img-rounded white-border img-rounded"></div>
+        <div class="grow-effect" style="--scale-size: 1.03;"><img src="/assets/images/viewports.png" class="white-border"></div>
     </div>
 </div>
 
@@ -264,17 +264,17 @@ UV Mapping stands for "UV coordinates mapping" in the field of computer graphics
 		You can change your screen to UV editting mode by going to the top of your screen and changing the screen layout.
 	</div>
 	<div class="image-section">
-		<div class="grow-effect" style="--scale-size: 1.05;"><img src="https://github.com/MetalKnight56/EpicFight-Files/assets/77132244/cc32cb29-c51a-4f20-a10e-5d6871d691d5" class="img-rounded white-border img-rounded" style="--image-width: 750px;"></div>
+		<div class="grow-effect" style="--scale-size: 1.05;"><img src="/assets/images/uv_section.png" class="white-border" style="--image-width: 750px;"></div>
 	</div>
 </div>
 <div class="grid cards" markdown>
--   <center><img src="https://github.com/MetalKnight56/EpicFight-Files/assets/77132244/fcfb6190-be2d-4a10-b12a-831e39b4290b" style="height: 156px; width: auto;" class="img-rounded white-border img-rounded"></center>
+-   <center><img src="/assets/images/create_new_image.png" style="height: 156px; width: auto;" class="white-border"></center>
 
 	---
 	
 	You can create new textures by clicking this button
 	
--	<center><img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/12a57d9a-ad48-4daf-8830-806afc9b98cf" class="img-rounded white-border img-rounded"></center>
+-	<center><img src="/assets/images/open_image.png" class="white-border"></center>
 
 
 	---
@@ -292,7 +292,7 @@ UV Mapping stands for "UV coordinates mapping" in the field of computer graphics
 		The first step is to switch your window to Edit Mode. If you're unfamiliar with how to use and navigate Edit Mode, you can learn more by checking out the <a href="#edit-object-mode-basics">Edit & Object Mode Basics</a> guide on this page!
 	</div>
 	<div class="image-section">
-		<p align="center"><div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/933a7101-0db1-480d-8af8-f58d928ecd94" class="img-rounded white-border img-rounded" style="--image-width: 750px;"></div></p>
+		<p align="center"><div class="grow-effect" style="--scale-size: 1.03;"><img src="/assets/images/bend_issue.png" class="white-border" style="--image-width: 750px;"></div></p>
 		<p align="center">This is an example of what you may face when patching armors, making entities or overall adding bends</p>
 	</div>
 </div>
@@ -308,7 +308,7 @@ UV Mapping stands for "UV coordinates mapping" in the field of computer graphics
 		The next step is to extend the UV mappings to align with the upper and lower sections accordingly. For each plane generated between the loop cuts, follow these steps:
 	</div>
 	<div class="image-section">
-		<div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/98b8f3fa-0fa7-4bb6-812f-39f5ea358ff3" class="img-rounded white-border img-rounded" style="--image-width: 150px;"></div>
+		<div class="grow-effect" style="--scale-size: 1.03;"><img src="/assets/images/bend_extend.png" class="white-border" style="--image-width: 150px;"></div>
 	</div>
 </div>
 
@@ -316,7 +316,7 @@ UV Mapping stands for "UV coordinates mapping" in the field of computer graphics
 2. Extend their vertices to utilize either the upper or lower portions of the texture, depending on their position in the leg or arm bends.
 
 <center>
-<div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/99ed4706-9f78-4955-9667-1925a78258b2" class="img-rounded white-border img-rounded"></div>
+<div class="grow-effect" style="--scale-size: 1.03;"><img src="/assets/gifs/uv_issue_fix.gif" class="white-border"></div>
 This will ensure each section accurately displays the intended texture details based on its placement in the model.
 </center>
 
@@ -332,7 +332,7 @@ This will ensure each section accurately displays the intended texture details b
 	</div>
 	<div class="image-section2">
 		<div class="glow-box3"></div>
-		<div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/MetalKnight56/EpicFight-Files/blob/main/Screen-Captures/snaptransform-example.png?raw=true" class="img-rounded white-border img-rounded" style="--image-width: 550px;"></div>
+		<div class="grow-effect" style="--scale-size: 1.03;"><img src="/assets/images/snap_transform.png" class="white-border" style="--image-width: 550px;"></div>
 	</div>
 </div>
 ***
@@ -359,7 +359,7 @@ You are able to do this kind of mirroring by copying the current pose (<kbd>Ctrl
 	</div>
 	<div class="image-section2">
 		<center>
-			<div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/02a6e79d-ce66-40f8-a017-3cb5dabab20a" class="img-rounded white-border img-rounded" style="--image-width: 250px;"></div><br>
+			<div class="grow-effect" style="--scale-size: 1.03;"><img src="/assets/images/transparency_issue.png" class="white-border" style="--image-width: 250px;"></div><br>
 			Black textures where it should be transparent.
 		</center>
 	</div>
@@ -368,7 +368,7 @@ You are able to do this kind of mirroring by copying the current pose (<kbd>Ctrl
 	Materials in Blender can be set to be transparent, so that light can pass through any objects using the material. Transparency is controlled using an “alpha” channel, where each pixel has an additional value, range 0-1, in addition to its RGB color values. If alpha=0, then the pixel is transparent, and the RGB values for the surface contribute nothing to the pixel’s appearance; for alpha=1, the surface is fully opaque, and the color of the surface determines the final color of the pixel.
 	
 	<figure markdown>
-	<img src="https://docs.blender.org/manual/en/2.79/_images/render_blender-render_materials_properties_transparency_panel.png" class="img-rounded white-border img-rounded">
+	<img src="/assets/images/transparency_enabled.png" class="white-border">
 	<figcaption>Transparency panel.</figcaption>
 	</figure>
 	

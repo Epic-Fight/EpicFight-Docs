@@ -30,7 +30,7 @@ To install the custom Blender Exporter, visit the repository and download the ma
 * [:material-download: Blender Json Exporter](https://github.com/Yesssssman/blender-json-exporter/tree/3.6)
 
 <center>
-<div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/95ce0412-b498-466b-ae1b-7a79a1ab27a1" class="img-rounded white-border img-rounded" style="border-radius:4px;"></div>
+<div class="grow-effect" style="--scale-size: 1.03;"><img src="/assets/images/blender-json-exporter.png" class="white-border"></div>
 </center>
 
 <ol>
@@ -38,7 +38,7 @@ To install the custom Blender Exporter, visit the repository and download the ma
 
 <li>Go to Blender <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> File <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> User Preferences <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> Add-ons, And find an add-on named <strong>"Import-Export: Minecraft Model Json Exporter"</strong></li>
 
-<center><div class="grow-effect" style="--scale-size: 1.03;"><img src="https://github.com/Yesssssman/epicfightmod/assets/77132244/b327a99b-ca2e-44d5-bc32-554a4d56be1b" class="img-rounded white-border img-rounded" style="border-radius:4px;"></div></center><br>
+<center><div class="grow-effect" style="--scale-size: 1.03;"><img src="/assets/images/blender_exporter_selected.png" class="white-border"></div></center><br>
 
   
 <li>Check the checkbox and Click "Save User Settings".</li>
@@ -46,6 +46,6 @@ To install the custom Blender Exporter, visit the repository and download the ma
 </ol>
 ***
 
-<span style="font-size: 33px;">:material-account-hard-hat-outline: This page is still being worked on, help us contributing to it on our [discord] :material-account-hard-hat-outline:</span>
+<span style="font-size: 30px;">:material-account-hard-hat-outline: This page is still being worked on, help us contributing to it on our [discord] :material-account-hard-hat-outline:</span>
 
 [discord]: https://discord.com/invite/NbAJwj8RHg

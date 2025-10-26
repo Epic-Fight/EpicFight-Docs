@@ -11,37 +11,37 @@ In epic fight, recipes forge powerful weapons, each with a unique story, as play
 ***
 ## Longsword
 
-![](https://github.com/MetalKnight56/EpicFight-Files/blob/Wiki-Images/Recipes/longsword_recipe.gif?raw=true)
+<img src="/assets/gifs/longsword_recipe.gif">
 
 ***
 ## Greatsword
 
-![](https://github.com/MetalKnight56/EpicFight-Files/blob/Wiki-Images/Recipes/greatsword_recipe.gif?raw=true)
+<img src="/assets/gifs/greatsword_recipe.gif">
 
 ***
 ## Spear
 
-![](https://github.com/MetalKnight56/EpicFight-Files/blob/Wiki-Images/Recipes/spear_recipe.gif?raw=true)
+<img src="/assets/gifs/spear_recipe.gif">
 
 ***
 ## Dagger
 
-![](https://github.com/MetalKnight56/EpicFight-Files/blob/Wiki-Images/Recipes/dagger_recipe.gif?raw=true)
+<img src="/assets/gifs/dagger_recipe.gif">
 
 ***
 ## Tachi
 
-![](https://github.com/MetalKnight56/EpicFight-Files/blob/Wiki-Images/Recipes/tachi_recipe.gif?raw=true)
+<img src="/assets/gifs/tachi_recipe.gif">
 
 ***
 ## Netherite Weapons
 
-![](https://github.com/MetalKnight56/EpicFight-Files/blob/Wiki-Images/Recipes/netherite.gif?raw=true)
+<img src="/assets/gifs/netherite.gif">
 
 ***
 ## Gloves
 
-![](https://github.com/MetalKnight56/EpicFight-Files/blob/Wiki-Images/Recipes/gloves.png?raw=true)
+<img src="/assets/images/gloves.png">
 
 ***
 ## Uchigatana & Bokken
