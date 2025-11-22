@@ -36,7 +36,7 @@ Input actions replace direct use of `KeyMapping` with controller-compatible APIs
 
 ```diff
 - EpicFightKeyMappings.DODGE; // Raw access to KeyMapping, does not support controllers.
-+ EpicFightInputActions.DODGE; // Use raw ".keyMapping()" if really necessary; prefer new supported APIs.
++ EpicFightInputAction.DODGE; // Use raw ".keyMapping()" if really necessary; prefer new supported APIs.
 ```
 
 ## Handling Input Actions
@@ -51,7 +51,7 @@ Used for actions that should trigger once when pressed, such as attacking or dod
 - while (isKeyPressed(EpicFightKeyMappings.ATTACK, true)) {
 -    // ...
 - }
-+ InputManager.triggerOnPress(EpicFightInputActions.ATTACK, true, (context) -> {
++ InputManager.triggerOnPress(EpicFightInputAction.ATTACK, true, (context) -> {
 +      boolean triggeredByController = context.triggeredByController() // Optional context
 +     // ...
 + });
@@ -63,7 +63,7 @@ Used for actions that remain active while a key or button is held down, such as 
 
 ```diff
 - if (minecraft.options.keyAttack.isDown()) {}
-+ if (InputManager.isActionActive(EpicFightInputActions.VANILLA_ATTACK_DESTROY)) {}
++ if (InputManager.isActionActive(EpicFightInputAction.VANILLA_ATTACK_DESTROY)) {}
 ```
 
 ## Player Movement State
@@ -100,7 +100,7 @@ Determines if two actions share the same physical key or button:
 
 ```diff
 - if (EpicFightKeyMappings.WEAPON_INNATE_SKILL.getKey().equals(EpicFightKeyMappings.ATTACK.getKey())) {}
-+ if (InputManager.isBoundToSamePhysicalInput(EpicFightInputActions.WEAPON_INNATE_SKILL, EpicFightInputActions.ATTACK)) {}
++ if (InputManager.isBoundToSamePhysicalInput(EpicFightInputAction.WEAPON_INNATE_SKILL, EpicFightInputAction.ATTACK)) {}
 ```
 
 ## Controller
@@ -147,12 +147,12 @@ boolean supportsController = inputMode.supportsController();
 
 // Getting raw controller binding
 
-ControllerBinding moveForward = controllerModApi.getBinding(EpicFightInputActions.MOVE_FORWARD);
+ControllerBinding moveForward = controllerModApi.getBinding(EpicFightInputAction.MOVE_FORWARD);
 float analogue = moveForward.getAnalogueNow();
 
 // OR
 
-ControllerBinding jump = controllerModApi.getBinding(EpicFightInputActions.JUMP);
+ControllerBinding jump = controllerModApi.getBinding(EpicFightInputAction.JUMP);
 boolean justPressed = jump.isDigitalJustPressed();
 
 ```
