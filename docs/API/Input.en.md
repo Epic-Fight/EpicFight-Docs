@@ -63,7 +63,7 @@ Used for actions that remain active while a key or button is held down, such as 
 
 ```diff
 - if (minecraft.options.keyAttack.isDown()) {}
-+ if (InputManager.isActionActive(EpicFightInputAction.VANILLA_ATTACK_DESTROY)) {}
++ if (InputManager.isActionActive(MinecraftInputAction.ATTACK_DESTROY)) {}
 ```
 
 ## Player Movement State
@@ -147,12 +147,12 @@ boolean supportsController = inputMode.supportsController();
 
 // Getting raw controller binding
 
-ControllerBinding moveForward = controllerModApi.getBinding(EpicFightInputAction.MOVE_FORWARD);
+ControllerBinding moveForward = controllerModApi.getBinding(MinecraftInputAction.MOVE_FORWARD);
 float analogue = moveForward.getAnalogueNow();
 
 // OR
 
-ControllerBinding jump = controllerModApi.getBinding(EpicFightInputAction.JUMP);
+ControllerBinding jump = controllerModApi.getBinding(MinecraftInputAction.JUMP);
 boolean justPressed = jump.isDigitalJustPressed();
 
 ```
