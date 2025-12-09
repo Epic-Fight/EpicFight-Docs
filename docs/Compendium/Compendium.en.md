@@ -1,5 +1,5 @@
 ---
-icon: swords
+icon: fontawesome/solid/book
 hide:
   - announcement
   - toc

@@ -94,13 +94,13 @@ hide:
 
     [:octicons-arrow-right-24: [Skills](Misc/Gameplay/skills)](#)
 	
--   :fontawesome-solid-book-open:{ .lg .middle } __Epic Fight Recipes__
+-   :fontawesome-solid-book-open:{ .lg .middle } __Compendium__
 
     ---
 
-    Curious about the art of crafting Epic Fight Weapons? Be sure to visit this informative page for valuable insights and tips.
+    Get to know all about Epic Fight's items, how to craft them, their stats, and a lot more !
 
-    [:octicons-arrow-right-24: [Recipes](Misc/Gameplay/recipes)](#)
+    [:octicons-arrow-right-24: [Recipes](Compendium/Compendium)](#)
 	
 -   :simple-blender:{ .lg .middle } __Blender 2.79 Tutorial__
 

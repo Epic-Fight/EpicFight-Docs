@@ -1,7 +1,7 @@
 site_name: Epic Fight Wiki
 site_url: https://epicfight-docs.readthedocs.io/
 repo_url: https://github.com/Yesssssman/epicfightmod
-site_author: Guilherme V & Lee jae hoon
+site_author: Guilherme V. & Lee Jae Hoon
 site_description: >-
   The Official Epic Fight Wiki, Contains useful documentation for developers & users !
 
@@ -35,12 +35,55 @@ nav:
     - Gameplay: 
       - Misc/Gameplay/index.md
       #- Enchantments: Misc/Gameplay/enchantments.md
-      - Recipes: Misc/Gameplay/recipes.md
       - Skills: Misc/Gameplay/skills.md
   - Compendium:
       - Compendium/Compendium.md
-      
-
+      - Items:
+        - Bokken: Compendium/Items/Bokken.md
+        - Diamond Dagger: Compendium/Items/Diamond_Dagger.md
+        - Diamond Greatsword: Compendium/Items/Diamond_Greatsword.md
+        - Diamond Longsword: Compendium/Items/Diamond_Longsword.md
+        - Diamond Spear: Compendium/Items/Diamond_Spear.md
+        - Diamond Tachi: Compendium/Items/Diamond_Tachi.md
+        - Glove: Compendium/Items/Glove.md
+        - Golden Dagger: Compendium/Items/Golden_Dagger.md
+        - Golden Greatsword: Compendium/Items/Golden_Greatsword.md
+        - Golden Longsword: Compendium/Items/Golden_Longsword.md
+        - Golden Spear: Compendium/Items/Golden_Spear.md
+        - Golden Tachi: Compendium/Items/Golden_Tachi.md
+        - Iron Dagger: Compendium/Items/Iron_Dagger.md
+        - Iron Greatsword: Compendium/Items/Iron_Greatsword.md
+        - Iron Longsword: Compendium/Items/Iron_Longsword.md
+        - Iron Spear: Compendium/Items/Iron_Spear.md
+        - Iron Tachi: Compendium/Items/Iron_Tachi.md
+        - Netherite Dagger: Compendium/Items/Netherite_Dagger.md
+        - Netherite Greatsword: Compendium/Items/Netherite_Greatsword.md
+        - Netherite Longsword: Compendium/Items/Netherite_Longsword.md
+        - Netherite Spear: Compendium/Items/Netherite_Spear.md
+        - Netherite Tachi: Compendium/Items/Netherite_Tachi.md
+        - Skill Book: Compendium/Items/Skill_Book.md
+        - Stone Dagger: Compendium/Items/Stone_Dagger.md
+        - Stone Greatsword: Compendium/Items/Stone_Greatsword.md
+        - Stone Longsword: Compendium/Items/Stone_Longsword.md
+        - Stone Spear: Compendium/Items/Stone_Spear.md
+        - Stone Tachi: Compendium/Items/Stone_Tachi.md
+        - Stray Hat: Compendium/Items/Stray_Hat.md
+        - Stray Pants: Compendium/Items/Stray_Pants.md
+        - Stray Robe: Compendium/Items/Stray_Robe.md
+        - Uchigatana: Compendium/Items/Uchigatana.md
+        - Wooden Dagger: Compendium/Items/Wooden_Dagger.md
+        - Wooden Greatsword: Compendium/Items/Wooden_Greatsword.md
+        - Wooden Longsword: Compendium/Items/Wooden_Longsword.md
+        - Wooden Spear: Compendium/Items/Wooden_Spear.md
+        - Wooden Tachi: Compendium/Items/Wooden_Tachi.md
+        
+not_in_nav: |
+  /includes/abbreviations.md
+  /includes/pack_mcmeta_section.md
+draft_docs: |
+  /Compatibilities/kubejs.en.md
+  /Guides/Weapons/page4.en.md
+  /Misc/Gameplay/enchantments.en.md
 # Plugins
 plugins:
   - social:
@@ -49,7 +92,7 @@ plugins:
         - en
         - pl
   - include-markdown
-  - markdown-filter
+  - markupsafe-markdown-filter
   - minify:
       minify_html: true
       minify_js: true
@@ -164,7 +207,7 @@ plugins:
       fallback_to_build_date: true
   - git-committers:
       #Regenerate token for security -- fixes issue for commiters not displaying
-      enabled: !ENV [CI, false]
+      enabled: !ENV
       repository: MetalKnight56/EpicFight-Docs
       branch: main
   - tags:
@@ -198,6 +241,7 @@ theme:
     - navigation.sections
     - navigation.tracking
     - navigation.indexes
+    - navigation.path
     - search.sticky
     - content.code.annotate
     - content.code.copy

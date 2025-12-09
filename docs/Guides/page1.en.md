@@ -1,5 +1,5 @@
 ---
-icon: blender
+icon: simple/blender
 hide:
   - announcement
 ---
@@ -39,7 +39,7 @@ To install the custom Blender Exporter, visit the repository and download the ma
 </center>
 
 <ol>
-<li>Go to the folder where blender is installed, move all files under /2.79/scripts/addons/xxxxxxxx/.<br><div style="font-size:0.6rem;">(You should create a new folder, represented here by the multiple Xs, it's naming does not matter)</div></li>
+<li>Go to the folder where Blender is installed, move all files under /2.79/scripts/addons/xxxxxxxx/.<br><div style="font-size:0.6rem;">(You should create a new folder, represented here by the multiple Xs, it's naming does not matter)</div></li>
 
 <li>Go to Blender <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> File <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> User Preferences <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> Add-ons, And find an add-on named <strong>"Import-Export: Minecraft Model Json Exporter"</strong></li>
 
@@ -157,8 +157,7 @@ To delete an object, simply press <kbd>Del</kbd> on your keyboard, and a confirm
 <!-- md:example https://github.com/Epic-Fight/EpicFight-Files/blob/Blender-Armor/EpicFight%20Animation%20Rig.blend?raw=true -->
 ### :fontawesome-solid-circle: Starting with animations 
 
-You can download the [**Epic Fight Player Animation Rig**](https://github.com/Epic-Fight/EpicFight-Files/blob/Blender-Armor/EpicFight%20Animation%20Rig.blend?raw=true)  
-and use it in **[Blender]** to create animations for the Epic Fight player.  
+You can download the [**Epic Fight Player Animation Rig**](https://github.com/Epic-Fight/EpicFight-Files/blob/Blender-Armor/EpicFight%20Animation%20Rig.blend?raw=true) and use it in **[Blender]** to create animations for the Epic Fight player.  
 Once you're done, export them using the **Epic Fight Blender JSON Exporter Add-on**.
 
 Animations made with the **Epic Fight Player Animation Rig** can be applied to any **biped (humanoid)** entity.  
