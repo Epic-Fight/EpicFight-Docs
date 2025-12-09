@@ -39,7 +39,7 @@ pytest-cov = "^3.0"
 [tool.poetry.group.docs]
 optional = true
 [tool.poetry.group.docs.dependencies]
-Jinja2 = "<3.1"
+Jinja2 = ">=3.1"
 lxml = "4.9.4"
 mkdocs = "1.6.1"
 mkdocs-material = "9.7.0"
