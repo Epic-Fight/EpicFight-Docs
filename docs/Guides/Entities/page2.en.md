@@ -200,13 +200,13 @@ Entities typically have three main states during their lifecycle:
 
 </div><div class="image-section2">
 	<div class="image-wrapper" data-image-id="image1" style="display: block;">
-		<div class="grow-effect" style="--scale-size: 1.01;"><img src="/assets/gifs/Idle.gif" class="white-border" style="--image-width: 400px;"></div>
+		<div class="grow-effect" style="--scale-size: 1.01;"><img src="/assets/gifs/idle.gif" class="white-border" style="--image-width: 400px;"></div>
 	</div>
 	<div class="image-wrapper" data-image-id="image2">
-		<div class="grow-effect" style="--scale-size: 1.01;"><img src="/assets/gifs/Walk.gif" class="white-border" style="--image-width: 400px;"></div>
+		<div class="grow-effect" style="--scale-size: 1.01;"><img src="/assets/gifs/walk.gif" class="white-border" style="--image-width: 400px;"></div>
 	</div>
 	<div class="image-wrapper" data-image-id="image3">
-		<div class="grow-effect" style="--scale-size: 1.01;"><img src="/assets/gifs/Chase.gif" class="white-border" style="--image-width: 400px;"></div>
+		<div class="grow-effect" style="--scale-size: 1.01;"><img src="/assets/gifs/chase.gif" class="white-border" style="--image-width: 400px;"></div>
 	</div>
 </div></div>
 

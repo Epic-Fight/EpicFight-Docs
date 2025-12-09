@@ -5,18 +5,18 @@ hide:
 ---
 # Starting with Blender 2.79
 
-Epic fight uses custom animations for multiple actions in game, from drinking, eating to even attack combos. These animations are handled by Blender, a 3D open source software for modeling, animating, texturing, composition, rendering and video editing.
+Epic fight uses custom animations for multiple actions in game, from drinking, eating to even attack combos. These animations are handled by [Blender], a 3D open source software for modeling, animating, texturing, composition, rendering and video editing.
 
-It may seem overwhelming to work with blender, but here I'll only be teaching you the absolute necessary to work with epic fight.
+It may seem overwhelming to work with [Blender], but here I'll only be teaching you the absolute necessary to work with epic fight.
 
 !!! note
 
-	<center>Epic Fight animations/models are all made in Blender 2.79, but you may opt for newer versions such as Blender 3.6, which we have recently started supporting [here]</center>
+	<center>Epic Fight animations/models are all made in [Blender] 2.79, but you may opt for newer versions such as [Blender] 3.6, which we have recently started supporting [here]</center>
 	
 	[here]: ../page2/
 ***
 ## :material-download: Installing blender
-To install Blender (2.79) head to the following website:
+To install [Blender] (2.79) head to the following website:
 
 * [:material-download: Blender 2.79](https://download.blender.org/release/Blender2.79/)
 
@@ -25,9 +25,9 @@ Make sure to select the correct version that corresponds to your Operational Sys
  
 
 ### :fontawesome-solid-play: Extracting and Running ...
-<p style="margin-bottom: 0;">After downloading the correct file from the Blender index, you can extract the files using your preferred program.</p>
+<p style="margin-bottom: 0;">After downloading the correct file from the [Blender] index, you can extract the files using your preferred program.</p>
 <div style="font-size:0.6rem;">(It's recommended to use a program such as 7-Zip for extracting the files)</div>
-After extracting the files, verify that Blender runs correctly. To test this, open the folder hierarchy and launch `Blender.exe`. If a window appears, Blender has been successfully installed.
+After extracting the files, verify that [Blender] runs correctly. To test this, open the folder hierarchy and launch `Blender.exe`. If a window appears, [Blender] has been successfully installed.
 ***
 ## :material-download: Json exporter
 To install the custom Blender Exporter, visit the repository and download the master branch by following these steps:
@@ -158,7 +158,7 @@ To delete an object, simply press <kbd>Del</kbd> on your keyboard, and a confirm
 ### :fontawesome-solid-circle: Starting with animations 
 
 You can download the [**Epic Fight Player Animation Rig**](https://github.com/Epic-Fight/EpicFight-Files/blob/Blender-Armor/EpicFight%20Animation%20Rig.blend?raw=true)  
-and use it in **Blender** to create animations for the Epic Fight player.  
+and use it in **[Blender]** to create animations for the Epic Fight player.  
 Once you're done, export them using the **Epic Fight Blender JSON Exporter Add-on**.
 
 Animations made with the **Epic Fight Player Animation Rig** can be applied to any **biped (humanoid)** entity.  
@@ -286,8 +286,8 @@ UV Mapping stands for "UV coordinates mapping" in the field of computer graphics
 #### :fontawesome-solid-wrench: Fixing issues in between bends (Loop Cuts)
 <div class="content-container">
 	<div class="text-section" style="--text-max-width: 60%;">
-		For developers or creators working on entity models, adding bends to your models is often essential. However, a common issue you might encounter is Blender's difficulty in determining the appropriate texture for the narrow space between loop cuts.<br><br>   
-		This can result in unintended visual artifacts or texture stretching, as Blender struggles to decide how to apply the texture within these tight, angled sections. Understanding and addressing this challenge is crucial for achieving smooth, high-quality textures on complex models.<br><br>   
+		For developers or creators working on entity models, adding bends to your models is often essential. However, a common issue you might encounter is [Blender]'s difficulty in determining the appropriate texture for the narrow space between loop cuts.<br><br>   
+		This can result in unintended visual artifacts or texture stretching, as [Blender] struggles to decide how to apply the texture within these tight, angled sections. Understanding and addressing this challenge is crucial for achieving smooth, high-quality textures on complex models.<br><br>   
 		A few solutions to this issue include arranging the loop cut spaces carefully by stretching the UV maps toward either the top or bottom, depending on the specific part you are working on.<br><br>   
 		The first step is to switch your window to Edit Mode. If you're unfamiliar with how to use and navigate Edit Mode, you can learn more by checking out the <a href="#edit-object-mode-basics">Edit & Object Mode Basics</a> guide on this page!
 	</div>
@@ -353,8 +353,8 @@ You are able to do this kind of mirroring by copying the current pose (<kbd>Ctrl
 ### :fontawesome-regular-square: Transparency
 <div class="content-container">
 	<div class="text-section2" style="--text-max-width: 75%;">
-		Some objects imported into Blender might display incorrectly, often due to material settings that don’t align with Blender’s rendering system. When this happens, the object may appear partially or entirely opaque, with missing or improperly rendered transparent parts, especially if transparency is a crucial aspect of the model.<br><br> 
-		To resolve this, start by entering <strong>Object Mode</strong>. Then, navigate to the Materials tab in the Properties panel. In the settings for your selected material, find and enable the <strong>Transparency</strong> option. Adjust the <strong>Alpha</strong> setting as needed to control the level of transparency for the material, allowing the object to display as intended. This fix ensures that objects relying on transparency or opacity settings retain their correct visual appearance in Blender.<br><br> 
+		Some objects imported into [Blender] might display incorrectly, often due to material settings that don’t align with [Blender]’s rendering system. When this happens, the object may appear partially or entirely opaque, with missing or improperly rendered transparent parts, especially if transparency is a crucial aspect of the model.<br><br> 
+		To resolve this, start by entering <strong>Object Mode</strong>. Then, navigate to the Materials tab in the Properties panel. In the settings for your selected material, find and enable the <strong>Transparency</strong> option. Adjust the <strong>Alpha</strong> setting as needed to control the level of transparency for the material, allowing the object to display as intended. This fix ensures that objects relying on transparency or opacity settings retain their correct visual appearance in [Blender].<br><br> 
 		You may also refer to the resource linked below for additional guidance:
 	</div>
 	<div class="image-section2">
@@ -365,14 +365,14 @@ You are able to do this kind of mirroring by copying the current pose (<kbd>Ctrl
 	</div>
 </div>
 !!!	quote
-	Materials in Blender can be set to be transparent, so that light can pass through any objects using the material. Transparency is controlled using an “alpha” channel, where each pixel has an additional value, range 0-1, in addition to its RGB color values. If alpha=0, then the pixel is transparent, and the RGB values for the surface contribute nothing to the pixel’s appearance; for alpha=1, the surface is fully opaque, and the color of the surface determines the final color of the pixel.
+	Materials in [Blender] can be set to be transparent, so that light can pass through any objects using the material. Transparency is controlled using an “alpha” channel, where each pixel has an additional value, range 0-1, in addition to its RGB color values. If alpha=0, then the pixel is transparent, and the RGB values for the surface contribute nothing to the pixel’s appearance; for alpha=1, the surface is fully opaque, and the color of the surface determines the final color of the pixel.
 	
 	<figure markdown>
 	<img src="/assets/images/transparency_enabled.png" class="white-border">
 	<figcaption>Transparency panel.</figcaption>
 	</figure>
 	
-	In Blender, there are three ways in which the transparency of a material can be set: Mask, Z-Buffer and Raytrace. Each of these is explained in more detail below. The Material Preview option with a sphere object gives a good demonstration of the capabilities of these three options.
+	In [Blender], there are three ways in which the transparency of a material can be set: Mask, Z-Buffer and Raytrace. Each of these is explained in more detail below. The Material Preview option with a sphere object gives a good demonstration of the capabilities of these three options.
 	
 	[:octicons-arrow-right-24: [Reference](https://docs.blender.org/manual/en/2.79/render/blender_render/materials/properties/transparency.html)](#)
 
@@ -385,7 +385,7 @@ You are able to do this kind of mirroring by copying the current pose (<kbd>Ctrl
 
 	---
 	
-	<center>If you're considering diving into Blender and beginning your learning journey, I highly recommend exploring the comprehensive tutorial playlist curated by Derek Banas.</center>
+	<center>If you're considering diving into [Blender] and beginning your learning journey, I highly recommend exploring the comprehensive tutorial playlist curated by Derek Banas.</center>
 	
 	---
 	

@@ -27,14 +27,19 @@ nav:
       - Blockbench Armor Model Remake: Guides/Armor/3Darmor_page3.md
   - API:
     - Getting started: API/Starting.md
+    - Utilities: API/Utilities.md
     - Migration: API/Migration.md
+    - Input: API/Input.md
   - Misc:
     - Credits: Misc/credits.md
     - Gameplay: 
       - Misc/Gameplay/index.md
-      - Enchantments: Misc/Gameplay/enchantments.md
+      #- Enchantments: Misc/Gameplay/enchantments.md
       - Recipes: Misc/Gameplay/recipes.md
       - Skills: Misc/Gameplay/skills.md
+  - Compendium:
+      - Compendium/Compendium.md
+      
 
 # Plugins
 plugins:
@@ -43,6 +48,15 @@ plugins:
       lang:
         - en
         - pl
+  - include-markdown
+  - markdown-filter
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+          remove_comments: true
+      cache_safe: true
   - mkdocs-simple-hooks:
       hooks:
         on_page_markdown: 'docs.hooks:page_markdown'
@@ -150,6 +164,7 @@ plugins:
       fallback_to_build_date: true
   - git-committers:
       #Regenerate token for security -- fixes issue for commiters not displaying
+      enabled: !ENV [CI, false]
       repository: MetalKnight56/EpicFight-Docs
       branch: main
   - tags:
@@ -241,32 +256,38 @@ extra:
       
 # Extensions
 markdown_extensions:
+  - pymdownx.snippets:
+      auto_append:
+        - docs/includes/abbreviations.md
   - toc:
-      title: On this page
+        title: On this page
   - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.magiclink
   - attr_list
   - pymdownx.details
   - admonition
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
   - abbr
   - sane_lists
   - pymdownx.tabbed:
-      alternate_style: true
+        alternate_style: true
       
 # Hooks & Extras
 extra_css:
-  - stylesheets/extra_css/roundimages.css
   - stylesheets/extra_css/extra.css
 extra_javascript:
   - javascripts/extra.js
 hooks:
   - overrides/hooks/shortcodes.py
+  
+validation:
+  unrecognized_links: ignore
+  absolute_links: ignore

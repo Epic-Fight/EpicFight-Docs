@@ -48,7 +48,7 @@ hide:
 </p>
 </center>
 
-<center> **Ensure you verify your Epicfight version before following any guidelines, as all instructions are tailored to the latest release!** </center><br>  
+<center> **Ensure you verify your Epic Fight version before following any guidelines, as all instructions are tailored to the latest release!** </center><br>  
 ***
 
 <div class="grid cards" markdown>
@@ -58,7 +58,7 @@ hide:
 
     ---
 
-    Fix glitched textures & models from custom modded armors from other mods through a resourcepack.
+    Fix glitched textures & models from custom modded armors from other mods through a ResourcePack.
 
     [:octicons-arrow-right-24: [Custom 3D armor Resource Pack](Guides/Armor/3Darmor_page1)](#)
 
@@ -106,7 +106,7 @@ hide:
 
     ---
 
-    Want to learn blender & create your own animations and movesets? Visit the following page and get started with it !
+    Want to learn [Blender] & create your own animations and movesets? Visit the following page and get started with it !
 
     [:octicons-arrow-right-24: [Blender 2.79](Guides/page1)](#)
 	

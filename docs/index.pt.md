@@ -9,23 +9,23 @@ Todos os guias são baseados na versão mais recente. Então, verifique sua vers
 
 #### Pacote de Recursos de armadura 3D
 
-Esta página irá ajudá-lo a fazer um pacote de recursos que corrige permanentemente as texturas estranhas: [Pacote de Recurso de Armadura 3D Personalizado](Armor/3Darmor_page1)
+Esta página irá ajudá-lo a fazer um pacote de recursos que corrige permanentemente as texturas estranhas: <strike>[Pacote de Recurso de Armadura 3D Personalizado]()</strike>
 
 ***
 
 #### AI/Pacote de Dados De Entidade
 
-Esta página irá te mostrar como fazer um banco de dados para alterar a IA de uma entidade: [Dados personalizados de entidade](Guides/page1)
+Esta página irá te mostrar como fazer um banco de dados para alterar a IA de uma entidade: <strike>[Dados personalizados de entidade]()</strike>
 ***
 
 #### Pacote de Dados personalizado de Armadura/Arma
 
-Aqui você encontrará um tutorial passo-a-passo de como fazer um Pacote de Dados: [Pacote de Dados Armaduras/Armas Customizadas](Guides/page2)
+Aqui você encontrará um tutorial passo-a-passo de como fazer um Pacote de Dados: <strike>[Pacote de Dados Armaduras/Armas Customizadas]()</strike>
 
 ***
 #### Pacotes de Recurso de Rastros Personalizados
 
-Este guia ajudará você a adicionar rastros personalizados em suas armas modificadas: [Trilhas Personalizadas](Guides/page4)
+Este guia ajudará você a adicionar rastros personalizados em suas armas modificadas: <strike>[Trilhas Personalizadas]()</strike>
 ***
 #### Tem alguma dúvida sobre os livros de habilidade?
 

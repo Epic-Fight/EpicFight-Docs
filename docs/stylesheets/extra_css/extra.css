@@ -347,3 +347,13 @@ footer.sponsorship:not(:hover) .twemoji.heart-throb-hover svg {
 .img-rounded {
     border-radius: var(--border-radius, 30px); /* Use any value to adjust the roundness */
   }
+
+.three-columns {
+  column-count: 3;
+  column-gap: 3em;
+}
+
+.three-columns img {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}

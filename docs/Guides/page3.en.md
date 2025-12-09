@@ -54,7 +54,7 @@ Mind that the animation/model files to be imported should be exported from blend
 
 Imported models will appear in the preview screen. If your model file includes armature data, it’s automatically added to the Armatures grid.
 
-Models with the same hierarchy in Blender can share an armature. You don’t need to re-import an armature if it already exists. *(Example: Player and Vindicator models in wireframe mode)*
+Models with the same hierarchy in [Blender] can share an armature. You don’t need to re-import an armature if it already exists. *(Example: Player and Vindicator models in wireframe mode)*
 
 ### :fontawesome-solid-person-walking: Configure Animation Settings
 

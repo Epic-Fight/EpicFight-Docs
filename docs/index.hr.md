@@ -9,23 +9,23 @@ search:
 
 #### 3D oklop Paketa Resursa
 
-Ova stranica će vam pomoći da napravite paket resursa koji trajno popravlja te proklete teksture: [Prilagođeni paket resursa za 3D oklop](Armor/3Darmor_page1)
+Ova stranica će vam pomoći da napravite paket resursa koji trajno popravlja te proklete teksture: <strike>[Prilagođeni paket resursa za 3D oklop]()</strike>
 
 ***
 
 #### Entitetski AI/Datapack
 
-Ova stranica će vam pokazati kako napraviti paket podataka za promjenu AI entiteta: [Prilagođeni paket podataka entiteta](Guides/page1)
+Ova stranica će vam pokazati kako napraviti paket podataka za promjenu AI entiteta: <strike>[Prilagođeni paket podataka entiteta]()</strike>
 ***
 
 #### Prilagođeni "datapack" Oružja/Oklopa
 
-Ovdje ćete pronaći kako korak po korak možete izraditi paket podataka (datapack): [Prilagođeni datapack za oružje/oklop](Guides/page2)
+Ovdje ćete pronaći kako korak po korak možete izraditi paket podataka (datapack): <strike>[Prilagođeni datapack za oružje/oklop]()</strike>
 
 ***
 #### Prilagođen trag Paketa Resursa
 
-Ovaj vodič će vam pomoći da dodate prilagođene tragove svom prilagođenom zakrpanom oružju: [Prilagođeni Tragovi](Guides/page4)
+Ovaj vodič će vam pomoći da dodate prilagođene tragove svom prilagođenom zakrpanom oružju: <strike>[Prilagođeni Tragovi]()</strike>
 ***
 #### Imate li pitanja o Knjigama Vještina?
 

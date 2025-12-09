@@ -39,6 +39,7 @@ pytest-cov = "^3.0"
 [tool.poetry.group.docs]
 optional = true
 [tool.poetry.group.docs.dependencies]
+Jinja2 = "<3.1"
 lxml = "4.9.4"
 mkdocs = "1.5.3"
 mkdocs-material = "9.5.2"
@@ -51,6 +52,8 @@ docutils = "0.18.1"
 Babel = "2.12.1"
 cairosvg = "2.7.1"
 mkdocs-simple-hooks = "0.1.5"
+mkdocs-include-markdown-plugin = "7.2.0"
+mkdocs-markdown-filter = "0.1.1"
 
 # Python-style entrypoints and scripts are easily expressed
 [tool.poetry.scripts]

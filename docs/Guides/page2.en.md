@@ -5,13 +5,13 @@ hide:
 ---
 # Starting with Blender 3.6
 
-Epic fight uses custom animations for multiple actions in game, from drinking, eating to even attack combos. These animations are handled by Blender, a 3D open source software for modeling, animating, texturing, composition, rendering and video editing.
+Epic fight uses custom animations for multiple actions in game, from drinking, eating to even attack combos. These animations are handled by [Blender], a 3D open source software for modeling, animating, texturing, composition, rendering and video editing.
 
 It may seem overwhelming to work with blender, but here I'll only be teaching you the absolute necessary to work with epic fight.
 
 ***
 ## :material-download: Installing blender
-To install Blender (2.79) head to the following website:
+To install [Blender] (3.6) head to the following website:
 
 * [:material-download: Blender 3.6](https://download.blender.org/release/Blender3.6/)
 
@@ -20,9 +20,9 @@ Make sure to select the correct version that corresponds to your Operational Sys
  
 
 ### :fontawesome-solid-play: Extracting and Running ...
-<p style="margin-bottom: 0;">After downloading the correct file from the Blender index, you can extract the files using your preferred program.</p>
+<p style="margin-bottom: 0;">After downloading the correct file from the [Blender] index, you can extract the files using your preferred program.</p>
 <div style="font-size:0.6rem;">(It's recommended to use a program such as 7-Zip for extracting the files)</div>
-After extracting the files, verify that Blender runs correctly. To test this, open the folder hierarchy and launch `Blender.exe`. If a window appears, Blender has been successfully installed.
+After extracting the files, verify that [Blender] runs correctly. To test this, open the folder hierarchy and launch `Blender.exe`. If a window appears, [Blender] has been successfully installed.
 ***
 ## :material-download: Json exporter
 To install the custom Blender Exporter, visit the repository and download the master branch by following these steps:

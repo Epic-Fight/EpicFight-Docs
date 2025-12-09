@@ -72,3 +72,19 @@ hoverTexts.forEach(item => {
     item.addEventListener('mouseenter', showGlowBoxAndImage); // Use mouseenter for precise hover
     item.addEventListener('mouseleave', hideGlowBoxAndImage); // Use mouseleave to avoid flicker
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Select all spans marked as excluded from glossary linking
+  document.querySelectorAll(".no-glossary").forEach(span => {
+    const link = span.querySelector("a[href]");
+    if (link) {
+      // Replace the link with plain text to "break" the auto-linking
+      const textNode = document.createTextNode(link.textContent);
+      span.replaceWith(textNode);
+    } else if (span.children.length === 0) {
+      // Just unwrap the span if it's already plain text
+      const textNode = document.createTextNode(span.textContent);
+      span.replaceWith(textNode);
+    }
+  });
+});

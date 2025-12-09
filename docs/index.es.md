@@ -11,18 +11,18 @@ search:
 
 #### Paquete de recursos para la armadura en 3D
 
-Esta página podrá ayudarte a hacer un paquete de recursos que permanentemente repara errores en las texturas: [ Paquete de recursos para armadura 3D personalizada](Armor/3Darmor_page1)
+Esta página podrá ayudarte a hacer un paquete de recursos que permanentemente repara errores en las texturas: <strike>[ Paquete de recursos para armadura 3D personalizada]()</strike>
 
 ***
 
 #### Paquete de datos para IA de entidad
 
-Esta página te mostrará todo lo que necesitas saber para hacer paquete de datos que cambie la IA de una entidad: [ Paquete de datos de entidad personalizada](Guides/page1)
+Esta página te mostrará todo lo que necesitas saber para hacer paquete de datos que cambie la IA de una entidad: <strike>[ Paquete de datos de entidad personalizada]()</strike>
 ***
 
 #### Paquete de datos personalizado para armas o armaduras
 
-Aquí puedes encontrar paso a paso un tutorial para hacer un paquete de datos: [ Paquete de datos personalizados para armas y armaduras](Guides/page2.es.md)
+Aquí puedes encontrar paso a paso un tutorial para hacer un paquete de datos: <strike>[ Paquete de datos personalizados para armas y armaduras]()</strike>
 
 ***
 

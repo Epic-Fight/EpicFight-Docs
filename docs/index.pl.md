@@ -11,18 +11,18 @@ search:
 
 #### Pakiet zasobów zbroi 3D
 
-Ta strona pomoże Ci stworzyć pakiet zasobów, który naprawi te przeklęte tekstury: [Pakiet zasobów zbroi 3D](Armor/3Darmor_page1)
+Ta strona pomoże Ci stworzyć pakiet zasobów, który naprawi te przeklęte tekstury: <strike>[Pakiet zasobów zbroi 3D]()</strike>
 
 ***
 
 #### AI bytów/Datapack
 
-Ta strona pokaże Ci, jak stworzyć datapack zmieniający AI moba: [AI bytów/Datapack](Guides/page1)
+Ta strona pokaże Ci, jak stworzyć datapack zmieniający AI moba: <strike>[AI bytów/Datapack]()</strike>
 ***
 
 #### Datapack z niestandardową bronią i zbrojami
 
-Tutaj znajdziesz samouczek pokazujący krok po kroku tworzenie datapacków: [Datapack z niestandardową bronią i zbrojami](Guides/page2)
+Tutaj znajdziesz samouczek pokazujący krok po kroku tworzenie datapacków: <strike>[Datapack z niestandardową bronią i zbrojami]()</strike>
 
 ***
 

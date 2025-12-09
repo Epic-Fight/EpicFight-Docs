@@ -4,7 +4,7 @@ hide:
   - announcement
 ---
 # Alternate 3D Armor Fixes
-Be ware that these solutions may not be as effective as manually patching armors in blender. 
+Be ware that these solutions may not be as effective as manually patching armors in [Blender]. 
 
 These tools are mainly for modpack and mod developers to test their armor. If you want to properly patch armors and make sure they work in-game, go to **[:octicons-arrow-right-24: [3D Armor Fix]](#)**
 [3D Armor Fix]: ../../Armor/3Darmor_page1

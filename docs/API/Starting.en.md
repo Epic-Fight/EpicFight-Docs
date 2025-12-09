@@ -102,7 +102,7 @@ Epic Fight event packages by version:
 ## :octicons-code-16: Registering Custom Animations
 
 You can download the [**Epic Fight Player Animation Rig**](https://github.com/Epic-Fight/EpicFight-Files/blob/Blender-Armor/EpicFight%20Animation%20Rig.blend?raw=true)  
-and use it in **Blender** to create animations for the Epic Fight player.  
+and use it in **[Blender]** to create animations for the Epic Fight player.  
 Once you're done, export them using the [**Epic Fight Blender Exporter Add-on**](https://github.com/Epic-Fight/blender-json-exporter).
 
 Animations made with the **Epic Fight Player Animation Rig** can be applied to any **biped (humanoid)** entity.  
@@ -188,7 +188,7 @@ public class YourEntity extends PathfinderMob {
 Make sure that **Epic Fight** is either declared as a required dependency in your [mods.toml](https://docs.neoforged.net/docs/gettingstarted/modfiles/#neoforgemodstoml) file
 or that you check for its presence at runtime as shown above. This prevents crashes if the mod isn’t installed.
 
-## ::material-bandage: Patching a custom entity
+## :material-bandage: Patching a custom entity
 
 This tutorial shows how to patch a custom humanoid entity for use with Epic Fight.  
 It assumes you already have the entity set up in vanilla Minecraft, including its registration, [renderer](https://docs.neoforged.net/docs/entities/renderer/), and [attributes](https://docs.neoforged.net/docs/entities/attributes).

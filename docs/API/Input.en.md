@@ -1,5 +1,5 @@
 ---
-icon: simple/gradle
+icon: material/exit-to-app
 hide:
   - announcement
 ---
