@@ -211,8 +211,8 @@ public class YourEntityPatch extends HumanoidMobPatch<YourEntity> {
     }
 
     @Override
-    public void updateMotion(boolean b) {
-        super.commonMobUpdateMotion(b);
+    public void updateMotion(considerInaction b) {
+        super.commonMobUpdateMotion(considerInaction);
     }
 
     @Override
