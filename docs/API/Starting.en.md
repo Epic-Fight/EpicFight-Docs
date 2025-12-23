@@ -212,10 +212,12 @@ public class YourEntityPatch extends HumanoidMobPatch<YourEntity> {
 
     @Override
     public void updateMotion(boolean considerInaction) {
-        super.commonMobUpdateMotion(considerInaction);
-        // OR
-        // super.commonAggressiveMobUpdateMotion(considerInaction);
-        // super.commonAggressiveRangedMobUpdateMotion(considerInaction);
+        super.commonAggressiveMobUpdateMotion(considerInaction);
+        // Explanation:
+        // commonMobUpdateMotion: base locomotion (e.g., idle, walk, fall, mount, death)
+        // commonAggressiveMobUpdateMotion: base locomotion + chase
+        // commonAggressiveRangedMobUpdateMotion: base locomotion + chase + ranged combat (aim, shot, reload)
+
     }
 
     @Override
