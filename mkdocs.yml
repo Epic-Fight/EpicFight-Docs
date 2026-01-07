@@ -26,10 +26,7 @@ nav:
       - Alternate 3D Armor Fixes: Guides/Armor/3Darmor_page2.md
       - Blockbench Armor Model Remake: Guides/Armor/3Darmor_page3.md
   - API:
-    - Getting started: API/Starting.md
-    - Utilities: API/Utilities.md
-    - Migration: API/Migration.md
-    - Input: API/Input.md
+      - API/
   - Misc:
     - Credits: Misc/credits.md
     - Gameplay: 
@@ -93,6 +90,7 @@ plugins:
         - pl
   - include-markdown
   - markupsafe-markdown-filter
+  - awesome-nav
   - minify:
       minify_html: true
       minify_js: true

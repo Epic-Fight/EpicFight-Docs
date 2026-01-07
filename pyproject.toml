@@ -55,6 +55,7 @@ mkdocs-simple-hooks = "0.1.5"
 mkdocs-include-markdown-plugin = "7.2.0"
 mkdocs-markupsafe-markdown-filter = "0.1.1"
 mkdocs-minify-plugin = "0.8.0"
+mkdocs-awesome-nav = "3.3.0"
 
 # Python-style entrypoints and scripts are easily expressed
 [tool.poetry.scripts]
