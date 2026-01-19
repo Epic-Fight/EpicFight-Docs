@@ -1,8 +1,7 @@
 ---
-icon: blockbench
+icon: simple/blockbench
 hide:
   - announcement
-  - toc
 ---
 
 # Blockbench Armor Model Remake
@@ -20,84 +19,80 @@ After downloading and installing all three softwares, the first thing you'll wan
  **EXAMPLE:**
  
 <center>
-<img src="/assets/images/example_armor_texture.png" width="480" height="320">
+<img src="/assets/images/example_armor_texture.png" width="480" height="320" style="image-rendering: pixelated;">
 </center>
 
-Above is the texture file for the archers_armor of the Dungeon Gear Mod. Lets take a look how we can re-create this armor by looking at the texture within Blockbench<br>   
+Above is the texture file for the archers_armor of the [Dungeon Gear Mod]. Lets take a look how we can re-create this armor by looking at the texture within Blockbench<br>   
 
 ***
 ## Inside of Blockbench
 
-<ol start="1">
-<li>
-Create a Generic Model so we can export it to blender later on. Preferably name the model something you can recognize, for example, <b>Archer's Armor</b>.
-<center>
-<img src="/assets/images/create_model_screen1.png" class="white-border">
-</center>
-</li>
+1. Create a Generic Model so we can export it to blender later on. Preferably name the model something you can recognize, for example, <b>Archer's Armor</b>.
 
+	<div markdown="1" style="display: flex; flex-wrap: wrap; gap: 15px; align-items: flex-start;">
+	<div markdown="1" style="flex: 1 1 500px; max-width: 100%;">
+	<img src="/assets/images/create_model_screen1.png" class="white-border">
+	</div>
 
-<li>
-Ensure that you have the CEM Template Loader plugin properly installed in order to seamlessly import the vanilla models.
-</li>
-</ol>
+	<div markdown="1" style="flex: 1 1 100px; max-width: 100%;">
 
-!!! tip
-	<center>You can download plugins under ``File/Plugins`` option</center>
+	!!! tip
+		Ensure that you have the CEM Template Loader plugin properly installed in order to seamlessly import the vanilla models.<br><br>
+		
+		You can download plugins under the ``File/Plugins`` option.
+
+	</div>
+	</div>
 
 <br>
 
-<ol start="3">
-<li>
-From there, you'll want to import all vanilla armor models.  
+2. From there, you'll want to import all vanilla armor models. You can import the vanilla armor models under:<br> Tools :material-arrow-right: Load CEM Template :material-arrow-right: Unsupported Entities
+
+	<img src="/assets/images/create_model_screen2.png" class="white-border">
 <br>
-</li>
-</ol>
 
-> You can import the vanilla armor models under Tools/Load CEM Template/Unsupported Entities
+<div markdown="1" style="display: flex; flex-wrap: wrap; gap: 15px; align-items: flex-start;">
+<div markdown="1" style="flex: 1 1 500px; max-width: 100%;">
+3. Import the texture files into Blockbench, then update the project’s texture resolution so it exactly matches the dimensions of the imported texture. 
+	This ensures that every pixel lines up correctly on the model and prevents stretching, misalignment, or incorrect UV mapping while you work on the armor. 
+	</div>
 
-<center>
-<img src="/assets/images/create_model_screen2.png" class="white-border">
-</center>
-
-
-<ol start="4">
-<li>
-Import the textures, and change the texture size on the project to the same one as the texture. 
-</li>
-</ol>
-
+<div markdown="1" style="flex: 1 1 100px; max-width: 100%;">
 !!!	tip 
-	<center>You can apply the textures on the model by dragging and dropping it on each armor part group</center>
+	You can apply the textures on the model by dragging and dropping it on each armor part group
+</div>
+</div>
+<img src="/assets/images/selected_head_cube.png" style="margin-left: 1.5em;"><br><br>
 
-<center>
-<img src="/assets/images/selected_head_cube.png">
-</center>
+ 
+4. Now, let's fix the textures until they are in the correct order and look like the original model.After organizing the textures, 
+	press <kbd>Ctrl</kbd> + <kbd>A</kbd>, and make sure all textures are being used. 
+	If you miss any textures, that means you model needs more adjustments and so you'll need to add in extra pieces to the armor.<br><br> 
+	
+	
+	<div markdown="1" style="display: flex; flex-wrap: wrap; gap: 15px; align-items: flex-start;">
+	<div markdown="1" style="flex: 1 1 500px; max-width: 100%;">
+	<img src="/assets/images/unused_texture_part.png" class="white-border">
+	</div>
+	<div markdown="1" style="flex: 1 1 200px; max-width: 100%;">
+	!!! note
+		In our case, the Archer's Armor has an extra part to its hat so we'll need to add in a cube and try to guess its rotation, 
+		scale and position based on the in-game armor added by Dungeon's gear and the texture size.
+	</div>
+	</div>
 
-<ol start="5">
-<li>
-Now, fix the textures until they are in the correct order and look like the original model.<br>   
-</li>
 
-<li>
-After organizing the textures, press <kbd>Ctrl</kbd> + <kbd>A</kbd>, and make sure all textures are being used. If you miss any textures, that means you model needs more adjustments and so you'll need to add in extra pieces to the armor.  
-<br>  
-<br>  
-In our case, the Archer's Armor has an extra part to its hat so we'll need to add in a cube and try to guess its rotation, scale and position based on the in-game armor added by Dungeon's gear and the texture size.
-<center>
-<img src="/assets/images/unused_texture_part.png" class="white-border">
-</center>
-</li>
-
-<li>
-As you can see, after a few changes, we got our model to look like the original one, and now we are ready to move on to blender and to patching each individual part.
-<center>
-<img src="/assets/images/adjusted_model.png" class="white-border">
-</center>
-</li>
-
-<li>
-Now when exporting you armor file, be sure to export it as a .obj, because that's what we'll be using inside blender.
-</li>
-</ol>
+<div markdown="1" style="display: flex; flex-wrap: wrap; gap: 15px; align-items: flex-start;">
+<div markdown="1" style="flex: 1 1 500px; max-width: 100%;">
+5. After making several adjustments, the model now closely matches the original armor’s appearance.
+	With the shapes, proportions, and textures properly aligned, the model is complete and ready to be exported to [Blender], 
+	here we will begin patching and refining each individual armor component.
+	
+	</div>
+<div markdown="1" style="flex: 1 1 100px; max-width: 100%;">
+!!! note
+	Now when exporting you armor file, be sure to export it as a .obj, because that's what we'll be using inside blender.
+</div>
+</div>
+<img src="/assets/images/adjusted_model.png" class="white-border" style="margin-left: 1.25em;">
 ***

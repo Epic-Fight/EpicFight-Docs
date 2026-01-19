@@ -21,12 +21,11 @@ nav:
       - Item Capability: Guides/Weapons/page1.md
       - Weapon Type Editor: Guides/Weapons/page2.md
       - Custom Trails: Guides/Weapons/page3.md
+      - NBT Integration: Guides/Weapons/page4.md
     - Armor:
       - 3D Armor Fix [Blender 2.79]: Guides/Armor/3Darmor_page1.md
       - Alternate 3D Armor Fixes: Guides/Armor/3Darmor_page2.md
       - Blockbench Armor Model Remake: Guides/Armor/3Darmor_page3.md
-  - API:
-      - API/
   - Misc:
     - Credits: Misc/credits.md
     - Gameplay: 
@@ -74,13 +73,11 @@ nav:
         - Wooden Spear: Compendium/Items/Wooden_Spear.md
         - Wooden Tachi: Compendium/Items/Wooden_Tachi.md
         
-not_in_nav: |
-  /includes/abbreviations.md
-  /includes/pack_mcmeta_section.md
+not_in_nav: !ENV [LANG_EXCLUDE, "/includes/"]
 draft_docs: |
   /Compatibilities/kubejs.en.md
-  /Guides/Weapons/page4.en.md
   /Misc/Gameplay/enchantments.en.md
+ 
 # Plugins
 plugins:
   - social:
@@ -102,6 +99,7 @@ plugins:
       hooks:
         on_page_markdown: 'docs.hooks:page_markdown'
   - i18n:
+      enabled: !ENV [CI, true]
       reconfigure_search: true
       docs_structure: suffix
       fallback_to_default: true
@@ -201,11 +199,12 @@ plugins:
             API: API
             Gameplay: Igranje
   - git-revision-date-localized:
+      enabled: !ENV [CI, true]
       enable_creation_date: true
       fallback_to_build_date: true
   - git-committers:
       #Regenerate token for security -- fixes issue for commiters not displaying
-      enabled: !ENV
+      enabled: !ENV [CI, true]
       repository: MetalKnight56/EpicFight-Docs
       branch: main
   - tags:
@@ -223,14 +222,14 @@ theme:
       primary: red
       accent: red
       toggle:
-        icon: clear_day
+        icon: fontawesome/regular/sun
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: red
       accent: red
       toggle:
-        icon: clear_night
+        icon: fontawesome/regular/moon
         name: Switch to dark mode
   features:
     - navigation.top
@@ -254,22 +253,22 @@ theme:
 extra:
   generator: false
   social:
-    - icon: github 
+    - icon: simple/github
       link: https://github.com/Yesssssman/epicfightmod
       name: GitHub
-    - icon: curseforge
+    - icon: simple/curseforge
       link: https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod
       name: CurseForge
-    - icon: modrinth
+    - icon: simple/modrinth
       link: https://modrinth.com/mod/epic-fight
       name: Modrinth
-    - icon: discord
+    - icon: simple/discord
       link: https://discord.com/invite/NbAJwj8RHg
       name: Discord
-    - icon: youtube
+    - icon: simple/youtube
       link: https://www.youtube.com/@yesman4100
       name: YouTube
-    - icon: patreon
+    - icon: simple/patreon
       link: https://www.patreon.com/join/yessman
       name: Patreon
   analytics: 
@@ -333,3 +332,6 @@ hooks:
 validation:
   unrecognized_links: ignore
   absolute_links: ignore
+  nav:
+    omitted_files: ignore
+    absolute_links: ignore

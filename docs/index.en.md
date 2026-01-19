@@ -48,7 +48,7 @@ hide:
 </p>
 </center>
 
-<center> **Ensure you verify your Epic Fight version before following any guidelines, as all instructions are tailored to the latest release!** </center><br>  
+<center> Ensure you verify your Epic Fight version before following any guidelines, as all instructions are tailored to the latest release! </center><br>  
 ***
 
 <div class="grid cards" markdown>

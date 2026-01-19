@@ -1,5 +1,5 @@
 ---
-icon: trail_length
+icon: material/meteor
 hide:
   - announcement
 ---
@@ -16,35 +16,15 @@ include-markdown 'includes/pack_mcmeta_section.md'
 
 ***
 
-### :fontawesome-solid-folder: Making the folder path
+{%
+include-markdown 'includes/item_skins_folder_path_section.md'
+%}
 
-To set up the folder structure, follow these steps. Each folder or file must be nested inside the previous one in the hierarchy:
-<center> <code>assets <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> "modid" <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> item_skins <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span>"registryname".JSON</code> </center>
-<div class="content-container2">
-	<div class="text-section2" style="--text-max-width: 70%;">
-		<ul>
-		<li>
-		<p><div class="hover-text" data-left="73.8%" data-top="61.5%" data-width="9.8%" data-height="7.5%" style="padding: 8px 0px;"><code>modid</code>: The mod ID is usually the name of the mod. You can often find it by checking in-game item tooltips (press <code>F3 + H</code> to enable Advanced Tooltips) or by looking at commands or messages related to the mod. For example, if the tooltip for an item shows <code>modid:itemname</code>, the part before the colon <code>(modid)</code> is what you’ll use to name the <code>"modid"</code> folder.<br></div></p>
-		</li>
-		<br>
-		<li>
-		<p><div class="hover-text" data-left="83.3%" data-top="61.5%" data-width="14.8%" data-height="7.5%" style="padding: 8px 0px;"><code>registryname</code>: To locate an item’s registry name, press <code>F3 + H</code> in-game to enable Advanced Tooltips. Then, hover over the item to view its registry name.<br></div></p>
-		</li>
-		</ul>
-	</div>
-	<div class="image-section2">
-		<center>
-			<div class="glow-box3"></div>
-			<div class="grow-effect" style="--scale-size: 1.03;"><img src="/assets/images/tooltips_example1.png" class="white-border" style="--image-width: 400px;"></div><br>
-			<span style="font-size: 0.5rem;">Make a <code>.txt</code> file with the outlined text, then change it's type to <code>.json</code></span>
-		</center>
-	</div>
-</div>
 ***
 ### :fontawesome-solid-pencil: Trail customization
 
-<div markdown style="display: flex; align-items: flex-start;">
-<div markdown style="flex: 1; margin-right: 20px; max-width:60%;">
+<div markdown="1" style="display: flex; align-items: flex-start;">
+<div markdown="1" style="flex: 1; margin-right: 20px; max-width:60%;">
 
 After creating the ``.json`` file, you can proceed to fully customize your trails to match your vision. This is where you define the visual characteristics of the trail, such as its color, position, behavior, and texture. Below is a detailed example and explanation of how your ``.json`` file should be structured:
 ``` json
@@ -65,11 +45,8 @@ This is an example ``.json`` file specifically designed for the ``diamond_dagger
 <br><br>
 You can utilize any [RGB color picker](https://g.co/kgs/SknrLE4) to customize the trail's color to your preference. Additionally, feel free to experiment with the various values to fine-tune the trail's appearance and behavior until it matches your vision.
 
-</div><div style="flex: 1; max-width:40%;">
+</div><div markdown="1" style="flex: 1; max-width:40%;">
 
-
-
-<center>
 Here’s a list of fields you can use in the weapon trail ``.json``:
 
 |Fields| Info|
@@ -83,7 +60,6 @@ Here’s a list of fields you can use in the weapon trail ``.json``:
 |"texture_path"| The file path for the custom texture used for the trail.|
 |"particle_type"| The registry name of the trail.|
 
-</center>
 </div></div>
 ***
 ### :material-texture-box: Custom trail textures
@@ -103,8 +79,8 @@ Inside the `"modid"` folder, you can add as many texture files as you need. To u
 
 ### :octicons-database-24: Trail data customization
 
-<div markdown style="display: flex; align-items: flex-start;">
-<div markdown style="flex: 1; margin-right: 20px; max-width:60%;">
+<div markdown="1" style="display: flex; align-items: flex-start;">
+<div markdown="1" style="flex: 1; margin-right: 20px; max-width:60%;">
 
 You can also customize the trail data in-depth for each animation. For reference, you can check the examples in our repository to see how it's applied across different animation data.
 <br><br>
@@ -126,8 +102,7 @@ This structure ensures that your animation-specific trail data is properly recog
 }
 ```
 
-</div><div style="flex: 1; max-width:40%; margin-top: 80px;">
-<center>
+</div><div markdown="1" style="flex: 1; max-width:40%; margin-top: 80px;">
 These fields customize the trail data for any animation:
 
 |Parameters| Info|
@@ -138,7 +113,6 @@ These fields customize the trail data for any animation:
 |"joint"| The parent joint for positioning the trail (e.g., ``"Tool_R"``).|
 |"item_skin_hand"| Specifies the hand where the item skin data is applied (e.g., ``"main_hand"``).|
 
-</center>
 </div></div>
 <br>
 [:octicons-arrow-right-24: Reference](https://github.com/Yesssssman/epicfightmod/tree/1.18.2/src/main/resources/assets/epicfight/animmodels/animations/biped/combat/data)

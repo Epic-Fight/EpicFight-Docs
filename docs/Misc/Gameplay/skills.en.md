@@ -1,5 +1,5 @@
 ---
-icon: auto_stories
+icon: material/book-open-page-variant
 hide:
   - announcement
 ---

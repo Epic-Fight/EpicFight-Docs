@@ -55,3 +55,11 @@
 
 [Desert Pyramid]: https://minecraft.wiki/w/Desert_Pyramid
 [Jungle Pyramid]: https://minecraft.wiki/w/Jungle_Pyramid
+
+[Adding & removing Skill Events to listener]: /API/Porting/Porting-from-1.20.1-to-1.21.1/#adding-removing-skill-events-to-the-listener
+[move toward a multi-loader architecture]: /API/Porting/Porting-from-1.20.1-to-1.21.1/#epic-fight-now-seeks-multi-loader-structure
+[Independent Event API]: /API/Porting/Porting-from-1.20.1-to-1.21.1/#epic-fight-now-seeks-a-more-independent-event-system-from-mod-loaders
+
+[Neoforge's Deffered Register Document]: https://docs.neoforged.net/docs/concepts/registries/#deferredregister
+
+[Dungeon Gear Mod]: https://www.curseforge.com/minecraft/mc-mods/dungeons-gear

@@ -1,5 +1,5 @@
 ---
-icon: wand_magic
+icon: fontawesome/solid/magic-wand-sparkles
 hide:
   - announcement
 ---

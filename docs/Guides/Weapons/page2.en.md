@@ -1,5 +1,5 @@
 ---
-icon: sword_single
+icon: material/sword
 hide:
   - announcement
 ---

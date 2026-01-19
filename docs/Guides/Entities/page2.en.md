@@ -1,5 +1,5 @@
 ---
-icon: hippo-solid
+icon: fontawesome/solid/hippo
 hide:
   - announcement
 ---

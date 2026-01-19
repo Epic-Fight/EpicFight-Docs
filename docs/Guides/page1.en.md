@@ -143,15 +143,19 @@ We often use pose mode in animating as its very handy when it comes to making th
 </div>
 ***
 ### :fontawesome-solid-bone: Adding bones and Deleting stuff
-<div class="content-container" style="--content-max-width: 1180px;">
-    <div class="text-section" style="--text-max-width: 75%;">
-To add bones, switch to <strong>Object Mode</strong> and navigate to <strong>Add</strong> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> <strong>Armature</strong> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span> <strong>Single Bone</strong><br><br>  
-Alternatively, you can press <kbd>Shift</kbd> + <kbd>A</kbd> in Object Mode to quickly open the Add menu and select Single Bone.<br><br>  
-To delete an object, simply press <kbd>Del</kbd> on your keyboard, and a confirmation prompt will appear to confirm the deletion.
-	</div>
-	<div class="image-section">
-		<div class="grow-effect" style="--scale-size: 1.05;"><img src="/assets/images/add_singlebone.png" class="white-border" style="--image-width: 500px;"></div>
-	</div>
+<div markdown="1" style="display: flex; flex-wrap: wrap; gap: 15px; align-items: flex-start;">
+<div markdown="1" style="flex: 1 1 700px; max-width: 100%;">
+To add bones, switch to **Object Mode** and navigate to **Add** :material-arrow-right: **Armature** :material-arrow-right: **Single Bone**<br>
+ 
+As an alternative to using the menu bar, you can add a bone directly from the viewport. While in Object Mode, press <kbd>Shift</kbd> + <kbd>A</kbd> 
+to open the Add menu, then choose Single Bone.<br>
+
+When you want to remove an object from the scene, first select it and press <kbd>Del</kbd>.
+A confirmation dialog will appear, allowing you to confirm or cancel the deletion to avoid accidental removals.
+
+</div><div markdown="1" style="flex: 1 1 300px; max-width: 100%;">
+<img src="/assets/images/add_singlebone.png" class="white-border">
+</div>
 </div>
 ***
 <!-- md:example https://github.com/Epic-Fight/EpicFight-Files/blob/Blender-Armor/EpicFight%20Animation%20Rig.blend?raw=true -->
@@ -165,9 +169,9 @@ However, they are **not compatible** with non-humanoid entities such as the **En
 
 <div class="content-container2">
 	<div class="text-section2">
-		<p><div class="hover-text" data-top="9.2%" data-left="31.3%" data-width="7%" data-height="2%">Begin by navigating to the animations tab in your project.</div>
-		<div class="hover-text" data-top="77.5%" data-left="58%" data-width="4.5%" data-height="2%">Next, switch to Pose mode and ensure that you've created a new action.</div>
-		<div class="hover-text" data-top="59.1%" data-left="38%" data-width="6.2%" data-height="2%">In Dope Sheet, use Action Editor to create a new action.</div>
+		<div class="hover-text" data-left="12.5%" data-width="10.5%" data-height="3%" data-top="0.2%">Begin by navigating to the animations tab in your project.</div>
+		<div class="hover-text" data-left="47.2%" data-width="5.5%" data-height="2.5%" data-top="83.0%">Next, switch to Pose mode and ensure that you've created a new action.</div>
+		<div class="hover-text" data-top="61.1%" data-left="21.3%" data-width="8.2%" data-height="2.3%">In Dope Sheet, use Action Editor to create a new action.</div>
 		<div class="admonition tip">
 			<p class="admonition-title">Tip</p>
 			<p>You’ll likely start in the default view, so open the collapsible menu and choose the Animations tab.<br><br>  
@@ -176,18 +180,19 @@ However, they are **not compatible** with non-humanoid entities such as the **En
 		Create your initial frame by pressing <kbd>i</kbd> and saving your chosen settings.  
 	</div>
 	<div class="image-section2">
-	<div class="glow-box3"></div>
-		<div class="grow-effect" style="--scale-size: 1.01;"><img src="/assets/images/blender_animations.png" class="white-border"></div>
-	</div>
+	<div class="grow-effect" style="--scale-size: 1.03;">
+		<div class="glow-box3"></div>
+		<img src="/assets/images/blender_animations.png" class="white-border">
+	</div></div>
 </div>
-<div class="hover-text" data-top="10.7%" data-left="30%" data-width="20%" data-height="47%">The Dope Sheet provides a comprehensive view of your animation's keyframes, allowing you to easily identify the position of each frame within your animation. You can also fine-tune your animation by adjusting the starting and ending frames directly in the timeline, giving you full control over the flow and timing of your sequence.</div>
-<div class="hover-text" data-top="87%" data-left="21.7%" data-width="25.8%" data-height="2.7%">In the timeline, you can precisely set the starting and ending frames of your animation, giving you control over its duration and flow.</div>
-<div class="hover-text" data-top="87%" data-left="47.4%" data-width="5.5%" data-height="2.7%">You can use the buttons on the Blender timeline to play your animation, as well as navigate through frames by moving forward or backward one frame at a time, giving you precise control over your animation’s playback.</div>
+<div class="hover-text" data-left="11%" data-top="2.7%" data-height="58%" data-width="26.3%">The Dope Sheet provides a comprehensive view of your animation's keyframes, allowing you to easily identify the position of each frame within your animation. You can also fine-tune your animation by adjusting the starting and ending frames directly in the timeline, giving you full control over the flow and timing of your sequence.</div>
+<div class="hover-text" data-height="2.7%" data-top="95.2%" data-left="16%" data-width="17%">In the timeline, you can precisely set the starting and ending frames of your animation, giving you control over its duration and flow.</div>
+<div class="hover-text" data-height="2.7%" data-top="95.2%" data-left="34%" data-width="6%">You can use the buttons on the Blender timeline to play your animation, as well as navigate through frames by moving forward or backward one frame at a time, giving you precise control over your animation’s playback.</div>
 
 You may also use the <kbd>:octicons-arrow-left-24:</kbd> and <kbd>:octicons-arrow-right-24:</kbd> arrows on your keyboard to go to the next frame.
 
 #### AutoKey
-<div class="hover-text" data-top="87.6%" data-left="57.8%" data-width="1.2%" data-height="2.0%">AutoKey is a useful tool that automatically registers keyframes whenever you make changes to a bone or object in your scene, streamlining the animation process and ensuring that every adjustment is captured without manual keyframe placement.</div>
+<div class="hover-text" data-height="2.7%" data-top="95.2%" data-left="47%" data-width="1.2%">AutoKey is a useful tool that automatically registers keyframes whenever you make changes to a bone or object in your scene, streamlining the animation process and ensuring that every adjustment is captured without manual keyframe placement.</div>
 ***
 ### :fontawesome-solid-circle-dot: Viewport
 <div class="content-container">
@@ -327,12 +332,13 @@ This will ensure each section accurately displays the intended texture details b
 <div class="content-container2" style="--flex-direction: column;">
 	<div class="text-section2" style="--text-max-width: 100%;">
 		Snap Transform lets you move objects with precision, making it much easier to align them with one another. Think of it as a virtual ruler that helps you create straight lines and accurate positioning.<br><br>   
-		<center><div class="hover-text" data-top="66.5%" data-left="60.7%" data-width="1.2%" data-height="6%">To enable snapping, simply click the magnet icon located near your 3D orientation transform options.</div></center>
+		<center><div class="hover-text" data-top="37.5%" data-height="14%" data-width="3.5%" data-left="72.3%">To enable snapping, simply click the magnet icon located near your 3D orientation transform options.</div></center>
 	</div>
 	<div class="image-section2">
+	<div class="grow-effect" style="--scale-size: 1.03;">
 		<div class="glow-box3"></div>
-		<div class="grow-effect" style="--scale-size: 1.03;"><img src="/assets/images/snap_transform.png" class="white-border" style="--image-width: 550px;"></div>
-	</div>
+		<img src="/assets/images/snap_transform.png" class="white-border" style="--image-width: 550px;">
+	</div></div>
 </div>
 ***
 ### :fontawesome-solid-shuffle: X-Axis Mirror

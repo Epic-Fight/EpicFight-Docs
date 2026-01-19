@@ -1,5 +1,5 @@
 ---
-icon: file-import-solid
+icon: material/file-import
 hide:
   - announcement
 ---

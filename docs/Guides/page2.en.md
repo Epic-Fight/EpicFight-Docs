@@ -1,5 +1,5 @@
 ---
-icon: cube-solid
+icon: fontawesome/solid/cube
 hide:
   - announcement
 ---

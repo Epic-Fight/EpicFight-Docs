@@ -1,5 +1,5 @@
 ---
-icon: groups
+icon: material/account-group
 hide:
   - announcement
   - toc
